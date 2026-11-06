@@ -55,3 +55,18 @@ Explore RE:VE's concept collection of premium loudspeaker designs, creative stor
 - Existing RE:VE site includes concept and demonstration experiences; payment/preorder/physical speaker integration are not established as production-ready.
 - A successful APK build does **not** mean Play Console app registration or approval.
 - Source and QA outputs are preserved on an isolated GitHub branch; original Drive archive and GitHub main unchanged.
+
+## Verified emulator QA result — 2026-11-07
+
+- Latest source commit: `993cdc5a499e77b6f095a3fc5a3b83a000e5a0fd`
+- Passing workflow: https://github.com/skvive/reve/actions/runs/42267303580
+- QA artifact ID: `13527761221`; https://github.com/skvive/reve/actions/runs/42267303580/artifacts/13527761221
+- Test guest: Android 15 / API 35 `google_apis/x86_64`, headless GitHub Actions Android emulator.
+- Installation: `adb install -r .../app-debug.apk` succeeded.
+- Launch: `site.lexid.reve/.MainActivity`, `Status: ok`, cold-launch duration 4,069 ms.
+- Logcat: **0 `FATAL EXCEPTION` matches** in full captured log.
+- Evidence: full `emulator.log`, `app-start.txt`, `activity-dump.txt`, `logcat.txt`, `apk-badging.txt`, and `reve-emulator.png`.
+- Build verified as `applicationId=site.lexid.reve`, `versionName=1.9.1`, `targetSdk=36`.
+- Android mobile UI review: removed redundant RE:VE native header and moved native Share to 5th bottom nav position, preserving website header and language selector.
+- **Scope limitation:** Android 15 single-emulator cold-start smoke QA only; not real-hardware, Android 16 emulator, purchase/auth flow, multi-page interaction, accessibility, or Google Play pre-launch testing.
+- **Publication status:** GitHub draft PR is not merged; only unsigned release AAB exists; no Play Console app created or submitted in this chat. Play Console access and account owner actions remain necessary.
