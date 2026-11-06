@@ -51,22 +51,41 @@ jobs:
       - name: Allow /dev/kvm for Android emulator
         run: |
           if test -e /dev/kvm; then sudo chmod 666 /dev/kvm; fi
+      - name: Upload build outputs before emulator QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: REVE-Android-v1.9.1-Build
+          if-no-files-found: error
+          path: |
+            apps/android/app/build/outputs/apk/debug/app-debug.apk
+            apps/android/app/build/outputs/bundle/release/app-release.aab
+            apk-badging.txt
       - name: Boot emulator and smoke test
+        timeout-minutes: 5
         shell: bash
         run: |
           set -euo pipefail
-          echo no | avdmanager create avd -n reve-qa -k 'system-images;android-35;google_apis;x86_64' --force
-          nohup emulator -avd reve-qa -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader_indirect -netdelay none -netspeed full > emulator.log 2>&1 &
-          timeout 600 bash -c 'until adb shell getprop sys.boot_completed 2>/dev/null | grep -q 1; do sleep 5; done'
-          adb devices -l
-          adb install -r apps/android/app/build/outputs/apk/debug/app-debug.apk
-          adb shell am start -W -n site.lexid.reve/.MainActivity | tee app-start.txt
-          sleep 25
-          adb shell dumpsys activity activities > activity-dump.txt
+          export ANDROID_USER_HOME="$HOME/.android"
+          export ANDROID_AVD_HOME="$ANDROID_USER_HOME/avd"
+          mkdir -p "$ANDROID_AVD_HOME"
+          echo no | timeout 75 avdmanager create avd -n reve-qa -k 'system-images;android-35;google_apis;x86_64' -p "$ANDROID_AVD_HOME/reve-qa.avd" --force
+          test -f "$ANDROID_AVD_HOME/reve-qa.avd/config.ini"
+          printf 'avd.ini.encoding=UTF-8\\npath=%s\\npath.rel=avd/reve-qa.avd\\ntarget=android-35\\n' "$ANDROID_AVD_HOME/reve-qa.avd" > "$ANDROID_AVD_HOME/reve-qa.ini"
+          emulator -list-avds | tee emulator-avds.txt
+          grep -qx 'reve-qa' emulator-avds.txt
+          emulator -accel-check || true
+          nohup emulator -avd reve-qa -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader -feature -Vulkan > emulator.log 2>&1 &
+          timeout 180 bash -c 'until adb -s emulator-5554 shell getprop sys.boot_completed 2>/dev/null | tr -d "\\r" | grep -qx 1; do sleep 5; done'
+          adb -s emulator-5554 devices -l
+          adb -s emulator-5554 shell input keyevent 82
+          adb -s emulator-5554 install -r apps/android/app/build/outputs/apk/debug/app-debug.apk
+          adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity | tee app-start.txt
+          sleep 15
+          adb -s emulator-5554 shell dumpsys activity activities > activity-dump.txt
           grep -q 'site.lexid.reve' activity-dump.txt
-          adb logcat -d -v time > logcat.txt
-          if grep -E 'FATAL EXCEPTION|Process: site.lexid.reve' logcat.txt | grep -q 'FATAL EXCEPTION'; then echo 'App crash detected'; exit 1; fi
-          adb exec-out screencap -p > reve-emulator.png
+          adb -s emulator-5554 logcat -d -v time > logcat.txt
+          if grep -q 'Process: site.lexid.reve' logcat.txt && grep -q 'FATAL EXCEPTION' logcat.txt; then echo 'Possible app crash detected'; exit 1; fi
+          adb -s emulator-5554 exec-out screencap -p > reve-emulator.png
           test -s reve-emulator.png
       - name: Upload APK, unsigned AAB and emulator evidence
         if: always()
@@ -83,3 +102,4 @@ jobs:
             activity-dump.txt
             logcat.txt
             reve-emulator.png
+            emulator-avds.txt
