@@ -1,0 +1,36 @@
+{
+  "notice": "Concept design; no products for sale; USD indicative price per stereo pair",
+  "models": [
+    {
+      "id": "H3",
+      "slug": "h3",
+      "series": "Heritage",
+      "nameKo": "아틀리에 북쉘프",
+      "nameEn": "Atelier Bookshelf",
+      "indicativeUsdPerPair": 7900,
+      "descriptionKo": "실내악과 보컬의 결을 정교하게 표현하는 컴팩트 라인.",
+      "listeningFocus": "실내악 · 보컬",
+      "proposedFinish": "브러시드 웜 메탈 / 월넛 톤",
+      "conceptForm": "북쉘프 콘셉트",
+      "visual": "/assets/models/h3.webp",
+      "specificationStatus": "Unverified conceptual design; driver configuration, frequency response, impedance, output power and availability not established"
+    },
+    {
+      "id": "H6",
+      "slug": "h6",
+      "series": "Heritage",
+      "nameKo": "헤리티지 모니터",
+      "nameEn": "Heritage Monitor",
+      "indicativeUsdPerPair": 14900,
+      "descriptionKo": "악기의 자연스러운 배음과 밀도 있는 존재감을 지향하는 모니터.",
+      "listeningFocus": "현악 · 실내악",
+      "proposedFinish": "브론즈 메탈 / 딥 그라파이트",
+      "conceptForm": "모니터 콘셉트",
+      "visual": "/assets/models/h6.webp",
+      "specificationStatus": "Unverified conceptual design; driver configuration, frequency response, impedance, output power and availability not established"
+    },
+    {
+      "id": "S10",
+      "slug": "s10",
+      "series": "Signature",
+  ���q�^
