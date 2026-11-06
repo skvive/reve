@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
     private final String base = "https://reve.lexid.site";
     private final String contentVersion = "20261107b";
     private final String[] paths = {"/", "/collection/", "/sound-lab/", "/journal/"};
-    private final String[] labels = {"Home", "Products", "Sound Lab", "Journal"};
+    private final String[] labels = {"Home", "Products", "Lab", "Journal"};
     private int accent = Color.rgb(220,185,145);
     private LinearLayout root;
     private LinearLayout tabBar;
@@ -44,9 +44,6 @@ public class MainActivity extends Activity {
         getWindow().setStatusBarColor(Color.rgb(9,9,11));
         getWindow().setNavigationBarColor(Color.rgb(9,9,11));
         root = new LinearLayout(this);root.setOrientation(LinearLayout.VERTICAL);root.setBackgroundColor(Color.rgb(9,9,11));
-        LinearLayout head = new LinearLayout(this);head.setOrientation(LinearLayout.HORIZONTAL);head.setPadding(dp(14),dp(8),dp(14),dp(8));
-        TextView brand=new TextView(this);brand.setText("RE:VE");brand.setTextColor(Color.WHITE);brand.setTypeface(Typeface.create("serif",Typeface.BOLD));brand.setTextSize(23);head.addView(brand,new LinearLayout.LayoutParams(0,dp(44),1));
-        Button share=button("SHARE");share.setOnClickListener(v->{Intent in=new Intent(Intent.ACTION_SEND);in.setType("text/plain");in.putExtra(Intent.EXTRA_TEXT,webView.getUrl());startActivity(Intent.createChooser(in,"Share RE:VE"));});head.addView(share);root.addView(head);
         webView=new WebView(this);webView.setBackgroundColor(Color.rgb(9,9,11));
         webView.getSettings().setJavaScriptEnabled(true);webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setAllowFileAccess(false);webView.getSettings().setAllowContentAccess(false);
@@ -70,6 +67,9 @@ public class MainActivity extends Activity {
         root.addView(webView,new LinearLayout.LayoutParams(-1,0,1));
         tabBar=new LinearLayout(this);tabBar.setPadding(dp(5),dp(6),dp(5),dp(6));tabBar.setBackgroundColor(Color.rgb(19,18,20));
         for(int i=0;i<paths.length;i++){final String path=paths[i];Button btn=button(labels[i]);btn.setTextSize(12);btn.setOnClickListener(v->webView.loadUrl(base+path+"?appCatalog="+contentVersion));tabBar.addView(btn,new LinearLayout.LayoutParams(0,dp(44),1));}
+        Button share=button("Share");share.setTextSize(12);
+        share.setOnClickListener(v->{Intent in=new Intent(Intent.ACTION_SEND);in.setType("text/plain");in.putExtra(Intent.EXTRA_TEXT,webView.getUrl());startActivity(Intent.createChooser(in,"Share RE:VE"));});
+        tabBar.addView(share,new LinearLayout.LayoutParams(0,dp(44),1));
         root.addView(tabBar);setContentView(root);
         Uri launch=getIntent().getData();webView.loadUrl(launch!=null&&"reve.lexid.site".equals(launch.getHost())&&"https".equals(launch.getScheme())?launch.toString():base+"/?appCatalog="+contentVersion);
     }
