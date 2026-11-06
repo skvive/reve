@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection'
+      xmlns='http://www.w3.org/1999/xhtml'
+      xmlns:b='http://www.google.com/2005/gml/b'
+      xmlns:data='http://www.google.com/2005/gml/data'
+      xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width,initial-scale=1' name='viewport'/>
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+  <b:skin><![CDATA[
+    :root{--bg:#0c0b0d;--accent:#e0bd95;--text:#ede7e0;--line:#ffffff24}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,'Noto Sans KR',sans-serif;line-height:1.85}
+    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+    .rev-nav{display:flex;justify-content:space-between;align-items:center;padding:22px max(24px,calc((100vw - 1100px)/2));border-bottom:1px solid var(--line);gap:25px}
+    .rev-logo{font-size:26px;color:#fff!important;letter-spacing:.25em;font-weight:700}
+    .rev-navlinks{display:flex;gap:28px}.rev-navlinks a{font-size:13px;color:#eee}
+    .rev-hero{padding:100px 24px 95px;text-align:center;background:radial-gradient(ellipse at center,#423121,#0c0b0d 70%);border-bottom:1px solid var(--line)}
+    .rev-hero h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(44px,6vw,80px);line-height:1.1;margin:10px 0 25px}
+    .rev-hero p{max-width:620px;margin:0 auto;color:#c9c0b¶»§q«^
