@@ -6,8 +6,12 @@ test -s "$AAB"
 unzip -t "$AAB" > /dev/null
 PROOF="$(mktemp)"
 trap 'rm -f "$PROOF"' EXIT
-jarsigner -verify -verbose -certs "$AAB" > "$PROOF" 2>&1 || true
-if ! grep -q 'jar verified' "$PROOF"; then
+if ! jarsigner -verify -verbose -certs "$AAB" > "$PROOF" 2>&1; then
+  echo "FAIL: AAB signature validation command returned an error" >&2
+  tail -12 "$PROOF" >&2
+  exit 2
+fi
+if ! grep -Fxq 'jar verified.' "$PROOF"; then
   echo "FAIL: AAB lacks a verified JAR signature; Play upload blocked" >&2
   tail -12 "$PROOF" >&2
   exit 2
