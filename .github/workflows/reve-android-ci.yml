@@ -47,7 +47,7 @@ jobs:
           test -s apps/android/app/build/outputs/bundle/release/app-release.aab
           "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging apps/android/app/build/outputs/apk/debug/app-debug.apk | tee apk-badging.txt
           grep -q "targetSdkVersion:'36'" apk-badging.txt
-          grep -q "versionName='1.9.2'" apk-badging.txt
+          grep -q "versionName='1.9.3'" apk-badging.txt
           "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify apps/android/app/build/outputs/apk/debug/app-debug.apk
           unzip -t apps/android/app/build/outputs/apk/debug/app-debug.apk | tail -2
       - name: Allow /dev/kvm for Android emulator
