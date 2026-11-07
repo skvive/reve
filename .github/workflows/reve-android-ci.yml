@@ -56,7 +56,7 @@ jobs:
       - name: Upload build outputs before emulator QA
         uses: actions/upload-artifact@v4
         with:
-          name: REVE-Android-v1.9.2-Build
+          name: REVE-Android-v1.9.3-Build
           if-no-files-found: error
           path: |
             apps/android/app/build/outputs/apk/debug/app-debug.apk
@@ -89,12 +89,17 @@ jobs:
           if grep -q 'Process: site.lexid.reve' logcat.txt && grep -q 'FATAL EXCEPTION' logcat.txt; then echo 'Possible app crash detected'; exit 1; fi
           adb -s emulator-5554 exec-out screencap -p > reve-emulator.png
           test -s reve-emulator.png
+          # Inspect UI accessibility text to ensure the app renders either site or custom recovery UI.
+          adb -s emulator-5554 shell uiautomator dump /sdcard/reve-window.xml >/dev/null
+          adb -s emulator-5554 pull /sdcard/reve-window.xml reve-window.xml >/dev/null
+          grep -q 'RE:VE' reve-window.xml
+          if grep -q 'Webpage not available' reve-window.xml; then echo "Raw WebView error leaked through native recovery UI"; exit 1; fi
           # Subsequent screenshots are best-effort: a hosted emulator may
           # disconnect under memory pressure without implicating an app crash.
           if adb -s emulator-5554 shell wm size 390x844; then
             for route in collection catalog control sound-lab partners journal; do
               echo "QA route: $route"
-              if ! timeout 25 adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity -a android.intent.action.VIEW -d "https://reve.lexid.site/$route/?appCatalog=20261107c" >/dev/null; then
+              if ! timeout 25 adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity -a android.intent.action.VIEW -d "https://reve.lexid.site/$route/?appCatalog=20261107d" >/dev/null; then
                 echo "WARN: Emulator unavailable before $route; keep prior screenshots"; break
               fi
               sleep 3
@@ -110,7 +115,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: REVE-Android-v1.9.2-QA
+          name: REVE-Android-v1.9.3-QA
           if-no-files-found: warn
           path: |
             apps/android/app/build/outputs/apk/debug/app-debug.apk
@@ -123,3 +128,4 @@ jobs:
             reve-emulator.png
             reve-qa-*.png
             emulator-avds.txt
+            reve-window.xml

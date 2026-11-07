@@ -1,6 +1,6 @@
 plugins { id 'com.android.application' }
 android { namespace 'site.lexid.reve'; compileSdk 36
- defaultConfig { applicationId 'site.lexid.reve'; minSdk 26; targetSdk 36; versionCode 4; versionName '1.9.2' }
+ defaultConfig { applicationId 'site.lexid.reve'; minSdk 26; targetSdk 36; versionCode 5; versionName '1.9.3' }
  buildTypes { release { minifyEnabled false } }
  compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
 }
