@@ -47,6 +47,8 @@ jobs:
           test -s apps/android/app/build/outputs/bundle/release/app-release.aab
           "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging apps/android/app/build/outputs/apk/debug/app-debug.apk | tee apk-badging.txt
           grep -q "targetSdkVersion:'36'" apk-badging.txt
+          grep -q "versionName='1.9.2'" apk-badging.txt
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify apps/android/app/build/outputs/apk/debug/app-debug.apk
           unzip -t apps/android/app/build/outputs/apk/debug/app-debug.apk | tail -2
       - name: Allow /dev/kvm for Android emulator
         run: |
@@ -54,7 +56,7 @@ jobs:
       - name: Upload build outputs before emulator QA
         uses: actions/upload-artifact@v4
         with:
-          name: REVE-Android-v1.9.1-Build
+          name: REVE-Android-v1.9.2-Build
           if-no-files-found: error
           path: |
             apps/android/app/build/outputs/apk/debug/app-debug.apk
@@ -87,11 +89,18 @@ jobs:
           if grep -q 'Process: site.lexid.reve' logcat.txt && grep -q 'FATAL EXCEPTION' logcat.txt; then echo 'Possible app crash detected'; exit 1; fi
           adb -s emulator-5554 exec-out screencap -p > reve-emulator.png
           test -s reve-emulator.png
+          adb -s emulator-5554 shell wm size 390x844
+          for route in collection catalog control sound-lab partners journal; do
+            adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity -a android.intent.action.VIEW -d "https://reve.lexid.site/$route/?appCatalog=20261107c" >/dev/null
+            sleep 5
+            adb -s emulator-5554 exec-out screencap -p > "reve-qa-$route-390.png"
+          done
+          test -s reve-qa-catalog-390.png
       - name: Upload APK, unsigned AAB and emulator evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: REVE-Android-v1.9.1-QA
+          name: REVE-Android-v1.9.2-QA
           if-no-files-found: warn
           path: |
             apps/android/app/build/outputs/apk/debug/app-debug.apk
@@ -102,4 +111,5 @@ jobs:
             activity-dump.txt
             logcat.txt
             reve-emulator.png
+            reve-qa-*.png
             emulator-avds.txt
