@@ -50,6 +50,16 @@ jobs:
           grep -q "versionName='1.9.3'" apk-badging.txt
           "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify apps/android/app/build/outputs/apk/debug/app-debug.apk
           unzip -t apps/android/app/build/outputs/apk/debug/app-debug.apk | tail -2
+      - name: Inspect AAB release signing state
+        shell: bash
+        run: |
+          set -euo pipefail
+          jarsigner -verify -verbose apps/android/app/build/outputs/bundle/release/app-release.aab > aab-signature-verification.txt 2>&1 || true
+          if grep -q "jar verified" aab-signature-verification.txt; then
+            echo "SIGNED_AAB_FOUND; inspect upload-certificate chain before Play submission" | tee aab-signing-status.txt
+          else
+            echo "UNSIGNED_AAB; Play upload blocked until the authorized upload key is provided" | tee aab-signing-status.txt
+          fi
       - name: Allow /dev/kvm for Android emulator
         run: |
           if test -e /dev/kvm; then sudo chmod 666 /dev/kvm; fi
@@ -62,8 +72,10 @@ jobs:
             apps/android/app/build/outputs/apk/debug/app-debug.apk
             apps/android/app/build/outputs/bundle/release/app-release.aab
             apk-badging.txt
+            aab-signing-status.txt
+            aab-signature-verification.txt
       - name: Boot emulator and smoke test
-        timeout-minutes: 5
+        timeout-minutes: 17
         shell: bash
         run: |
           set -euo pipefail
@@ -103,6 +115,8 @@ jobs:
             echo "WARN: UIAutomator unavailable on hosted emulator; native Activity smoke test remains decisive"
           fi
           test -s reve-emulator.png
+          # Separate strict accessibility checks. Any failure remains a failed CI result.
+          bash apps/android/tests/adaptive-qa.sh
           # Subsequent screenshots are best-effort: a hosted emulator may
           # disconnect under memory pressure without implicating an app crash.
           if adb -s emulator-5554 shell wm size 390x844; then
@@ -138,3 +152,6 @@ jobs:
             reve-qa-*.png
             emulator-avds.txt
             reve-window.xml
+            adaptive-qa/**
+            aab-signing-status.txt
+            aab-signature-verification.txt
