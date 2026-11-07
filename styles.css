@@ -156,3 +156,14 @@ a.skip{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hi
   .control-card .tabs{gap:6px}
   .control-card .tab{padding:9px 13px}
 }
+
+/* 2026-11-07 sound lab bottom content split min-content width correction */
+@media(max-width:760px){
+  .section .container.split,.section .split{
+    grid-template-columns:minmax(0,1fr)!important;
+    min-width:0;
+    max-width:100%;
+  }
+  .section .split>*{min-width:0;max-width:100%;box-sizing:border-box}
+  .section .split .demo-controls,.section .split .wavebars{min-width:0;max-width:100%}
+}
