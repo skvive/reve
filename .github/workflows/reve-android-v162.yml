@@ -1,0 +1,64 @@
+name: REVE Android 1.6.2 QA APK
+on:
+  push:
+    paths:
+      - '.github/workflows/reve-android-v162.yml'
+      - '.github/assets/REVE_Android_v1.6.2_Source_20261107.zip'
+  pull_request:
+    paths:
+      - '.github/workflows/reve-android-v162.yml'
+      - '.github/assets/REVE_Android_v1.6.2_Source_20261107.zip'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-debug-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify archived source
+        shell: bash
+        run: |
+          echo 'caad7392f1f2d4ad9cfdfcae66ea840c9c9f3e322fbea977357fcfc82e95bd18  .github/assets/REVE_Android_v1.6.2_Source_20261107.zip' | sha256sum -c -
+          unzip -t .github/assets/REVE_Android_v1.6.2_Source_20261107.zip
+          mkdir -p apps/android
+          unzip -q .github/assets/REVE_Android_v1.6.2_Source_20261107.zip -d apps/android
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install Android command-line tools
+        uses: android-actions/setup-android@v3
+      - name: Install Android API 35 and build tools
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+      - name: Compile and lint
+        working-directory: apps/android
+        run: |
+          gradle --no-daemon --stacktrace :app:assembleDebug
+          gradle --no-daemon :app:lintDebug
+      - name: Validate APK structure and signature
+        shell: bash
+        run: |
+          APK=apps/android/app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          test "$(stat -c%s "$APK")" -gt 20000
+          unzip -t "$APK"
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK"
+          sha256sum "$APK" | tee REVE_v1.6.2_APK_SHA256.txt
+          cp "$APK" REVE_Android_v1.6.2_debug.apk
+      - name: Publish QA build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: REVE-Android-v1.6.2-debug-qa
+          path: |
+            REVE_Android_v1.6.2_debug.apk
+            REVE_v1.6.2_APK_SHA256.txt
+            apps/android/app/build/reports/lint-results-debug.html
+          retention-days: 30
