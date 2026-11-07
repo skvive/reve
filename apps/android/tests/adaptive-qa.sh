@@ -48,7 +48,12 @@ for spec in \
   python3 - "$OUT/$label.xml" "$label" "$width" "$height" <<'PY'
 import re, sys, xml.etree.ElementTree as ET
 file,scenario,width,height=sys.argv[1],sys.argv[2],int(sys.argv[3]),int(sys.argv[4])
-nodes=[n for n in ET.parse(file).getroot().iter('node') if n.get('package')=='site.lexid.reve' and n.get('class')=='android.widget.Button']
+tree=list(ET.parse(file).getroot().iter('node'))
+nodes=[n for n in tree if n.get('package')=='site.lexid.reve' and n.get('class')=='android.widget.Button']
+webviews=[n for n in tree if n.get('class')=='android.webkit.WebView' and n.get('package')=='site.lexid.reve']
+assert webviews, (scenario,'WebView missing in accessibility tree')
+web_bounds=list(map(int,re.findall(r'\d+',webviews[0].get('bounds',''))))
+assert len(web_bounds)==4 and web_bounds[1]>=20, (scenario,'WebView is under the status bar',web_bounds)
 for title in ('홈','제품','사운드랩','저널','공유'):
     buttons=[n for n in nodes if n.get('content-desc')==title]
     assert len(buttons)==1, (scenario,title,'missing accessibility name',[(n.get('text'),n.get('content-desc')) for n in nodes])
@@ -59,7 +64,8 @@ for title in ('홈','제품','사운드랩','저널','공유'):
     x1,y1,x2,y2=coords
     assert 0<=x1<x2<=width and 0<=y1<y2<=height, (scenario,title,'clipped',coords)
     assert x2-x1>=48 and y2-y1>=48, (scenario,title,'touch target under 48dp',coords)
-print(scenario,': PASS native semantics and 48dp touch targets')
+    assert height-y2>=18, (scenario,title,'bottom navigation overlaps system gesture bar',coords,height)
+print(scenario,': PASS native semantics, 48dp targets and system bar safe insets')
 PY
   printf '%s\t%s\t%s\t%s\tPASS\n' "$label" "$width" "$height" "$scale" >> "$OUT/results.tsv"
 done
