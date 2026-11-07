@@ -1,0 +1,37 @@
+name: REVE responsive web and locale visual QA
+on:
+  push:
+    paths:
+      - 'tests/reve-visual-qa.mjs'
+      - '.github/workflows/reve-web-qa.yml'
+      - 'i18n.js'
+      - 'locales/native.json'
+      - 'styles.css'
+      - 'catalog/index.html'
+      - 'index.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  webpage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test tooling
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Run live-site route and language QA
+        run: node tests/reve-visual-qa.mjs
+        env:
+          REVE_URL: https://reve.lexid.site
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: REVE-web-locale-responsive-QA
+          path: qa/
+          retention-days: 30
