@@ -1,0 +1,35 @@
+name: REVE localized headline and sound lab responsive regression
+on:
+  push:
+    paths:
+      - 'tests/reve-web-regression.mjs'
+      - '.github/workflows/reve-web-regression.yml'
+      - 'locales/native.json'
+      - 'styles.css'
+      - 'catalog/index.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-regression:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install headless Chromium
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Run 4-language and mobile overflow checks
+        run: node tests/reve-web-regression.mjs
+        env:
+          REVE_URL: https://reve.lexid.site
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: REVE-web-headline-overflow-regression
+          path: qa/regression/
+          retention-days: 30
