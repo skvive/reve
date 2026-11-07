@@ -92,7 +92,8 @@ jobs:
           # Inspect UI accessibility text to ensure the app renders either site or custom recovery UI.
           adb -s emulator-5554 shell uiautomator dump /sdcard/reve-window.xml >/dev/null
           adb -s emulator-5554 pull /sdcard/reve-window.xml reve-window.xml >/dev/null
-          grep -q 'RE:VE' reve-window.xml
+          grep -q '홈' reve-window.xml
+          grep -q '제품' reve-window.xml
           if grep -q 'Webpage not available' reve-window.xml; then echo "Raw WebView error leaked through native recovery UI"; exit 1; fi
           # Subsequent screenshots are best-effort: a hosted emulator may
           # disconnect under memory pressure without implicating an app crash.
