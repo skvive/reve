@@ -75,6 +75,28 @@ jobs:
           adb -s emulator-5554 shell wm size | tee fold-evidence/unfolded-size.txt
           adb -s emulator-5554 exec-out screencap -p > fold-evidence/unfolded.png
           test -s fold-evidence/folded.png && test -s fold-evidence/unfolded.png
+          # AVD console commands can acknowledge fold/unfold while Android
+          # device-state policy ignores hinge sensor events. Collect proof.
+          adb -s emulator-5554 shell cmd device_state print-states > fold-evidence/device-states.txt 2>&1 || true
+          adb -s emulator-5554 shell dumpsys device_state > fold-evidence/device-state-after-unfold.txt 2>&1 || true
+          if cmp -s fold-evidence/folded-size.txt fold-evidence/unfolded-size.txt; then
+            CLOSED="$(sed -n "s/.*identifier=\\([0-9][0-9]*\\), name='CLOSED'.*/\\1/p" fold-evidence/device-states.txt | head -n 1)"
+            OPENED="$(sed -n "s/.*identifier=\\([0-9][0-9]*\\), name='OPENED'.*/\\1/p" fold-evidence/device-states.txt | head -n 1)"
+            if [[ -n "$CLOSED" && -n "$OPENED" ]]; then
+              echo "Hinge sensor ignored by AVD. Retry through device_state CLOSED=$CLOSED OPENED=$OPENED"
+              adb -s emulator-5554 shell cmd device_state state "$CLOSED" > fold-evidence/override-closed.txt 2>&1 || true
+              sleep 5
+              adb -s emulator-5554 shell wm size > fold-evidence/folded-size.txt
+              adb -s emulator-5554 exec-out screencap -p > fold-evidence/folded.png
+              adb -s emulator-5554 shell dumpsys device_state > fold-evidence/override-closed-state.txt 2>&1 || true
+              adb -s emulator-5554 shell cmd device_state state "$OPENED" > fold-evidence/override-opened.txt 2>&1 || true
+              sleep 5
+              adb -s emulator-5554 shell wm size > fold-evidence/unfolded-size.txt
+              adb -s emulator-5554 exec-out screencap -p > fold-evidence/unfolded.png
+              adb -s emulator-5554 shell dumpsys device_state > fold-evidence/override-opened-state.txt 2>&1 || true
+              adb -s emulator-5554 shell cmd device_state state reset > fold-evidence/override-reset.txt 2>&1 || true
+            fi
+          fi
           if cmp -s fold-evidence/folded-size.txt fold-evidence/unfolded-size.txt; then
             echo 'BLOCKED: fold/unfold commands did not change display dimensions' | tee fold-evidence/status.txt
             exit 1
