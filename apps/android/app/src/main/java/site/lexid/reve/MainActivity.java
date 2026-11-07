@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.WindowInsets;
+import android.graphics.Insets;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
 import android.webkit.SslErrorHandler;
@@ -76,6 +78,18 @@ public class MainActivity extends Activity {
         getWindow().setStatusBarColor(Color.rgb(9,9,11));
         getWindow().setNavigationBarColor(Color.rgb(9,9,11));
         root = new LinearLayout(this);root.setOrientation(LinearLayout.VERTICAL);root.setBackgroundColor(Color.rgb(9,9,11));
+        // Android 16 enforces edge-to-edge; keep web header and native tabs
+        // outside status/gesture navigation bars, even with 200% system fonts.
+        root.setOnApplyWindowInsetsListener((view, insets) -> {
+            if (Build.VERSION.SDK_INT >= 30) {
+                Insets safe = insets.getInsets(WindowInsets.Type.systemBars());
+                view.setPadding(safe.left, safe.top, safe.right, safe.bottom);
+            } else {
+                view.setPadding(insets.getSystemWindowInsetLeft(), insets.getSystemWindowInsetTop(),
+                    insets.getSystemWindowInsetRight(), insets.getSystemWindowInsetBottom());
+            }
+            return insets;
+        });
         webView=new WebView(this);webView.setBackgroundColor(Color.rgb(9,9,11));
         webView.getSettings().setJavaScriptEnabled(true);webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setAllowFileAccess(false);webView.getSettings().setAllowContentAccess(false);
@@ -169,6 +183,7 @@ public class MainActivity extends Activity {
         shareButton.setOnClickListener(v->{Intent in=new Intent(Intent.ACTION_SEND);in.setType("text/plain");in.putExtra(Intent.EXTRA_TEXT,webView.getUrl()==null?base:webView.getUrl());startActivity(Intent.createChooser(in,"Share RE:VE"));});
         tabBar.addView(shareButton,new LinearLayout.LayoutParams(0,dp(48),1));
         root.addView(tabBar);setContentView(root);
+        root.requestApplyInsets();
         updateNavigationSizing(getResources().getConfiguration());
         Uri launch=getIntent().getData();
         String initial=launch!=null&&isOwnHttpsUri(launch)?launch.toString():base+"/?appCatalog="+contentVersion;
