@@ -141,3 +141,18 @@ a.skip{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hi
 
 /* 2026-11-07: the optional external Google Translate shortcut is redundant in narrow app headers. */
 @media(max-width:480px){#reveGoogleTranslate{display:none!important}.nav .reve-lang{max-width:120px}.nav .reve-lang select{max-width:110px;min-width:97px}}
+
+
+/* 2026-11-07: sound lab mobile minimum-width and EQ graph overflow fix */
+@media(max-width:760px){
+  .control-grid{grid-template-columns:minmax(0,1fr)!important;min-width:0}
+  .control-grid>*{min-width:0;max-width:100%}
+  .control-card{min-width:0;max-width:100%;overflow:hidden;box-sizing:border-box}
+  .control-card .eq-plot{display:block;min-width:0;max-width:100%;width:100%;height:auto;box-sizing:border-box}
+  .control-card .room-visual{min-width:0;max-width:100%}
+}
+@media(max-width:480px){
+  .control-card{padding:18px}
+  .control-card .tabs{gap:6px}
+  .control-card .tab{padding:9px 13px}
+}

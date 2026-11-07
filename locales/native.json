@@ -2580,5 +2580,377 @@
     "en": "RE:VE | Product Updates",
     "zh-CN": "RE:VE | 产品消息",
     "ja": "RE:VE | 製品ニュース"
+  },
+  "Twelve Expressions": {
+    "ko": "소리를 표현하는",
+    "en": "Twelve Expressions",
+    "zh-CN": "声音的",
+    "ja": "音を表現する"
+  },
+  "of Sound.": {
+    "ko": "열두 가지 방식.",
+    "en": "of Sound.",
+    "zh-CN": "十二种表达。",
+    "ja": "12のかたち。"
+  },
+  "From Seoul's": {
+    "ko": "서울의",
+    "en": "From Seoul's",
+    "zh-CN": "源自首尔的",
+    "ja": "ソウルの"
+  },
+  "Electronics Heritage.": {
+    "ko": "전자산업의 유산에서.",
+    "en": "Electronics Heritage.",
+    "zh-CN": "电子产业传承。",
+    "ja": "電子産業の伝統から。"
+  },
+  "Designed from": {
+    "ko": "내부부터 완성하는",
+    "en": "Designed from",
+    "zh-CN": "由内而外的",
+    "ja": "内側から仕上げる"
+  },
+  "the Inside Out.": {
+    "ko": "정교한 설계.",
+    "en": "the Inside Out.",
+    "zh-CN": "精密设计。",
+    "ja": "精密な設計。"
+  },
+  "Rêve. A Dream.": {
+    "ko": "꿈과",
+    "en": "Rêve. A Dream.",
+    "zh-CN": "梦想与",
+    "ja": "夢と"
+  },
+  "Reverberation. A Feeling.": {
+    "ko": "잔향이 주는 감동.",
+    "en": "Reverberation. A Feeling.",
+    "zh-CN": "混响带来的感动。",
+    "ja": "残響がもたらす感動。"
+  },
+  "Shape Your": {
+    "ko": "나만의",
+    "en": "Shape Your",
+    "zh-CN": "塑造您的",
+    "ja": "自分だけの"
+  },
+  "Listening Space.": {
+    "ko": "청취 공간을 설계하다.",
+    "en": "Listening Space.",
+    "zh-CN": "聆听空间。",
+    "ja": "リスニング空間をつくる。"
+  },
+  "One Vision.": {
+    "ko": "하나의 비전.",
+    "en": "One Vision.",
+    "zh-CN": "同一个愿景。",
+    "ja": "ひとつのビジョン。"
+  },
+  "Protected Across Borders.": {
+    "ko": "국경을 넘어 지키는 가치.",
+    "en": "Protected Across Borders.",
+    "zh-CN": "跨越国界的守护。",
+    "ja": "国境を越えて守る価値。"
+  },
+  "Be Part of": {
+    "ko": "함께 만들어갈",
+    "en": "Be Part of",
+    "zh-CN": "参与",
+    "ja": "共につくる"
+  },
+  "What's Next.": {
+    "ko": "사운드의 미래.",
+    "en": "What's Next.",
+    "zh-CN": "未来之声。",
+    "ja": "サウンドの未来。"
+  },
+  "Not Just Louder.": {
+    "ko": "더 큰 소리보다",
+    "en": "Not Just Louder.",
+    "zh-CN": "不仅仅是音量，",
+    "ja": "音量の大きさより"
+  },
+  "More Alive.": {
+    "ko": "더 생생한 감동.",
+    "en": "More Alive.",
+    "zh-CN": "更鲜活的声音。",
+    "ja": "生き生きとした音。"
+  },
+  "Where Form": {
+    "ko": "형태가",
+    "en": "Where Form",
+    "zh-CN": "让形态",
+    "ja": "造形が"
+  },
+  "Becomes Sound.": {
+    "ko": "소리가 되는 곳.",
+    "en": "Becomes Sound.",
+    "zh-CN": "化为声音。",
+    "ja": "音になる場所。"
+  },
+  "Precision in": {
+    "ko": "모든 층위에 담긴",
+    "en": "Precision in",
+    "zh-CN": "每一层的",
+    "ja": "すべての層に宿る"
+  },
+  "Every Layer.": {
+    "ko": "정밀함.",
+    "en": "Every Layer.",
+    "zh-CN": "精密。",
+    "ja": "精密さ。"
+  },
+  "The Intelligence": {
+    "ko": "모든 음표에 담긴",
+    "en": "The Intelligence",
+    "zh-CN": "每个音符背后的",
+    "ja": "すべての音符に宿る"
+  },
+  "Behind Every Note.": {
+    "ko": "지능형 음향 기술.",
+    "en": "Behind Every Note.",
+    "zh-CN": "智慧。",
+    "ja": "知性。"
+  },
+  "The Art of": {
+    "ko": "지능형",
+    "en": "The Art of",
+    "zh-CN": "智能声音的",
+    "ja": "インテリジェント"
+  },
+  "Intelligent Sound.": {
+    "ko": "사운드의 미학.",
+    "en": "Intelligent Sound.",
+    "zh-CN": "艺术。",
+    "ja": "サウンドの芸術。"
+  },
+  "Shape the": {
+    "ko": "나만의",
+    "en": "Shape the",
+    "zh-CN": "塑造",
+    "ja": "自分だけの"
+  },
+  "Soundstage.": {
+    "ko": "사운드 스테이지.",
+    "en": "Soundstage.",
+    "zh-CN": "音场。",
+    "ja": "サウンドステージ。"
+  },
+  "Designed to Connect.": {
+    "ko": "연결을 위한 설계.",
+    "en": "Designed to Connect.",
+    "zh-CN": "为连接而设计。",
+    "ja": "つながるための設計。"
+  },
+  "Built to Listen.": {
+    "ko": "음악을 위한 완성.",
+    "en": "Built to Listen.",
+    "zh-CN": "为聆听而生。",
+    "ja": "聴くための技術。"
+  },
+  "Explore the": {
+    "ko": "탐험하는",
+    "en": "Explore the",
+    "zh-CN": "探索",
+    "ja": "探る"
+  },
+  "Character of Sound.": {
+    "ko": "소리의 개성.",
+    "en": "Character of Sound.",
+    "zh-CN": "声音的个性。",
+    "ja": "音の個性。"
+  },
+  "Feel the": {
+    "ko": "직접 느껴보는",
+    "en": "Feel the",
+    "zh-CN": "感受",
+    "ja": "体感する"
+  },
+  "A Dream That": {
+    "ko": "오래도록 남는",
+    "en": "A Dream That",
+    "zh-CN": "久久留存的",
+    "ja": "長く残る"
+  },
+  "Lingers.": {
+    "ko": "꿈의 잔향.",
+    "en": "Lingers.",
+    "zh-CN": "梦想余韵。",
+    "ja": "夢の余韻。"
+  },
+  "Where Dreams": {
+    "ko": "꿈이",
+    "en": "Where Dreams",
+    "zh-CN": "让梦想",
+    "ja": "夢が"
+  },
+  "Become Sound.": {
+    "ko": "소리가 되는 곳.",
+    "en": "Become Sound.",
+    "zh-CN": "化为声音。",
+    "ja": "音になる場所。"
+  },
+  "Stories Behind": {
+    "ko": "소리 뒤에 담긴",
+    "en": "Stories Behind",
+    "zh-CN": "声音背后的",
+    "ja": "音にまつわる"
+  },
+  "the Sound.": {
+    "ko": "이야기.",
+    "en": "the Sound.",
+    "zh-CN": "故事。",
+    "ja": "物語。"
+  },
+  "Two Channels.": {
+    "ko": "두 가지 채널.",
+    "en": "Two Channels.",
+    "zh-CN": "双渠道。",
+    "ja": "2つのチャンネル。"
+  },
+  "One Sound Philosophy.": {
+    "ko": "하나의 사운드 철학.",
+    "en": "One Sound Philosophy.",
+    "zh-CN": "同一声音理念。",
+    "ja": "ひとつのサウンド哲学。"
+  },
+  "Build the Future": {
+    "ko": "사운드의 미래를",
+    "en": "Build the Future",
+    "zh-CN": "携手共创",
+    "ja": "サウンドの未来を"
+  },
+  "of Sound Together.": {
+    "ko": "함께 만들어 갑니다.",
+    "en": "of Sound Together.",
+    "zh-CN": "声音的未来。",
+    "ja": "共につくる。"
+  },
+  "The Next Chapter": {
+    "ko": "새로운 청취 경험의",
+    "en": "The Next Chapter",
+    "zh-CN": "聆听的",
+    "ja": "リスニングの"
+  },
+  "of Listening.": {
+    "ko": "다음 장을 열다.",
+    "en": "of Listening.",
+    "zh-CN": "崭新篇章。",
+    "ja": "次の章へ。"
+  },
+  "Protecting the": {
+    "ko": "창작의 권리를",
+    "en": "Protecting the",
+    "zh-CN": "保护",
+    "ja": "創作の権利を"
+  },
+  "Right to Create.": {
+    "ko": "보호합니다.",
+    "en": "Right to Create.",
+    "zh-CN": "创作的权利。",
+    "ja": "守る。"
+  },
+  "A Global Home": {
+    "ko": "글로벌 창작 권리의",
+    "en": "A Global Home",
+    "zh-CN": "全球创意权利的",
+    "ja": "世界の創作権利を守る"
+  },
+  "for Creative Rights.": {
+    "ko": "중심.",
+    "en": "for Creative Rights.",
+    "zh-CN": "坚实后盾。",
+    "ja": "拠点。"
+  },
+  "Privacy &": {
+    "ko": "개인정보 보호와",
+    "en": "Privacy &",
+    "zh-CN": "隐私与",
+    "ja": "プライバシーと"
+  },
+  "Transparency.": {
+    "ko": "투명성.",
+    "en": "Transparency.",
+    "zh-CN": "透明性。",
+    "ja": "透明性。"
+  },
+  "From an Era of Circuits": {
+    "ko": "회로의 시대에서",
+    "en": "From an Era of Circuits",
+    "zh-CN": "从电路时代",
+    "ja": "回路の時代から"
+  },
+  "to Intelligent Sound.": {
+    "ko": "지능형 사운드의 시대로.",
+    "en": "to Intelligent Sound.",
+    "zh-CN": "走向智能音响时代。",
+    "ja": "インテリジェントサウンドの時代へ。"
+  },
+  "Technology": {
+    "ko": "기술",
+    "en": "Technology",
+    "zh-CN": "技术",
+    "ja": "技術"
+  },
+  "Without Borders.": {
+    "ko": "국경을 넘어.",
+    "en": "Without Borders.",
+    "zh-CN": "跨越国界。",
+    "ja": "国境を越えて。"
+  },
+  "Tuned to the": {
+    "ko": "음악의 본질에",
+    "en": "Tuned to the",
+    "zh-CN": "忠于",
+    "ja": "音楽の本質に"
+  },
+  "Truth of Music.": {
+    "ko": "맞춘 튜닝.",
+    "en": "Truth of Music.",
+    "zh-CN": "音乐本真。",
+    "ja": "寄り添う調整。"
+  },
+  "High Fidelity.": {
+    "ko": "하이파이,",
+    "en": "High Fidelity.",
+    "zh-CN": "高保真，",
+    "ja": "ハイファイを"
+  },
+  "Made Intelligent.": {
+    "ko": "지능으로 완성하다.",
+    "en": "Made Intelligent.",
+    "zh-CN": "智能进化。",
+    "ja": "もっとスマートに。"
+  },
+  "Design with Integrity.": {
+    "ko": "신뢰를 담은 디자인.",
+    "en": "Design with Integrity.",
+    "zh-CN": "诚信设计。",
+    "ja": "誠実なデザイン。"
+  },
+  "Collaborate with Confidence.": {
+    "ko": "신뢰를 바탕으로 협업합니다.",
+    "en": "Collaborate with Confidence.",
+    "zh-CN": "以信任携手合作。",
+    "ja": "信頼を基盤に協力します。"
+  },
+  "The First Listening Starts Here.": {
+    "ko": "새로운 청취 경험은 여기서 시작됩니다.",
+    "en": "The First Listening Starts Here.",
+    "zh-CN": "第一次聆听从这里开始。",
+    "ja": "最初の試聴はここから。"
+  },
+  "Your Listening Wish List.": {
+    "ko": "나의 청취 관심 목록.",
+    "en": "Your Listening Wish List.",
+    "zh-CN": "您的试听愿望清单。",
+    "ja": "試聴ウィッシュリスト。"
+  },
+  "Latest from the Journal.": {
+    "ko": "저널 최신 소식.",
+    "en": "Latest from the Journal.",
+    "zh-CN": "专栏最新文章。",
+    "ja": "ジャーナル最新記事。"
   }
 }
