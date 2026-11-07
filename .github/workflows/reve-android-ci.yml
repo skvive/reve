@@ -1,0 +1,157 @@
+name: REVE Android API 36 build and emulator smoke QA
+
+on:
+  push:
+    paths:
+      - 'apps/android/**'
+      - '.github/workflows/reve-android-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-emulator:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Locate preinstalled Android SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$SDK_ROOT" >> "$GITHUB_ENV"
+          SDK_BIN="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          test -n "$SDK_BIN"
+          echo "$(dirname "$SDK_BIN")" >> "$GITHUB_PATH"
+          echo "$SDK_ROOT/platform-tools" >> "$GITHUB_PATH"
+          echo "$SDK_ROOT/emulator" >> "$GITHUB_PATH"
+          "$SDK_BIN" --version
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - name: Install Android SDK 36 and emulator
+        run: |
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager 'platforms;android-36' 'build-tools;36.0.0' 'emulator' 'system-images;android-35;google_apis;x86_64'
+      - name: Build APK and unsigned AAB
+        run: gradle -p apps/android --no-daemon :app:assembleDebug :app:bundleRelease
+      - name: Verify artifacts and target API
+        run: |
+          test -s apps/android/app/build/outputs/apk/debug/app-debug.apk
+          test -s apps/android/app/build/outputs/bundle/release/app-release.aab
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging apps/android/app/build/outputs/apk/debug/app-debug.apk | tee apk-badging.txt
+          grep -q "targetSdkVersion:'36'" apk-badging.txt
+          grep -q "versionName='1.9.3'" apk-badging.txt
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify apps/android/app/build/outputs/apk/debug/app-debug.apk
+          unzip -t apps/android/app/build/outputs/apk/debug/app-debug.apk | tail -2
+      - name: Inspect AAB release signing state
+        shell: bash
+        run: |
+          set -euo pipefail
+          jarsigner -verify -verbose apps/android/app/build/outputs/bundle/release/app-release.aab > aab-signature-verification.txt 2>&1 || true
+          if grep -q "jar verified" aab-signature-verification.txt; then
+            echo "SIGNED_AAB_FOUND; inspect upload-certificate chain before Play submission" | tee aab-signing-status.txt
+          else
+            echo "UNSIGNED_AAB; Play upload blocked until the authorized upload key is provided" | tee aab-signing-status.txt
+          fi
+      - name: Allow /dev/kvm for Android emulator
+        run: |
+          if test -e /dev/kvm; then sudo chmod 666 /dev/kvm; fi
+      - name: Upload build outputs before emulator QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: REVE-Android-v1.9.3-Build
+          if-no-files-found: error
+          path: |
+            apps/android/app/build/outputs/apk/debug/app-debug.apk
+            apps/android/app/build/outputs/bundle/release/app-release.aab
+            apk-badging.txt
+            aab-signing-status.txt
+            aab-signature-verification.txt
+      - name: Boot emulator and smoke test
+        timeout-minutes: 17
+        shell: bash
+        run: |
+          set -euo pipefail
+          export ANDROID_USER_HOME="$HOME/.android"
+          export ANDROID_AVD_HOME="$ANDROID_USER_HOME/avd"
+          mkdir -p "$ANDROID_AVD_HOME"
+          echo no | timeout 75 avdmanager create avd -n reve-qa -k 'system-images;android-35;google_apis;x86_64' -p "$ANDROID_AVD_HOME/reve-qa.avd" --force
+          test -f "$ANDROID_AVD_HOME/reve-qa.avd/config.ini"
+          printf 'avd.ini.encoding=UTF-8\npath=%s\npath.rel=avd/reve-qa.avd\ntarget=android-35\n' "$ANDROID_AVD_HOME/reve-qa.avd" > "$ANDROID_AVD_HOME/reve-qa.ini"
+          emulator -list-avds | tee emulator-avds.txt
+          grep -qx 'reve-qa' emulator-avds.txt
+          emulator -accel-check || true
+          nohup emulator -avd reve-qa -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader -feature -Vulkan > emulator.log 2>&1 &
+          timeout 180 bash -c 'until adb -s emulator-5554 shell getprop sys.boot_completed 2>/dev/null | tr -d "\r" | grep -qx 1; do sleep 5; done'
+          adb -s emulator-5554 devices -l
+          adb -s emulator-5554 shell input keyevent 82
+          adb -s emulator-5554 install -r apps/android/app/build/outputs/apk/debug/app-debug.apk
+          adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity | tee app-start.txt
+          sleep 15
+          adb -s emulator-5554 shell dumpsys activity activities > activity-dump.txt
+          grep -q 'site.lexid.reve' activity-dump.txt
+          adb -s emulator-5554 logcat -d -v time > logcat.txt
+          if grep -q 'Process: site.lexid.reve' logcat.txt && grep -q 'FATAL EXCEPTION' logcat.txt; then echo 'Possible app crash detected'; exit 1; fi
+          adb -s emulator-5554 exec-out screencap -p > reve-emulator.png
+          test -s reve-emulator.png
+          # Some hosted Android 35 images show a Pixel Launcher ANR popup
+          # over otherwise healthy apps; keep this a diagnostic, not a false app failure.
+          if timeout 18 adb -s emulator-5554 shell uiautomator dump /sdcard/reve-window.xml >/dev/null 2>&1; then
+            adb -s emulator-5554 pull /sdcard/reve-window.xml reve-window.xml >/dev/null || true
+            if grep -q "Pixel Launcher isn't responding" reve-window.xml 2>/dev/null; then
+              echo "WARN: Android system launcher ANR overlay; dismissing system popup"
+              adb -s emulator-5554 shell input tap 115 330 || true
+              sleep 2
+              adb -s emulator-5554 exec-out screencap -p > reve-emulator.png || true
+            fi
+          else
+            echo "WARN: UIAutomator unavailable on hosted emulator; native Activity smoke test remains decisive"
+          fi
+          test -s reve-emulator.png
+          # Separate strict accessibility checks. Any failure remains a failed CI result.
+          bash apps/android/tests/adaptive-qa.sh
+          # Subsequent screenshots are best-effort: a hosted emulator may
+          # disconnect under memory pressure without implicating an app crash.
+          if adb -s emulator-5554 shell wm size 390x844; then
+            for route in collection catalog control sound-lab partners journal; do
+              echo "QA route: $route"
+              if ! timeout 25 adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity -a android.intent.action.VIEW -d "https://reve.lexid.site/$route/?appCatalog=20261107d" >/dev/null; then
+                echo "WARN: Emulator unavailable before $route; keep prior screenshots"; break
+              fi
+              sleep 3
+              if ! timeout 25 adb -s emulator-5554 exec-out screencap -p > "reve-qa-$route-390.png"; then
+                echo "WARN: Emulator disconnected capturing $route; keep prior screenshots"; break
+              fi
+            done
+          else
+            echo "WARN: Emulator could not resize; preserving successful 320px smoke test"
+          fi
+          test -s reve-emulator.png
+      - name: Upload APK, unsigned AAB and emulator evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: REVE-Android-v1.9.3-QA
+          if-no-files-found: warn
+          path: |
+            apps/android/app/build/outputs/apk/debug/app-debug.apk
+            apps/android/app/build/outputs/bundle/release/app-release.aab
+            apk-badging.txt
+            emulator.log
+            app-start.txt
+            activity-dump.txt
+            logcat.txt
+            reve-emulator.png
+            reve-qa-*.png
+            emulator-avds.txt
+            reve-window.xml
+            adaptive-qa/**
+            aab-signing-status.txt
+            aab-signature-verification.txt

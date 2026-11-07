@@ -1,0 +1,48 @@
+plugins { id 'com.android.application' }
+
+// Never commit a keystore, password or upload key. Release signing is opt-in.
+def releaseEnvNames = [
+  'REVE_UPLOAD_KEYSTORE_PATH',
+  'REVE_UPLOAD_STORE_PASSWORD',
+  'REVE_UPLOAD_KEY_ALIAS',
+  'REVE_UPLOAD_KEY_PASSWORD'
+]
+def configuredEnvCount = releaseEnvNames.count { System.getenv(it) }
+if (configuredEnvCount > 0 && configuredEnvCount != releaseEnvNames.size()) {
+  throw new GradleException('Incomplete RE:VE release signing environment; all four upload-key variables are required.')
+}
+def hasUploadKey = configuredEnvCount == releaseEnvNames.size()
+
+android {
+  namespace 'site.lexid.reve'
+  compileSdk 36
+  defaultConfig {
+    applicationId 'site.lexid.reve'
+    minSdk 26
+    targetSdk 36
+    versionCode 5
+    versionName '1.9.3'
+  }
+  if (hasUploadKey) {
+    signingConfigs {
+      releaseUpload {
+        storeFile file(System.getenv('REVE_UPLOAD_KEYSTORE_PATH'))
+        storePassword System.getenv('REVE_UPLOAD_STORE_PASSWORD')
+        keyAlias System.getenv('REVE_UPLOAD_KEY_ALIAS')
+        keyPassword System.getenv('REVE_UPLOAD_KEY_PASSWORD')
+      }
+    }
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      if (hasUploadKey) {
+        signingConfig signingConfigs.releaseUpload
+      }
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+}

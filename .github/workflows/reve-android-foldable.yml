@@ -1,0 +1,118 @@
+name: REVE Android fold and unfold emulator QA
+on:
+  push:
+    paths: ['.github/workflows/reve-android-foldable.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fold-unfold:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Locate SDK and Gradle
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK_ROOT="$ANDROID_HOME"
+          SDK_BIN="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          test -n "$SDK_BIN"
+          echo "$(dirname "$SDK_BIN")" >> "$GITHUB_PATH"
+          echo "$SDK_ROOT/platform-tools" >> "$GITHUB_PATH"
+          echo "$SDK_ROOT/emulator" >> "$GITHUB_PATH"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - name: Install SDK and build
+        run: |
+          set -euo pipefail
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager 'platforms;android-36' 'build-tools;36.0.0' 'emulator' 'system-images;android-35;google_apis;x86_64'
+          gradle -p apps/android --no-daemon :app:assembleDebug
+          test -s apps/android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Emulate foldable hardware and verify hinge transition
+        shell: bash
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          mkdir -p fold-evidence
+          avdmanager list device > fold-evidence/device-profiles.txt
+          # The 6.7in fold-in has no second display; prefer the outer/inner
+          # display hardware profile for console fold/unfold coverage.
+          PROFILE='7.6in Foldable'
+          if ! grep -Fq 'or "7.6in Foldable"' fold-evidence/device-profiles.txt; then
+            echo "BLOCKED: expected fold-in with outer display profile unavailable" | tee fold-evidence/status.txt
+            exit 1
+          fi
+          if [[ -z "$PROFILE" ]]; then
+            echo "BLOCKED: no foldable hardware AVD profile in SDK" | tee fold-evidence/status.txt
+            exit 1
+          fi
+          echo "$PROFILE" > fold-evidence/selected-profile.txt
+          export ANDROID_USER_HOME="$HOME/.android"
+          export ANDROID_AVD_HOME="$ANDROID_USER_HOME/avd"
+          mkdir -p "$ANDROID_AVD_HOME"
+          echo no | timeout 75 avdmanager create avd -n reve-fold -k 'system-images;android-35;google_apis;x86_64' -d "$PROFILE" -p "$ANDROID_AVD_HOME/reve-fold.avd" --force
+          printf 'avd.ini.encoding=UTF-8\npath=%s\npath.rel=avd/reve-fold.avd\ntarget=android-35\n' "$ANDROID_AVD_HOME/reve-fold.avd" > "$ANDROID_AVD_HOME/reve-fold.ini"
+          if test -e /dev/kvm; then sudo chmod 666 /dev/kvm; fi
+          nohup emulator -avd reve-fold -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader -feature -Vulkan > fold-evidence/emulator.log 2>&1 &
+          timeout 200 bash -c 'until adb -s emulator-5554 shell getprop sys.boot_completed 2>/dev/null | tr -d "\r" | grep -qx 1; do sleep 5; done'
+          adb -s emulator-5554 shell input keyevent 82
+          adb -s emulator-5554 install -r apps/android/app/build/outputs/apk/debug/app-debug.apk
+          adb -s emulator-5554 shell am start -W -n site.lexid.reve/.MainActivity | tee fold-evidence/launch.txt
+          sleep 6
+          adb -s emulator-5554 emu fold | tee fold-evidence/fold-command.txt
+          sleep 5
+          adb -s emulator-5554 shell wm size | tee fold-evidence/folded-size.txt
+          adb -s emulator-5554 exec-out screencap -p > fold-evidence/folded.png
+          adb -s emulator-5554 emu unfold | tee fold-evidence/unfold-command.txt
+          sleep 5
+          adb -s emulator-5554 shell wm size | tee fold-evidence/unfolded-size.txt
+          adb -s emulator-5554 exec-out screencap -p > fold-evidence/unfolded.png
+          test -s fold-evidence/folded.png && test -s fold-evidence/unfolded.png
+          # AVD console commands can acknowledge fold/unfold while Android
+          # device-state policy ignores hinge sensor events. Collect proof.
+          adb -s emulator-5554 shell cmd device_state print-states > fold-evidence/device-states.txt 2>&1 || true
+          adb -s emulator-5554 shell dumpsys device_state > fold-evidence/device-state-after-unfold.txt 2>&1 || true
+          if cmp -s fold-evidence/folded-size.txt fold-evidence/unfolded-size.txt; then
+            CLOSED="$(sed -n "s/.*identifier=\\([0-9][0-9]*\\), name='CLOSED'.*/\\1/p" fold-evidence/device-states.txt | head -n 1)"
+            OPENED="$(sed -n "s/.*identifier=\\([0-9][0-9]*\\), name='OPENED'.*/\\1/p" fold-evidence/device-states.txt | head -n 1)"
+            if [[ -n "$CLOSED" && -n "$OPENED" ]]; then
+              echo "Hinge sensor ignored by AVD. Retry through device_state CLOSED=$CLOSED OPENED=$OPENED"
+              adb -s emulator-5554 shell cmd device_state state "$CLOSED" > fold-evidence/override-closed.txt 2>&1 || true
+              sleep 5
+              adb -s emulator-5554 shell wm size > fold-evidence/folded-size.txt
+              adb -s emulator-5554 exec-out screencap -p > fold-evidence/folded.png
+              adb -s emulator-5554 shell dumpsys device_state > fold-evidence/override-closed-state.txt 2>&1 || true
+              adb -s emulator-5554 shell cmd device_state state "$OPENED" > fold-evidence/override-opened.txt 2>&1 || true
+              sleep 5
+              adb -s emulator-5554 shell wm size > fold-evidence/unfolded-size.txt
+              adb -s emulator-5554 exec-out screencap -p > fold-evidence/unfolded.png
+              adb -s emulator-5554 shell dumpsys device_state > fold-evidence/override-opened-state.txt 2>&1 || true
+              adb -s emulator-5554 shell cmd device_state state reset > fold-evidence/override-reset.txt 2>&1 || true
+            fi
+          fi
+          if cmp -s fold-evidence/folded-size.txt fold-evidence/unfolded-size.txt; then
+            echo 'BLOCKED: fold/unfold commands did not change display dimensions' | tee fold-evidence/status.txt
+            exit 1
+          fi
+          adb -s emulator-5554 shell dumpsys activity activities > fold-evidence/activity.txt
+          grep -q 'site.lexid.reve' fold-evidence/activity.txt
+          adb -s emulator-5554 logcat -d -v time > fold-evidence/logcat.txt
+          if grep -q 'Process: site.lexid.reve' fold-evidence/logcat.txt && grep -q 'FATAL EXCEPTION' fold-evidence/logcat.txt; then
+            echo 'FAIL: potential app crash' | tee fold-evidence/status.txt
+            exit 1
+          fi
+          echo 'PASS: emulator hinge transition and app activity' | tee fold-evidence/status.txt
+      - name: Upload foldable QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: REVE-foldable-virtual-hinge-QA
+          if-no-files-found: warn
+          path: fold-evidence/
