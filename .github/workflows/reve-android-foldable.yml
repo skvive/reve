@@ -42,7 +42,13 @@ jobs:
           set -euo pipefail
           mkdir -p fold-evidence
           avdmanager list device > fold-evidence/device-profiles.txt
-          PROFILE="$(sed -n 's/.*or "\([^"]*[Ff]old[^"]*\)".*/\1/p' fold-evidence/device-profiles.txt | head -n 1)"
+          # The 6.7in fold-in has no second display; prefer the outer/inner
+          # display hardware profile for console fold/unfold coverage.
+          PROFILE='7.6in Foldable'
+          if ! grep -Fq 'or "7.6in Foldable"' fold-evidence/device-profiles.txt; then
+            echo "BLOCKED: expected fold-in with outer display profile unavailable" | tee fold-evidence/status.txt
+            exit 1
+          fi
           if [[ -z "$PROFILE" ]]; then
             echo "BLOCKED: no foldable hardware AVD profile in SDK" | tee fold-evidence/status.txt
             exit 1
