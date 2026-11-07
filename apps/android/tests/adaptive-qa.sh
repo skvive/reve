@@ -24,11 +24,27 @@ for spec in \
   sleep 3
   adb -s "$S" exec-out screencap -p > "$OUT/$label.png"
   test -s "$OUT/$label.png"
-  if ! timeout 25 adb -s "$S" shell uiautomator dump /sdcard/reve-qa.xml > "$OUT/$label-dump.log" 2>&1; then
-    printf '%s\t%s\t%s\t%s\tBLOCKED:uiautomator\n' "$label" "$width" "$height" "$scale" >> "$OUT/results.tsv"
+  # Android 35 hosted emulators may report a null UIAutomation root while
+  # resizing/configuration changes are settling. Never silently mark this PASS.
+  adb -s "$S" shell rm -f /sdcard/reve-qa.xml || true
+  recovered=0
+  for attempt in 1 2 3 4; do
+    timeout 25 adb -s "$S" shell uiautomator dump /sdcard/reve-qa.xml > "$OUT/$label-dump-$attempt.log" 2>&1 || true
+    if adb -s "$S" shell test -s /sdcard/reve-qa.xml >/dev/null 2>&1; then
+      if adb -s "$S" pull /sdcard/reve-qa.xml "$OUT/$label.xml" > /dev/null 2>&1; then
+        recovered=1
+        break
+      fi
+    fi
+    adb -s "$S" shell input keyevent 82 || true
+    sleep 6
+  done
+  if [[ "$recovered" != 1 ]]; then
+    cat "$OUT/$label-dump-"*.log >&2 || true
+    adb -s "$S" shell dumpsys window windows > "$OUT/$label-window.txt" || true
+    printf '%s\t%s\t%s\t%s\tBLOCKED:uiautomator-root-unavailable\n' "$label" "$width" "$height" "$scale" >> "$OUT/results.tsv"
     exit 1
   fi
-  adb -s "$S" pull /sdcard/reve-qa.xml "$OUT/$label.xml" > /dev/null
   python3 - "$OUT/$label.xml" "$label" "$width" "$height" <<'PY'
 import re, sys, xml.etree.ElementTree as ET
 file,scenario,width,height=sys.argv[1],sys.argv[2],int(sys.argv[3]),int(sys.argv[4])
