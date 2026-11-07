@@ -67,4 +67,2518 @@
   "RE:VE 저널": {
     "en": "RE:VE Journal",
     "zh-CN": "RE:VE 音频专栏",
-    "ja": "RE:VE ジ���q�^
+    "ja": "RE:VE ジャーナル"
+  },
+  "어쿠스틱 아키텍처": {
+    "en": "Acoustic Architecture",
+    "zh-CN": "声学架构",
+    "ja": "音響アーキテクチャ"
+  },
+  "기술·유통 파트너": {
+    "en": "Technology & distribution",
+    "zh-CN": "技术与经销合作",
+    "ja": "技術・販売パートナー"
+  },
+  "권리관리·라이선싱": {
+    "en": "IP & Licensing",
+    "zh-CN": "知识产权与许可",
+    "ja": "知的財産・ライセンス"
+  },
+  "개인정보·법적 고지": {
+    "en": "Privacy & Legal",
+    "zh-CN": "隐私与法律声明",
+    "ja": "プライバシー・法的事項"
+  },
+  "RE:VE Sonic OS (컨셉)": {
+    "en": "RE:VE Sonic OS (concept)",
+    "zh-CN": "RE:VE Sonic OS（概念）",
+    "ja": "RE:VE Sonic OS（コンセプト）"
+  },
+  "RE:VE 브랜드 컨셉 웹사이트 • 2026": {
+    "en": "RE:VE concept brand website • 2026",
+    "zh-CN": "RE:VE 品牌概念网站 • 2026",
+    "ja": "RE:VE コンセプトサイト • 2026"
+  },
+  "공연장의 감동을, 당신의 공간으로.": {
+    "en": "The emotion of the concert hall, in your space.",
+    "zh-CN": "将音乐厅的感动带入您的空间。",
+    "ja": "コンサートホールの感動を、あなたの空間へ。"
+  },
+  "상용 판매·청음·기술제휴는 공식 확인 전 준비 단계입니다.": {
+    "en": "Commercial sales, listening sessions and partnerships are planned and not yet verified.",
+    "zh-CN": "商业销售、试听及技术合作尚处筹备阶段，未获正式确认。",
+    "ja": "販売・試聴・技術提携は準備段階であり、現時点で正式確認されていません。"
+  },
+  "본문 바로가기": {
+    "en": "Skip to content",
+    "zh-CN": "跳转至正文",
+    "ja": "本文へ移動"
+  },
+  "본문으로 이동": {
+    "en": "Skip to main content",
+    "zh-CN": "跳转至主要内容",
+    "ja": "メインコンテンツへ"
+  },
+  "관심 등록 +": {
+    "en": "Join the list +",
+    "zh-CN": "登记关注 +",
+    "ja": "事前登録 +"
+  },
+  "제품 상세 & 기술 설계 →": {
+    "en": "Product details & engineering →",
+    "zh-CN": "产品详情与工程设计 →",
+    "ja": "製品詳細・技術設計 →"
+  },
+  "브랜드 철학 ↗": {
+    "en": "Brand philosophy ↗",
+    "zh-CN": "品牌理念 ↗",
+    "ja": "ブランド理念 ↗"
+  },
+  "폼팩터": {
+    "en": "Form factor",
+    "zh-CN": "外形结构",
+    "ja": "フォームファクター"
+  },
+  "검증 상태": {
+    "en": "Verification status",
+    "zh-CN": "验证状态",
+    "ja": "検証状況"
+  },
+  "읽어보기 →": {
+    "en": "Read more →",
+    "zh-CN": "阅读更多 →",
+    "ja": "詳しく読む →"
+  },
+  "← 전체 컬렉션": {
+    "en": "← Full collection",
+    "zh-CN": "← 全部系列",
+    "ja": "← 全コレクション"
+  },
+  "제품 설계 방향": {
+    "en": "Design direction",
+    "zh-CN": "设计方向",
+    "ja": "設計方針"
+  },
+  "관심 목록 확인": {
+    "en": "View wishlist",
+    "zh-CN": "查看心愿单",
+    "ja": "お気に入りを見る"
+  },
+  "사운드 랩 열기 →": {
+    "en": "Explore Sound Lab →",
+    "zh-CN": "探索声音实验室 →",
+    "ja": "サウンドラボを見る →"
+  },
+  "관심 제품 추가하기": {
+    "en": "Add to wishlist",
+    "zh-CN": "加入心愿单",
+    "ja": "お気に入りに追加"
+  },
+  "관심 제품에 담기 ↗": {
+    "en": "Save to wishlist ↗",
+    "zh-CN": "加入心愿单 ↗",
+    "ja": "お気に入りに追加 ↗"
+  },
+  "아키텍처 살펴보기 ↗": {
+    "en": "Explore architecture ↗",
+    "zh-CN": "探索声学架构 ↗",
+    "ja": "音響設計を見る ↗"
+  },
+  "더 많은 오디오 가이드": {
+    "en": "More audio guides",
+    "zh-CN": "更多音频指南",
+    "ja": "その他のオーディオガイド"
+  },
+  "Sound Lab 체험": {
+    "en": "Try Sound Lab",
+    "zh-CN": "体验声音实验室",
+    "ja": "サウンドラボを体験"
+  },
+  "사용 환경": {
+    "en": "Use case",
+    "zh-CN": "使用场景",
+    "ja": "利用シーン"
+  },
+  "스마트 제어": {
+    "en": "Smart controls",
+    "zh-CN": "智能控制",
+    "ja": "スマート制御"
+  },
+  "브랜드 권리·라이선싱 안내 ↗": {
+    "en": "IP & licensing details ↗",
+    "zh-CN": "品牌授权详情 ↗",
+    "ja": "権利・ライセンスについて ↗"
+  },
+  "RE:VE Sonic OS 연동 구상": {
+    "en": "Sonic OS integration concept",
+    "zh-CN": "Sonic OS 集成构想",
+    "ja": "Sonic OS 連携構想"
+  },
+  "하이파이 스피커와 블루투스의 음질 차이": {
+    "en": "Hi-Fi Speakers vs Bluetooth: Sound Quality",
+    "zh-CN": "Hi-Fi 扬声器与蓝牙音质比较",
+    "ja": "ハイファイとBluetoothの音質比較"
+  },
+  "룸 어쿠스틱의 시작: 스피커 배치 가이드": {
+    "en": "Room Acoustics: Speaker Placement Guide",
+    "zh-CN": "房间声学：扬声器摆放指南",
+    "ja": "ルームアコースティック：スピーカー配置ガイド"
+  },
+  "무손실 음원 설정: DAC·LDAC·aptX의 이해": {
+    "en": "Lossless Audio: DAC, LDAC and aptX",
+    "zh-CN": "无损音频：DAC、LDAC 与 aptX",
+    "ja": "ロスレス音源：DAC・LDAC・aptX"
+  },
+  "지역": {
+    "en": "Region",
+    "zh-CN": "地区",
+    "ja": "地域"
+  },
+  "미국": {
+    "en": "United States",
+    "zh-CN": "美国",
+    "ja": "米国"
+  },
+  "유럽": {
+    "en": "Europe",
+    "zh-CN": "欧洲",
+    "ja": "欧州"
+  },
+  "기타": {
+    "en": "Other",
+    "zh-CN": "其他",
+    "ja": "その他"
+  },
+  "결제": {
+    "en": "Payment",
+    "zh-CN": "付款",
+    "ja": "決済"
+  },
+  "초기화": {
+    "en": "Reset",
+    "zh-CN": "重置",
+    "ja": "リセット"
+  },
+  "프랑스어": {
+    "en": "French",
+    "zh-CN": "法语",
+    "ja": "フランス語"
+  },
+  "대한민국": {
+    "en": "South Korea",
+    "zh-CN": "韩国",
+    "ja": "韓国"
+  },
+  "성함 *": {
+    "en": "Full name *",
+    "zh-CN": "姓名 *",
+    "ja": "お名前 *"
+  },
+  "인클로저": {
+    "en": "Enclosure",
+    "zh-CN": "箱体",
+    "ja": "エンクロージャー"
+  },
+  "제휴 문의": {
+    "en": "Partnership inquiry",
+    "zh-CN": "合作咨询",
+    "ja": "提携のお問い合わせ"
+  },
+  "저널 탐색": {
+    "en": "Explore Journal",
+    "zh-CN": "探索专栏",
+    "ja": "ジャーナルを見る"
+  },
+  "회사명 *": {
+    "en": "Company *",
+    "zh-CN": "公司名称 *",
+    "ja": "会社名 *"
+  },
+  "이메일 *": {
+    "en": "Email *",
+    "zh-CN": "电子邮箱 *",
+    "ja": "メール *"
+  },
+  "유형 선택": {
+    "en": "Select type",
+    "zh-CN": "选择类型",
+    "ja": "種類を選択"
+  },
+  "무선 기능": {
+    "en": "Wireless features",
+    "zh-CN": "无线功能",
+    "ja": "ワイヤレス機能"
+  },
+  "튜닝 방향": {
+    "en": "Tuning direction",
+    "zh-CN": "调音方向",
+    "ja": "チューニング方針"
+  },
+  "음향 제어": {
+    "en": "Audio control",
+    "zh-CN": "音频控制",
+    "ja": "音響制御"
+  },
+  "컬렉션 탐색": {
+    "en": "Browse collection",
+    "zh-CN": "浏览产品系列",
+    "ja": "コレクションを見る"
+  },
+  "브랜드 철학": {
+    "en": "Our philosophy",
+    "zh-CN": "品牌理念",
+    "ja": "ブランド理念"
+  },
+  "문의 내용 *": {
+    "en": "Message *",
+    "zh-CN": "留言内容 *",
+    "ja": "お問い合わせ内容 *"
+  },
+  "개인정보 안내": {
+    "en": "Privacy notice",
+    "zh-CN": "隐私政策",
+    "ja": "プライバシーについて"
+  },
+  "전체 제품 보기": {
+    "en": "View all products",
+    "zh-CN": "查看全部产品",
+    "ja": "すべての製品を見る"
+  },
+  "가상 사운드 랩": {
+    "en": "Virtual Sound Lab",
+    "zh-CN": "虚拟声音实验室",
+    "ja": "バーチャルサウンドラボ"
+  },
+  "제품 관심 목록": {
+    "en": "Product wishlist",
+    "zh-CN": "产品心愿单",
+    "ja": "製品ウィッシュリスト"
+  },
+  "음향학 · 잔향": {
+    "en": "Acoustics · Reverberation",
+    "zh-CN": "声学 · 混响",
+    "ja": "音響学・残響"
+  },
+  "프랑스어 · 꿈": {
+    "en": "French · Dream",
+    "zh-CN": "法语 · 梦想",
+    "ja": "フランス語・夢"
+  },
+  "RSS 구독 ↗": {
+    "en": "Subscribe via RSS ↗",
+    "zh-CN": "订阅 RSS ↗",
+    "ja": "RSSを購読 ↗"
+  },
+  "이메일 주소 *": {
+    "en": "Email address *",
+    "zh-CN": "电子邮箱地址 *",
+    "ja": "メールアドレス *"
+  },
+  "파트너 유형 *": {
+    "en": "Partner type *",
+    "zh-CN": "合作伙伴类型 *",
+    "ja": "パートナー区分 *"
+  },
+  "제품·기술 표시": {
+    "en": "Products & technology",
+    "zh-CN": "产品与技术介绍",
+    "ja": "製品・技術表示"
+  },
+  "기술 자세히 보기": {
+    "en": "Explore technology",
+    "zh-CN": "了解技术",
+    "ja": "技術を見る"
+  },
+  "연주자 청음 평가": {
+    "en": "Musician listening evaluation",
+    "zh-CN": "演奏家试听评估",
+    "ja": "演奏家による試聴評価"
+  },
+  "음장·잔향 컨트롤": {
+    "en": "Soundstage & reverb control",
+    "zh-CN": "声场与混响控制",
+    "ja": "音場・残響コントロール"
+  },
+  "대편성·넓은 무대": {
+    "en": "Large ensemble · Open stage",
+    "zh-CN": "大型编制 · 广阔舞台",
+    "ja": "大編成・広い音場"
+  },
+  "아키텍처 보기 ↗": {
+    "en": "View architecture ↗",
+    "zh-CN": "查看架构 ↗",
+    "ja": "アーキテクチャを見る ↗"
+  },
+  "신제품 소식 요청": {
+    "en": "Request product updates",
+    "zh-CN": "订阅新品资讯",
+    "ja": "新製品情報を受け取る"
+  },
+  "사운드 랩 테스트": {
+    "en": "Sound Lab demo",
+    "zh-CN": "声音实验室演示",
+    "ja": "サウンドラボ・デモ"
+  },
+  "국가 / 지역 *": {
+    "en": "Country / Region *",
+    "zh-CN": "国家 / 地区 *",
+    "ja": "国・地域 *"
+  },
+  "파트너십 안내 ↗": {
+    "en": "Partnership details ↗",
+    "zh-CN": "合作详情 ↗",
+    "ja": "パートナーシップの詳細 ↗"
+  },
+  "드라이버 아키텍처": {
+    "en": "Driver architecture",
+    "zh-CN": "驱动单元架构",
+    "ja": "ドライバー設計"
+  },
+  "스마트폰 중심 UX": {
+    "en": "Smartphone-first UX",
+    "zh-CN": "智能手机优先的体验",
+    "ja": "スマートフォン中心のUX"
+  },
+  "컬렉션으로 돌아가기": {
+    "en": "Back to collection",
+    "zh-CN": "返回产品系列",
+    "ja": "コレクションへ戻る"
+  },
+  "문의 초안 저장 ↗": {
+    "en": "Save inquiry draft ↗",
+    "zh-CN": "保存咨询草稿 ↗",
+    "ja": "問い合わせの下書きを保存 ↗"
+  },
+  "거실·TV·홈시네마": {
+    "en": "Living room · TV · Cinema",
+    "zh-CN": "客厅 · 电视 · 家庭影院",
+    "ja": "リビング・TV・ホームシアター"
+  },
+  "이름에 담긴 철학 ↗": {
+    "en": "The meaning behind the name ↗",
+    "zh-CN": "名称背后的理念 ↗",
+    "ja": "名前に込めた理念 ↗"
+  },
+  "글로벌 B2B 파트너": {
+    "en": "Global B2B partners",
+    "zh-CN": "全球 B2B 合作伙伴",
+    "ja": "グローバルB2Bパートナー"
+  },
+  "스마트 제어 데모 ↗": {
+    "en": "Try smart control ↗",
+    "zh-CN": "体验智能控制 ↗",
+    "ja": "スマート制御を体験 ↗"
+  },
+  "고출력 · 정밀 음향": {
+    "en": "Powerful · Precise sound",
+    "zh-CN": "高功率 · 精准音效",
+    "ja": "高出力・高精度サウンド"
+  },
+  "중립·자연스러운 잔향": {
+    "en": "Neutral · Natural resonance",
+    "zh-CN": "中性 · 自然混响",
+    "ja": "ニュートラル・自然な残響"
+  },
+  "늦은 밤·완만한 저역": {
+    "en": "Nighttime · Gentle bass",
+    "zh-CN": "深夜 · 柔和低频",
+    "ja": "夜間・穏やかな低域"
+  },
+  "알림 신청 초안 저장": {
+    "en": "Save notification draft",
+    "zh-CN": "保存通知申请草稿",
+    "ja": "通知の下書きを保存"
+  },
+  "오디오 딜러 / 총판": {
+    "en": "Audio dealer / Distributor",
+    "zh-CN": "音频经销商 / 总代理",
+    "ja": "オーディオ販売店・代理店"
+  },
+  "신제품 사전 관심 등록": {
+    "en": "Register product interest",
+    "zh-CN": "新品关注登记",
+    "ja": "新製品への関心登録"
+  },
+  "인증·연결·상태 동기화": {
+    "en": "Auth · Connectivity · Sync",
+    "zh-CN": "认证 · 连接 · 同步",
+    "ja": "認証・接続・同期"
+  },
+  "악기 질감·중역 포커스": {
+    "en": "Instrument texture · Midrange focus",
+    "zh-CN": "乐器质感 · 中频聚焦",
+    "ja": "楽器の質感・中域重視"
+  },
+  "ODM / OEM 제조": {
+    "en": "ODM / OEM Manufacturing",
+    "zh-CN": "ODM / OEM 制造",
+    "ja": "ODM・OEM 製造"
+  },
+  "홈시네마 / 공간 통합": {
+    "en": "Home cinema / System integration",
+    "zh-CN": "家庭影院 / 系统集成",
+    "ja": "ホームシアター・空間統合"
+  },
+  "올인원 사운드바 콘셉트": {
+    "en": "All-in-one Soundbar Concept",
+    "zh-CN": "一体式回音壁概念",
+    "ja": "オールインワン・サウンドバー構想"
+  },
+  "듣는 기술에 대한 이야기": {
+    "en": "Stories about listening technology",
+    "zh-CN": "探索聆听科技",
+    "ja": "聴く技術の物語"
+  },
+  "연주자를 위한 튜닝 철학": {
+    "en": "Tuning for musicians",
+    "zh-CN": "为演奏家调音",
+    "ja": "演奏家のためのチューニング"
+  },
+  "스테레오 북쉘프 / 페어": {
+    "en": "Stereo bookshelf / Pair",
+    "zh-CN": "立体声书架音箱 / 一对",
+    "ja": "ステレオブックシェルフ・ペア"
+  },
+  "CNC 알루미늄·공진 제어": {
+    "en": "CNC Aluminum · Resonance control",
+    "zh-CN": "CNC 铝材 · 共振控制",
+    "ja": "CNCアルミ・共振制御"
+  },
+  "브랜드 및 콘텐츠 권리관리": {
+    "en": "Brand & content rights",
+    "zh-CN": "品牌及内容权利管理",
+    "ja": "ブランド・コンテンツ権利管理"
+  },
+  "스마트 무선 오디오 상세 →": {
+    "en": "Wireless audio details →",
+    "zh-CN": "无线音频详情 →",
+    "ja": "ワイヤレスオーディオの詳細 →"
+  },
+  "클래식 중심 북쉘프 상세 →": {
+    "en": "Classical bookshelf details →",
+    "zh-CN": "古典音乐书架音箱详情 →",
+    "ja": "クラシック向けブックシェルフの詳細 →"
+  },
+  "몰입형 홈시네마 상세 →": {
+    "en": "Immersive home cinema details →",
+    "zh-CN": "沉浸式家庭影院详情 →",
+    "ja": "没入型ホームシアターの詳細 →"
+  },
+  "음악의 디테일을 지키는 기술.": {
+    "en": "Technology preserving every musical detail.",
+    "zh-CN": "保留每一个音乐细节的技术。",
+    "ja": "音楽の細部を守る技術。"
+  },
+  "음악의 감동을 이해하는 귀.": {
+    "en": "Ears that understand music.",
+    "zh-CN": "懂得音乐感动的耳朵。",
+    "ja": "音楽の感動を知る耳。"
+  },
+  "압도적인 다이내믹과 통제된 출력": {
+    "en": "Stunning dynamics, controlled power",
+    "zh-CN": "震撼动态，精准功率控制",
+    "ja": "圧倒的なダイナミクスと制御された出力"
+  },
+  "눈앞에 펼쳐지는 넓고 깊은 음장": {
+    "en": "An expansive, deep soundstage",
+    "zh-CN": "宽阔深邃的立体声场",
+    "ja": "眼前に広がる奥深い音場"
+  },
+  "공연장의 미세한 자연스러운 잔향": {
+    "en": "Subtle, natural concert-hall reverberation",
+    "zh-CN": "音乐厅细腻自然的混响",
+    "ja": "コンサートホールの繊細な自然残響"
+  },
+  "콘셉트": {
+    "en": "Concept",
+    "zh-CN": "概念",
+    "ja": "コンセプト"
+  },
+  "이메일": {
+    "en": "Email",
+    "zh-CN": "邮箱",
+    "ja": "メール"
+  },
+  "본문": {
+    "en": "Main content",
+    "zh-CN": "正文",
+    "ja": "本文"
+  },
+  "The Concert Hall, Reimagined.": {
+    "ko": "공연장을 다시 상상하다.",
+    "en": "The Concert Hall, Reimagined.",
+    "zh-CN": "重新定义音乐厅。",
+    "ja": "コンサートホールを再創造する。"
+  },
+  "The Concert Hall,": {
+    "ko": "공연장을",
+    "en": "The Concert Hall,",
+    "zh-CN": "音乐厅，",
+    "ja": "コンサートホールを"
+  },
+  "Reimagined.": {
+    "ko": "다시 상상하다.",
+    "en": "Reimagined.",
+    "zh-CN": "重新定义。",
+    "ja": "もう一度、想像する。"
+  },
+  "Twelve Expressions of Sound.": {
+    "ko": "소리를 표현하는 열두 가지 방식.",
+    "en": "Twelve Expressions of Sound.",
+    "zh-CN": "声音的十二种表达。",
+    "ja": "音を表現する12のかたち。"
+  },
+  "From Seoul's Electronics Heritage.": {
+    "ko": "서울 전자산업의 유산에서.",
+    "en": "From Seoul's Electronics Heritage.",
+    "zh-CN": "源自首尔电子工艺的传承。",
+    "ja": "ソウルの電子技術の伝統から。"
+  },
+  "Designed from the Inside Out.": {
+    "ko": "내부부터 완성하는 설계.",
+    "en": "Designed from the Inside Out.",
+    "zh-CN": "由内而外的精密设计。",
+    "ja": "内側から設計する。"
+  },
+  "A Concert Hall.": {
+    "ko": "공연장을",
+    "en": "A Concert Hall.",
+    "zh-CN": "音乐厅，",
+    "ja": "コンサートホールを"
+  },
+  "In Your Pocket.": {
+    "ko": "손안에.",
+    "en": "In Your Pocket.",
+    "zh-CN": "尽在掌中。",
+    "ja": "手のひらに。"
+  },
+  "Precision You Can Feel.": {
+    "ko": "감각으로 느끼는 정밀함.",
+    "en": "Precision You Can Feel.",
+    "zh-CN": "可感知的精密。",
+    "ja": "体感できる精密さ。"
+  },
+  "Rêve. A Dream. Reverberation. A Feeling.": {
+    "ko": "꿈과 잔향, 음악의 감동.",
+    "en": "Rêve. A Dream. Reverberation. A Feeling.",
+    "zh-CN": "梦想、混响与感动。",
+    "ja": "夢と残響、音楽の感動。"
+  },
+  "Shape Your Listening Space.": {
+    "ko": "나만의 청취 공간을 설계하다.",
+    "en": "Shape Your Listening Space.",
+    "zh-CN": "塑造您的聆听空间。",
+    "ja": "リスニング空間をつくる。"
+  },
+  "One Vision. Protected Across Borders.": {
+    "ko": "하나의 비전, 국경을 넘어 지키는 가치.",
+    "en": "One Vision. Protected Across Borders.",
+    "zh-CN": "同一个愿景，跨越国界的保护。",
+    "ja": "ひとつのビジョン、国境を越えて守る価値。"
+  },
+  "Be Part of What's Next.": {
+    "ko": "사운드의 미래를 함께 만들어 갑니다.",
+    "en": "Be Part of What's Next.",
+    "zh-CN": "携手共创声音的未来。",
+    "ja": "サウンドの未来を共につくる。"
+  },
+  "The RE:VE Collection.": {
+    "ko": "RE:VE 제품 컬렉션.",
+    "en": "The RE:VE Collection.",
+    "zh-CN": "RE:VE 产品系列。",
+    "ja": "RE:VE 製品コレクション。"
+  },
+  "Not Just Louder. More Alive.": {
+    "ko": "더 큰 소리보다 생생한 감동.",
+    "en": "Not Just Louder. More Alive.",
+    "zh-CN": "不仅是更大的音量，更是生动的声音。",
+    "ja": "音量よりも生き生きとした音。"
+  },
+  "From Concept to Collection.": {
+    "ko": "콘셉트에서 컬렉션으로.",
+    "en": "From Concept to Collection.",
+    "zh-CN": "从概念到系列。",
+    "ja": "コンセプトからコレクションへ。"
+  },
+  "Where Form Becomes Sound.": {
+    "ko": "형태가 소리가 되는 곳.",
+    "en": "Where Form Becomes Sound.",
+    "zh-CN": "让形态化为声音。",
+    "ja": "造形が音になる場所。"
+  },
+  "Every Component Has a Voice.": {
+    "ko": "모든 부품이 소리를 결정합니다.",
+    "en": "Every Component Has a Voice.",
+    "zh-CN": "每个组件都有自己的声音。",
+    "ja": "すべての部品に音の役割がある。"
+  },
+  "Anatomy of a Sound.": {
+    "ko": "소리의 구조를 탐구하다.",
+    "en": "Anatomy of a Sound.",
+    "zh-CN": "解构声音。",
+    "ja": "音の構造を探る。"
+  },
+  "Precision in Every Layer.": {
+    "ko": "모든 층위의 정밀함.",
+    "en": "Precision in Every Layer.",
+    "zh-CN": "每一层都精准。",
+    "ja": "すべての層に精密さを。"
+  },
+  "Three Acoustic Priorities.": {
+    "ko": "세 가지 음향 설계 원칙.",
+    "en": "Three Acoustic Priorities.",
+    "zh-CN": "三大声学设计重点。",
+    "ja": "3つの音響設計の柱。"
+  },
+  "The Intelligence Behind Every Note.": {
+    "ko": "모든 음표 뒤의 지능.",
+    "en": "The Intelligence Behind Every Note.",
+    "zh-CN": "每个音符背后的智慧。",
+    "ja": "音符の裏にある知性。"
+  },
+  "The Art of Intelligent Sound.": {
+    "ko": "지능형 사운드의 미학.",
+    "en": "The Art of Intelligent Sound.",
+    "zh-CN": "智能声音的艺术。",
+    "ja": "インテリジェントサウンドの芸術。"
+  },
+  "Shape the Soundstage.": {
+    "ko": "사운드 스테이지를 설계하다.",
+    "en": "Shape the Soundstage.",
+    "zh-CN": "塑造音场。",
+    "ja": "サウンドステージをつくる。"
+  },
+  "Designed to Connect. Built to Listen.": {
+    "ko": "연결을 위해 설계하고, 음악을 위해 완성하다.",
+    "en": "Designed to Connect. Built to Listen.",
+    "zh-CN": "为连接而设计，为聆听而生。",
+    "ja": "つながる設計、聴くための技術。"
+  },
+  "Feel the Soundstage.": {
+    "ko": "음장의 공간감을 느껴보세요.",
+    "en": "Feel the Soundstage.",
+    "zh-CN": "感受声场。",
+    "ja": "音場を体感する。"
+  },
+  "Tune Your Room.": {
+    "ko": "공간에 맞게 조율하세요.",
+    "en": "Tune Your Room.",
+    "zh-CN": "调校您的房间。",
+    "ja": "部屋に合わせて調整する。"
+  },
+  "Where Dreams Become Sound.": {
+    "ko": "꿈이 소리가 되는 곳.",
+    "en": "Where Dreams Become Sound.",
+    "zh-CN": "让梦想化为声音。",
+    "ja": "夢が音になる場所。"
+  },
+  "A Dream That Lingers.": {
+    "ko": "오래 남는 꿈의 울림.",
+    "en": "A Dream That Lingers.",
+    "zh-CN": "久久回荡的梦想。",
+    "ja": "余韻の残る夢。"
+  },
+  "Technology Without Borders.": {
+    "ko": "국경 없는 기술.",
+    "en": "Technology Without Borders.",
+    "zh-CN": "无国界的技术。",
+    "ja": "国境のない技術。"
+  },
+  "Tuned to the Truth of Music.": {
+    "ko": "음악의 본질을 위한 튜닝.",
+    "en": "Tuned to the Truth of Music.",
+    "zh-CN": "忠于音乐本真的调音。",
+    "ja": "音楽の本質に寄り添う調整。"
+  },
+  "High Fidelity. Made Intelligent.": {
+    "ko": "지능으로 완성하는 하이파이.",
+    "en": "High Fidelity. Made Intelligent.",
+    "zh-CN": "让高保真更智能。",
+    "ja": "インテリジェントなハイファイ。"
+  },
+  "Stories Behind the Sound.": {
+    "ko": "소리 뒤에 담긴 이야기.",
+    "en": "Stories Behind the Sound.",
+    "zh-CN": "声音背后的故事。",
+    "ja": "音にまつわる物語。"
+  },
+  "Listen More Deeply.": {
+    "ko": "음악을 더 깊이 듣다.",
+    "en": "Listen More Deeply.",
+    "zh-CN": "深入聆听。",
+    "ja": "より深く聴く。"
+  },
+  "Build the Future of Sound Together.": {
+    "ko": "함께 만드는 사운드의 미래.",
+    "en": "Build the Future of Sound Together.",
+    "zh-CN": "携手共建声音的未来。",
+    "ja": "共にサウンドの未来をつくる。"
+  },
+  "Technology Meets Musicians.": {
+    "ko": "기술과 음악가의 만남.",
+    "en": "Technology Meets Musicians.",
+    "zh-CN": "科技与音乐家的相遇。",
+    "ja": "技術と音楽家の出会い。"
+  },
+  "Partnerships With Purpose.": {
+    "ko": "목표가 분명한 파트너십.",
+    "en": "Partnerships With Purpose.",
+    "zh-CN": "有目标的合作。",
+    "ja": "目的のあるパートナーシップ。"
+  },
+  "Protecting the Right to Create.": {
+    "ko": "창작의 권리를 보호합니다.",
+    "en": "Protecting the Right to Create.",
+    "zh-CN": "保护创作的权利。",
+    "ja": "創作する権利を守る。"
+  },
+  "Sound Has a Signature.": {
+    "ko": "소리에도 고유한 서명이 있습니다.",
+    "en": "Sound Has a Signature.",
+    "zh-CN": "声音也有专属印记。",
+    "ja": "音にも固有の署名がある。"
+  },
+  "Creative Work Deserves Respect.": {
+    "ko": "창작물은 존중받아야 합니다.",
+    "en": "Creative Work Deserves Respect.",
+    "zh-CN": "创意作品值得尊重。",
+    "ja": "創作物には敬意を。"
+  },
+  "Privacy Transparency.": {
+    "ko": "개인정보 처리의 투명성.",
+    "en": "Privacy Transparency.",
+    "zh-CN": "隐私透明。",
+    "ja": "プライバシーの透明性。"
+  },
+  "A Better Way to Build Trust.": {
+    "ko": "신뢰를 쌓는 더 나은 방법.",
+    "en": "A Better Way to Build Trust.",
+    "zh-CN": "建立信任的更好方式。",
+    "ja": "信頼を育む、より良い方法。"
+  },
+  "The Sound Beyond Sound.": {
+    "ko": "소리 너머의 감동.",
+    "en": "The Sound Beyond Sound.",
+    "zh-CN": "超越声音。",
+    "ja": "音のその先へ。"
+  },
+  "EXPLORE": {
+    "ko": "둘러보기",
+    "en": "EXPLORE",
+    "zh-CN": "探索",
+    "ja": "見る"
+  },
+  "OUR WORLD": {
+    "ko": "브랜드 세계",
+    "en": "OUR WORLD",
+    "zh-CN": "品牌世界",
+    "ja": "ブランドの世界"
+  },
+  "SUPPORT": {
+    "ko": "고객 지원",
+    "en": "SUPPORT",
+    "zh-CN": "支持",
+    "ja": "サポート"
+  },
+  "Reference": {
+    "ko": "레퍼런스",
+    "en": "Reference",
+    "zh-CN": "参考级",
+    "ja": "リファレンス"
+  },
+  "Heritage": {
+    "ko": "헤리티지",
+    "en": "Heritage",
+    "zh-CN": "传承系列",
+    "ja": "ヘリテージ"
+  },
+  "Signature": {
+    "ko": "시그니처",
+    "en": "Signature",
+    "zh-CN": "经典系列",
+    "ja": "シグネチャー"
+  },
+  "Masterpiece": {
+    "ko": "마스터피스",
+    "en": "Masterpiece",
+    "zh-CN": "杰作系列",
+    "ja": "マスターピース"
+  },
+  "Atelier": {
+    "ko": "아틀리에",
+    "en": "Atelier",
+    "zh-CN": "工坊系列",
+    "ja": "アトリエ"
+  },
+  "The Dream of Sound": {
+    "ko": "소리에 담은 꿈",
+    "en": "The Dream of Sound",
+    "zh-CN": "声音之梦",
+    "ja": "音の夢"
+  },
+  "카탈로그 원본 디자인을 적용한 RE:VE Heritage부터 비스포크 Atelier까지. 제품별 제안 사양 및 예상 가격을 확인하세요.": {
+    "en": "Explore RE:VE concepts from Heritage to bespoke Atelier, with proposed specifications and indicative pricing.",
+    "zh-CN": "探索从 Heritage 到定制 Atelier 的 RE:VE 概念产品，查看建议规格及参考价格。",
+    "ja": "Heritageから特注Atelierまで、RE:VEのコンセプト製品と想定仕様・参考価格をご覧ください。"
+  },
+  "아틀리에 북쉘프 · 실내악과 보컬의 결을 정교하게 표현하는 컴팩트 라인.": {
+    "en": "Atelier Bookshelf — a compact concept for chamber music and vocals.",
+    "zh-CN": "Atelier 书架式音箱——为室内乐与人声细节而设计的紧凑概念。",
+    "ja": "Atelierブックシェルフ——室内楽とボーカルを繊細に描くコンパクトモデル。"
+  },
+  "시그니처 아틀리에 · 독주에서 합주까지 확장되는 깊은 음장을 지향.": {
+    "en": "Signature Atelier — spacious soundstage from solo performances to ensembles.",
+    "zh-CN": "Signature Atelier——从独奏到合奏皆呈现深邃的声场。",
+    "ja": "Signature Atelier——独奏から合奏まで広がる深い音場を目指します。"
+  },
+  "레퍼런스 콘서트 · 오케스트라의 밀도와 감정선을 위한 설계 목표.": {
+    "en": "Reference Concert — designed for orchestral scale and expression.",
+    "zh-CN": "Reference Concert——追求交响乐的层次与情感表达。",
+    "ja": "Reference Concert——オーケストラの密度と表情を追求。"
+  },
+  "아틀리에 원 · 공간과 취향에 맞춰 제작을 구상한 비스포크 최상위 모델.": {
+    "en": "Atelier One — bespoke flagship imagined for each space and listener.",
+    "zh-CN": "Atelier One——为不同空间与品味构想的定制旗舰。",
+    "ja": "Atelier One——空間と好みに合わせる特注フラッグシップ。"
+  },
+  "12개 전체 컬렉션 보기 ↗": {
+    "en": "View all 12 models ↗",
+    "zh-CN": "查看全部12款型号 ↗",
+    "ja": "全12モデルを見る ↗"
+  },
+  "PDF 카탈로그 보기 ↗": {
+    "en": "View PDF catalogue ↗",
+    "zh-CN": "查看 PDF 产品目录 ↗",
+    "ja": "PDFカタログを見る ↗"
+  },
+  "모델 상세 설계 목표 보기 ↗": {
+    "en": "View detailed model design goals ↗",
+    "zh-CN": "查看型号详细设计目标 ↗",
+    "ja": "モデルの詳細設計目標を見る ↗"
+  },
+  "예상 권장가 · USD / 스테레오 1페어": {
+    "en": "Indicative MSRP · USD / stereo pair",
+    "zh-CN": "建议参考价 · 美元 / 立体声一对",
+    "ja": "参考希望小売価格 · 米ドル / ステレオ1組"
+  },
+  "모든 이미지와 모델은 디지털 콘셉트이며, 현재 상용 판매하지 않습니다.": {
+    "en": "All images and models are digital concepts; no commercial sales are available.",
+    "zh-CN": "所有图片与型号均为数字概念，目前不对外销售。",
+    "ja": "すべての画像・モデルはデジタルコンセプトで、販売は行っていません。"
+  },
+  "12개 모델 살펴보기 ↘": {
+    "en": "Explore 12 models ↘",
+    "zh-CN": "探索12款型号 ↘",
+    "ja": "12モデルを見る ↘"
+  },
+  "원본 카탈로그 ↗": {
+    "en": "Original catalogue ↗",
+    "zh-CN": "原始产品目录 ↗",
+    "ja": "オリジナルカタログ ↗"
+  },
+  "브랜드 스토리 ↗": {
+    "en": "Brand story ↗",
+    "zh-CN": "品牌故事 ↗",
+    "ja": "ブランドストーリー ↗"
+  },
+  "기술 자세히 보기 ↗": {
+    "en": "Explore technology ↗",
+    "zh-CN": "了解技术 ↗",
+    "ja": "技術を見る ↗"
+  },
+  "제휴 문의 ↗": {
+    "en": "Partnership enquiry ↗",
+    "zh-CN": "合作咨询 ↗",
+    "ja": "提携のお問い合わせ ↗"
+  },
+  "디지털 콘셉트 모델 · 실측 기술 제원 미확정 · 상용 판매 및 선주문 미진행.": {
+    "en": "Digital concepts only; specifications are unverified. No sales or preorders.",
+    "zh-CN": "仅为数字概念；规格尚未实测验证，不接受销售或预订。",
+    "ja": "デジタルコンセプトのみ。仕様未検証、販売・予約注文は行っていません。"
+  },
+  "룸 어쿠스틱, 클래식 청음, 하이파이와 무선 코덱을 함께 탐구합니다.": {
+    "en": "Explore room acoustics, classical listening, hi-fi and wireless codecs.",
+    "zh-CN": "探索室内声学、古典音乐聆听、高保真与无线编解码技术。",
+    "ja": "ルーム音響、クラシック鑑賞、ハイファイ、無線コーデックを探ります。"
+  },
+  "1980년대 한국 전자상가의 제작 정신에서 영감을 받아, 정밀 DSP 소프트웨어와 전문 연주자의 청음 기준을 결합하고자 하는 새로운 하이엔드 오디오 하우스.": {
+    "en": "A new high-end audio house inspired by Korea's 1980s electronics workshops, bringing precision DSP software together with the listening standards of professional musicians.",
+    "zh-CN": "全新高端音响品牌，汲取20世纪80年代韩国电子工坊的制作精神，融合精密 DSP 软件与专业音乐家的聆听标准。",
+    "ja": "1980年代の韓国の電子工作文化に着想を得て、精密なDSPソフトウェアとプロ演奏家の試聴基準を融合させる新たなハイエンドオーディオブランド。"
+  },
+  "전문 연주자의 청음 검증을 지향": {
+    "en": "Aiming for verification by professional musicians",
+    "zh-CN": "致力于由专业演奏家进行聆听验证",
+    "ja": "プロ演奏家による試聴評価を目指す"
+  },
+  "청계천 전자상가의 손끝 기술에서 문정동 가든파이브의 전자·제작 네트워크까지. REVE는 장인의 제작 정신을 현대적인 음향 엔지니어링으로 이어가려 합니다.": {
+    "en": "From the hands-on craft of Cheonggyecheon electronics markets to the manufacturing networks of Garden Five, REVE aims to connect that maker spirit to modern acoustic engineering.",
+    "zh-CN": "从清溪川电子市场的手工技艺到文井洞 Garden Five 的电子制造网络，REVE 希望将匠人精神延续到现代声学工程。",
+    "ja": "清渓川の電子商店街の手仕事から文井洞ガーデンファイブの電子・製造ネットワークまで。REVEは職人の精神を現代の音響工学へつなげます。"
+  },
+  "1987년은 용산전자상가 개장으로 한국 전자산업의 지형이 바뀐 시점을 상징합니다. RE:VE 브랜드의 설립 연도 또는 실제 업체 승계 연도는 아닙니다.": {
+    "en": "1987 marks the opening of Yongsan Electronics Market and a turning point for Korea's electronics industry; it is not RE:VE's founding year or an acquisition date.",
+    "zh-CN": "1987年代表龙山电子市场开业及韩国电子产业发展的转折点，并非 RE:VE 的创立年份或企业承继年份。",
+    "ja": "1987年は龍山電子商街の開業と韓国電子産業の転換点を示します。RE:VEの創業年や事業承継年ではありません。"
+  },
+  "드라이버·인클로저·앰프·DSP가 단일 구조로 작동하도록 설계하는 REVE의 기술 방향.": {
+    "en": "REVE's technology vision integrates the drivers, enclosure, amplifier and DSP as one system.",
+    "zh-CN": "REVE 的技术方向是让驱动单元、箱体、功放和 DSP 作为完整系统协同工作。",
+    "ja": "ドライバー、エンクロージャー、アンプ、DSPをひとつのシステムとして設計するREVEの技術方針。"
+  },
+  "스마트폰으로 음량을 조절하는 수준을 넘어, 음장 폭·잔향 감도·클래식 청음 프로필까지 직관적으로 다루는 소프트웨어 중심 하이엔드 오디오의 미래를 그립니다.": {
+    "en": "We envision software-defined premium audio that goes beyond smartphone volume control to intuitively shape soundstage width, reverberation and classical listening profiles.",
+    "zh-CN": "我们展望以软件为核心的高端音响，不止于手机调节音量，更能直观控制声场宽度、混响与古典音乐聆听模式。",
+    "ja": "スマートフォンの音量操作を超え、音場の幅、残響、クラシックの試聴プロファイルまで直感的に調整できるソフトウェア中心のオーディオを構想します。"
+  },
+  "RE:VE Sonic OS 체험 ↗": {
+    "en": "Try RE:VE Sonic OS ↗",
+    "zh-CN": "体验 RE:VE Sonic OS ↗",
+    "ja": "RE:VE Sonic OSを体験 ↗"
+  },
+  "POWER / PANORAMA / RESONANCE를 디지털 신호처리의 세 가지 경험 축으로 정의합니다. 전문 클래식 연주자와 공동으로 개발할 평가 프로토콜을 통해 소프트웨어 설정을 음악적으로 검증하는 것이 목표입니다.": {
+    "en": "POWER, PANORAMA and RESONANCE are the three proposed dimensions of DSP experience. Our goal is to evaluate software settings musically using protocols planned with classical musicians.",
+    "zh-CN": "POWER、PANORAMA 和 RESONANCE 是数字信号处理体验的三大维度。我们计划与古典音乐家制定评估流程，以音乐性验证软件设置。",
+    "ja": "POWER、PANORAMA、RESONANCEをDSP体験の3つの柱と定義し、クラシック演奏家と計画する評価手順で設定を音楽的に検証することを目指します。"
+  },
+  "Adaptive DSP 연구": {
+    "en": "Adaptive DSP research",
+    "zh-CN": "自适应 DSP 研究",
+    "ja": "アダプティブDSP研究"
+  },
+  "브랜드와 소프트웨어 철학 읽기 ↗": {
+    "en": "Read our brand and software philosophy ↗",
+    "zh-CN": "了解品牌与软件理念 ↗",
+    "ja": "ブランドとソフトウェアの理念を見る ↗"
+  },
+  "사용자 경험과 연동구조는 시제품 컨셉입니다. 현재 하드웨어·스마트홈·모바일 기기와 실제 연결되지 않습니다.": {
+    "en": "The user experience and integrations are prototype concepts; no hardware, smart home or mobile device is currently connected.",
+    "zh-CN": "用户体验和连接架构仅为原型概念，目前并未与硬件、智能家居或移动设备实际连接。",
+    "ja": "UXと連携構造は試作コンセプトであり、現時点でハードウェア・スマートホーム・モバイル機器とは接続されていません。"
+  },
+  "(꿈)와 음향학의": {
+    "en": "(dream) and the acoustics term",
+    "zh-CN": "（梦想）与声学术语",
+    "ja": "（夢）と音響学の"
+  },
+  "(잔향). REVE는 공연장에 머무는 마지막 울림까지 전하려는 꿈에서 출발합니다.": {
+    "en": "(reverberation). REVE began with the dream of conveying the last echoes of a concert hall.",
+    "zh-CN": "（混响）。REVE 源自传递音乐厅最后一丝余韵的梦想。",
+    "ja": "（残響）。REVEはコンサートホールの最後の響きまで届けたいという夢から生まれました。"
+  },
+  "방 크기와 배치 조건을 변경하고, EQ 프로필과 오리지널 오디오 합성 데모를 체험해 보세요.": {
+    "en": "Change room dimensions and speaker placement, then try EQ profiles and our original synthesized audio demo.",
+    "zh-CN": "调整房间尺寸和音箱摆位，体验 EQ 模式与原创合成音频演示。",
+    "ja": "部屋の寸法と配置を変え、EQプロファイルとオリジナル合成音声デモを体験してください。"
+  },
+  "REVE의 브랜드 아이덴티티, 디지털 콘텐츠 및 관련 라이선싱 업무는 미국 델라웨어주에 본사를 두고 캘리포니아에서 영업하는": {
+    "en": "REVE's brand identity, digital content and related licensing are administered by",
+    "zh-CN": "REVE 的品牌形象、数字内容及相关授权业务由",
+    "ja": "REVEのブランドアイデンティティ、デジタルコンテンツ、関連ライセンス業務は"
+  },
+  "가 관리합니다.": {
+    "en": "which administers these activities.",
+    "zh-CN": "负责管理。",
+    "ja": "が管理しています。"
+  },
+  "창작과 엔지니어링의 가치를 보호하면서 글로벌 제조·유통·브랜드 파트너와 책임 있는 라이선스를 구축합니다.": {
+    "en": "We protect creative and engineering value while developing responsible licensing with global manufacturing, distribution and brand partners.",
+    "zh-CN": "我们保护创作与工程成果的价值，并与全球制造、经销及品牌伙伴建立负责任的授权合作。",
+    "ja": "創作と工学の価値を守りながら、世界の製造・流通・ブランドパートナーと責任あるライセンス関係を築きます。"
+  },
+  "권리의 귀속·등록 및 각 라이선스의 범위는 해당 권리 문서와 개별 계약에 따릅니다.": {
+    "en": "Rights ownership, registration and license scope are governed by the relevant documents and individual agreements.",
+    "zh-CN": "权利归属、登记及授权范围以相关权利文件和具体合同为准。",
+    "ja": "権利の帰属・登録・ライセンス範囲は関連文書と個別契約に従います。"
+  },
+  "연주자의 음악적 기준과 엔지니어의 정밀 설계를 연결하는 REVE의 철학을 만나보세요.": {
+    "en": "Discover REVE's philosophy connecting the musician's ear with the engineer's precision.",
+    "zh-CN": "探索连接音乐家听感标准与工程师精密设计的 REVE 理念。",
+    "ja": "演奏家の音楽的な基準とエンジニアの精密設計をつなぐREVEの理念をご覧ください。"
+  },
+  "새 모델 출시 소식부터 글로벌 딜러·공간 음향 파트너십까지.": {
+    "en": "From new model announcements to global dealer and spatial-audio partnerships.",
+    "zh-CN": "从新型号发布信息到全球经销及空间音响合作。",
+    "ja": "新モデルのニュースからグローバルディーラーや空間音響パートナーシップまで。"
+  },
+  "RE:VE Reference R1 컨셉 모델의 제품 개발·런칭 소식을 받아볼 준비를 하세요.": {
+    "en": "Stay informed about the development and planned launch of the RE:VE Reference R1 concept.",
+    "zh-CN": "了解 RE:VE Reference R1 概念型号的开发与计划上市信息。",
+    "ja": "RE:VE Reference R1コンセプトモデルの開発・発売計画のニュースをお届けします。"
+  },
+  "오디오 전문점, 글로벌 총판, 프리미엄 스마트홈 통합 솔루션 기업을 위한 제휴 창구.": {
+    "en": "Partnership enquiries for audio specialists, global distributors and premium smart-home integrators.",
+    "zh-CN": "面向音响专卖店、全球经销商与高端智能家居集成企业的合作渠道。",
+    "ja": "オーディオ専門店、グローバル総代理店、高級スマートホーム事業者向けの提携窓口。"
+  },
+  "RE:VE 카탈로그에 실린 12개 하이엔드 스피커 콘셉트의 제품 이미지, 설계 방향, 미국 예상 권장가를 한자리에서 확인하세요.": {
+    "en": "Browse the images, design goals and indicative U.S. prices for all 12 RE:VE high-end speaker concepts.",
+    "zh-CN": "在此查看 RE:VE 产品目录中12款高端音箱概念的图片、设计方向及美国参考建议售价。",
+    "ja": "RE:VEカタログに掲載された12のハイエンドスピーカーコンセプトの画像、設計方針、米国参考価格をまとめてご覧ください。"
+  },
+  "Heritage · Signature · Reference · Masterpiece · Atelier — 카탈로그의 제품별 이미지와 원문 설명에 따라 재구성했습니다.": {
+    "en": "Heritage · Signature · Reference · Masterpiece · Atelier — curated from the catalogue images and original model descriptions.",
+    "zh-CN": "Heritage · Signature · Reference · Masterpiece · Atelier——依据产品目录图片与原始型号说明整理。",
+    "ja": "Heritage · Signature · Reference · Masterpiece · Atelier——カタログの画像と各モデルの説明に沿って構成しました。"
+  },
+  "헤리티지 모니터 · 악기의 자연스러운 배음과 밀도 있는 존재감을 지향하는 모니터.": {
+    "en": "Heritage Monitor — designed for natural harmonics and instrument presence.",
+    "zh-CN": "传承监听音箱——追求自然泛音与乐器的饱满质感。",
+    "ja": "ヘリテージ・モニター——自然な倍音と楽器の存在感を追求。"
+  },
+  "시그니처 컬럼 · 공간을 해치지 않는 슬림한 조형과 음악적 균형.": {
+    "en": "Signature Column — slim sculpture and musical balance that respects your space.",
+    "zh-CN": "经典立柱音箱——纤细造型与音乐平衡，融入生活空间。",
+    "ja": "シグネチャー・コラム——空間になじむスリムな造形と音楽的なバランス。"
+  },
+  "시그니처 그랜드 · 큰 공간을 위한 정교한 대편성 사운드 콘셉트.": {
+    "en": "Signature Grand — sophisticated orchestral sound for larger rooms.",
+    "zh-CN": "经典至尊——为大空间设计的精细交响乐声场概念。",
+    "ja": "シグネチャー・グランド——広い空間のための精巧な大編成サウンド。"
+  },
+  "레퍼런스 스튜디오 · 미세 다이내믹과 정밀한 정위감을 지향.": {
+    "en": "Reference Studio — focused on microdynamics and precise imaging.",
+    "zh-CN": "参考录音室——追求微动态与精确定位。",
+    "ja": "リファレンス・スタジオ——微細なダイナミクスと正確な定位を目指します。"
+  },
+  "레퍼런스 필하모닉 · 대형 홀의 공간 재현을 추구하는 조형 스피커.": {
+    "en": "Reference Philharmonic — sculptural speaker concept inspired by large concert halls.",
+    "zh-CN": "参考交响厅——追求大型音乐厅空间再现的雕塑音箱。",
+    "ja": "リファレンス・フィルハーモニック——大ホールの空間再現を目指す造形スピーカー。"
+  },
+  "마스터피스 원 · 장인적 소재와 음향 설계의 결합을 지향.": {
+    "en": "Masterpiece One — combining artisanal materials with acoustic design.",
+    "zh-CN": "杰作一号——融合匠心材料与声学设计。",
+    "ja": "マスターピース・ワン——職人的な素材と音響設計の融合。"
+  },
+  "마스터피스 그랜드 · 웅장한 스케일과 절제된 우아함의 조화.": {
+    "en": "Masterpiece Grand — monumental scale with restrained elegance.",
+    "zh-CN": "杰作至尊——宏大尺度与内敛优雅的融合。",
+    "ja": "マスターピース・グランド——壮大なスケールと控えめな優雅さの調和。"
+  },
+  "마스터피스 모뉴먼트 · 감상을 위한 건축적 기념비를 목표로 하는 설계.": {
+    "en": "Masterpiece Monument — an architectural statement designed for listening.",
+    "zh-CN": "杰作纪念碑——为聆听而设计的建筑式艺术品。",
+    "ja": "マスターピース・モニュメント——鑑賞のための建築的モニュメント。"
+  },
+  "* 예상 권장판매가(USD)는 스테레오 1페어 기준 참고 금액이며, 세금·배송·설치·맞춤 제작 비용 별도입니다. 주파수 응답, 출력, 임피던스 및 드라이버 구성은 OEM 프로토타입 시험 전 미확정입니다. 구매 및 선주문은 받지 않습니다.": {
+    "en": "* Indicative U.S. MSRP per stereo pair excludes tax, shipping, installation and customization. Frequency response, power, impedance and driver configurations remain unverified before OEM prototype testing. Orders and preorders are not accepted.",
+    "zh-CN": "* 美元参考建议价以每对立体声音箱计算，不含税费、运输、安装及定制费用。频响、功率、阻抗及单元配置须经 OEM 样机测试确认。目前不接受购买或预订。",
+    "ja": "* 参考希望小売価格（米ドル）はステレオ1組あたりで、税・配送・設置・特注費用は含みません。周波数特性、出力、インピーダンス、ドライバー構成はOEM試作品の検証前で未確定です。購入・予約は受け付けていません。"
+  },
+  "작은 약음에서 포르티시모까지, 실제 녹음에 담긴 음색과 공간을 보존하도록 제어하는 앰프·드라이버·인클로저 설계를 지향합니다.": {
+    "en": "We aim to engineer amplifiers, drivers and enclosures that preserve recorded timbre and space from the quietest passages to fortissimo.",
+    "zh-CN": "我们致力于设计功放、驱动单元和箱体，从轻柔弱奏到强奏都能保留录音中的音色与空间信息。",
+    "ja": "最も静かな弱音からフォルティッシモまで、録音に含まれる音色と空間を保つアンプ・ドライバー・筐体設計を目指します。"
+  },
+  "기존 R1 · C7 · M1 설계 실험은 별도의 초기 콘셉트 기록으로 보존되며, 2026 프라이빗 카탈로그의 12개 제품과 동일한 모델로 표시하지 않습니다.": {
+    "en": "Earlier R1, C7 and M1 design studies are preserved separately and are not presented as the same models as the 12 products in the 2026 private catalogue.",
+    "zh-CN": "早期 R1、C7、M1 设计实验单独留存，不作为2026私人目录12款产品的同一型号展示。",
+    "ja": "初期のR1・C7・M1設計実験は別記録として保存しており、2026年プライベートカタログの12モデルと同一扱いにはしません。"
+  },
+  "카탈로그 원본 보기": {
+    "en": "View original catalogue",
+    "zh-CN": "查看原始产品目录",
+    "ja": "オリジナルカタログを見る"
+  },
+  "제조·설계 파트너 상담": {
+    "en": "Manufacturing & design partnership enquiry",
+    "zh-CN": "制造及设计合作咨询",
+    "ja": "製造・設計パートナー相談"
+  },
+  "외부 디자인은 장식이 아니라 음향 구조의 일부입니다. 재료, 결합, 공진, 시간 정렬까지 하나의 시스템으로 설계합니다.": {
+    "en": "Exterior design is part of the acoustic structure, not merely decoration. Materials, assembly, resonance and time alignment form one system.",
+    "zh-CN": "外观设计不仅是装饰，也是声学结构的一部分。材料、连接、共振与时间校准均作为一个系统设计。",
+    "ja": "外観は装飾ではなく音響構造の一部です。素材・結合・共振・時間整合をひとつのシステムとして設計します。"
+  },
+  "제품의 미학을 완성하는 것은 외형만이 아닙니다. 인클로저, 드라이버, 크로스오버와 공간 음향 소프트웨어를 하나의 구조 안에서 설계합니다.": {
+    "en": "Beauty goes beyond appearance. We design the enclosure, drivers, crossover and spatial-audio software as an integrated structure.",
+    "zh-CN": "产品美学不仅在于外形。我们将箱体、驱动单元、分频器与空间音频软件作为统一结构设计。",
+    "ja": "美しさは外観だけでは決まりません。エンクロージャー、ドライバー、クロスオーバー、空間音響ソフトを統合して設計します。"
+  },
+  "분해 슬라이더를 조절해 시스템 구조를 탐색해 보세요.": {
+    "en": "Move the exploded-view slider to explore the system structure.",
+    "zh-CN": "拖动分解视图滑块，探索系统结构。",
+    "ja": "分解図のスライダーを動かして構造をご覧ください。"
+  },
+  "고자속 마그넷과 정밀 진동판": {
+    "en": "High-flux magnet and precision diaphragm",
+    "zh-CN": "高磁通磁铁与精密振膜",
+    "ja": "高磁束マグネットと精密振動板"
+  },
+  "저역 확장·공기 순응도": {
+    "en": "Bass extension and air compliance",
+    "zh-CN": "低频延伸与空气顺应性",
+    "ja": "低域拡張と空気コンプライアンス"
+  },
+  "크로스오버·위상·룸 보정": {
+    "en": "Crossover, phase and room correction",
+    "zh-CN": "分频、相位与房间校正",
+    "ja": "クロスオーバー・位相・ルーム補正"
+  },
+  "드라이버: 마그넷·진동판·서스펜션 정렬이 중역 선형성과 저역 제어에 영향을 줍니다.": {
+    "en": "Driver alignment of magnets, diaphragm and suspension affects midrange linearity and bass control.",
+    "zh-CN": "单元的磁铁、振膜与悬挂系统的匹配影响中频线性与低频控制。",
+    "ja": "マグネット、振動板、サスペンションの整合は中域の線形性と低域の制御に影響します。"
+  },
+  "이 분해도는 제조 도면 또는 실물 부품 명세가 아닌 인터랙티브 컨셉 다이어그램입니다. 제휴 업체와 실제 구성 부품은 추후 확정합니다.": {
+    "en": "This interactive exploded view is a concept illustration, not manufacturing documentation or a bill of materials. Partners and actual components are yet to be confirmed.",
+    "zh-CN": "此交互式分解图仅为概念示意，不是制造图纸或实物零件清单。合作伙伴及实际组件尚待确定。",
+    "ja": "この分解図は製造図面や実部品仕様ではなくインタラクティブなコンセプト図です。提携先と実際の部品は今後確定します。"
+  },
+  "하드웨어 설계는 높은 출력만 추구하지 않습니다. 작은 악기의 질감이 묻히지 않는 헤드룸, 불필요한 인클로저 공진의 억제, 위상 정합과 청취 위치 응답을 함께 최적화합니다.": {
+    "en": "Hardware design goes beyond raw output. We aim to optimize headroom for delicate instruments, enclosure resonance control, phase alignment and response at the listening position.",
+    "zh-CN": "硬件设计并非只追求高功率，还将优化细微乐器质感所需余量、箱体共振抑制、相位匹配及听音位置响应。",
+    "ja": "ハードウェア設計は出力だけを追いません。繊細な楽器の質感を守るヘッドルーム、筐体共振の抑制、位相整合、試聴位置での応答を最適化します。"
+  },
+  "열 관리, 앰프 여유 출력, 보호 회로, 고출력에서의 왜곡 관리.": {
+    "en": "Thermal design, amplifier headroom, protection circuits and distortion control at high output.",
+    "zh-CN": "热管理、功放功率余量、保护电路及大功率下的失真控制。",
+    "ja": "熱管理、アンプの余裕、保護回路、高出力時の歪み制御。"
+  },
+  "채널 간 정합과 지향 특성, 타임 얼라인먼트, 반사음의 균형.": {
+    "en": "Channel matching, directivity, time alignment and reflected-sound balance.",
+    "zh-CN": "声道匹配、指向特性、时间校准与反射声平衡。",
+    "ja": "チャンネル整合、指向性、時間整合、反射音のバランス。"
+  },
+  "녹음 본래의 잔향을 가리지 않는 주파수·시간 영역의 정밀 제어.": {
+    "en": "Precise frequency- and time-domain control that preserves the recording's natural reverberation.",
+    "zh-CN": "精密控制频率和时间域，同时保留录音的自然混响。",
+    "ja": "録音本来の残響を損なわない周波数・時間領域の精密制御。"
+  },
+  "단순히 출력 수치를 높이는 것이 아니라, 모바일 UI에서 디지털 음향 처리와 물리적 드라이버까지 일관되게 연결하는 구조를 제안합니다.": {
+    "en": "Rather than chasing output figures, we propose a coherent architecture linking mobile UI, DSP and physical drivers.",
+    "zh-CN": "我们提出贯通移动界面、数字音频处理与物理驱动单元的架构，而非单纯追求输出数值。",
+    "ja": "出力値だけを追うのではなく、モバイルUIからDSP、物理ドライバーまで一貫してつながる構造を提案します。"
+  },
+  "청취 프로필 · UX · 접근성": {
+    "en": "Listening profiles · UX · accessibility",
+    "zh-CN": "聆听模式 · 用户体验 · 无障碍",
+    "ja": "試聴プロファイル・UX・アクセシビリティ"
+  },
+  "EQ · 위상 · 크로스오버": {
+    "en": "EQ · phase · crossover",
+    "zh-CN": "EQ · 相位 · 分频",
+    "ja": "EQ・位相・クロスオーバー"
+  },
+  "위 다이어그램은 설계 제안이며 작동하는 펌웨어, 하드웨어 또는 외부 플랫폼과의 호환성을 증명하지 않습니다.": {
+    "en": "This diagram is a design proposal and does not demonstrate working firmware, hardware or third-party compatibility.",
+    "zh-CN": "此图仅为设计方案，不代表固件或硬件已实际运行，也不证明与第三方平台兼容。",
+    "ja": "この図は設計案であり、動作するファームウェア・ハードウェアや外部サービスとの互換性を証明するものではありません。"
+  },
+  "방사 특성·왜곡·임펄스·진동·룸 응답을 반복 측정합니다.": {
+    "en": "Repeatedly measure radiation, distortion, impulse, vibration and room response.",
+    "zh-CN": "反复测量辐射特性、失真、脉冲、振动与房间响应。",
+    "ja": "放射特性、歪み、インパルス、振動、室内応答を繰り返し測定します。"
+  },
+  "클래식 전문 연주자와 동일 음량 블라인드 평가를 실시합니다.": {
+    "en": "Conduct level-matched blind listening evaluations with classical musicians.",
+    "zh-CN": "与古典音乐家进行音量匹配的盲听评估。",
+    "ja": "クラシック演奏家と音量を揃えたブラインド評価を実施します。"
+  },
+  "객관적 측정과 음악가의 평가가 만나는 설정값을 탐색합니다.": {
+    "en": "Explore settings informed by both measurements and musician evaluations.",
+    "zh-CN": "探索兼顾客观测量与音乐家评价的设置值。",
+    "ja": "客観的な測定と演奏家の評価を組み合わせた設定を探ります。"
+  },
+  "다양한 방 크기와 음원에서 동일 절차를 재현하고 기록합니다.": {
+    "en": "Repeat and document the process across different room sizes and sources.",
+    "zh-CN": "在不同房间尺寸与音源条件下复现并记录同样的流程。",
+    "ja": "さまざまな部屋の大きさと音源で同じ手順を再現・記録します。"
+  },
+  "전문 연주자 자문·측정 절차는 계획된 연구 프로토콜이며 실제 시행 기록은 아직 공개되지 않았습니다.": {
+    "en": "Musician consultation and measurement procedures are planned research protocols; implementation records have not yet been published.",
+    "zh-CN": "专业演奏家咨询与测量程序仍属于计划中的研究方案，尚未公布实际执行记录。",
+    "ja": "演奏家の助言と測定手順は研究計画であり、実施記録はまだ公開されていません。"
+  },
+  "오디오 전문 딜러, 수입·유통사, 중국·대만 부품 제조기업, 홈시네마 통합 사업자를 위한 REVE의 협력 제안.": {
+    "en": "REVE's partnership proposal for specialist dealers, importers, distributors, Chinese and Taiwanese component makers, and home-cinema integrators.",
+    "zh-CN": "REVE 面向音响专业经销商、进口商、分销商、中国及台湾零部件制造商和家庭影院集成商的合作提案。",
+    "ja": "オーディオ専門店、輸入・販売会社、中国・台湾の部品メーカー、ホームシネマ事業者に向けたREVEの提携提案。"
+  },
+  "한국의 전자 설계 경험, 중국·대만 하드웨어 제조 역량, 클래식 연주자의 평가 관점을 연결하는 협력 네트워크를 추진합니다. 협력 제안은 상용 계약의 존재를 의미하지 않습니다.": {
+    "en": "We aim to bring together Korean electronics design, Chinese and Taiwanese manufacturing, and classical musicians' listening perspectives. This proposal does not imply existing commercial agreements.",
+    "zh-CN": "我们计划连接韩国电子设计经验、中国及台湾硬件制造能力和古典音乐家的评估视角。合作提案不代表已签订商业合同。",
+    "ja": "韓国の電子設計、中国・台湾の製造力、クラシック演奏家の評価視点を結ぶネットワークを構想しています。商用契約の締結を意味するものではありません。"
+  },
+  "대만·중국의 드라이버, DSP, 앰프, CNC 가공 분야 기술협력 및 공동 개발.": {
+    "en": "Technical collaboration and joint development in drivers, DSP, amplifiers and CNC fabrication with Taiwan and China.",
+    "zh-CN": "与台湾及中国在驱动单元、DSP、功放和 CNC 加工方面开展技术合作与联合开发。",
+    "ja": "台湾・中国のドライバー、DSP、アンプ、CNC加工分野での技術協力と共同開発。"
+  },
+  "현악기·피아노·실내악·오케스트라 전문가를 중심으로 한 청음 평가 및 감수.": {
+    "en": "Listening evaluations and consultation by string, piano, chamber-music and orchestral specialists.",
+    "zh-CN": "由弦乐、钢琴、室内乐及管弦乐专家参与试听评价与顾问工作。",
+    "ja": "弦楽器、ピアノ、室内楽、オーケストラの専門家による試聴評価と監修。"
+  },
+  "청음샵, 글로벌 총판, B2B 오디오 프로젝트와 맞춤형 시스템 설계.": {
+    "en": "Listening showrooms, global distribution, B2B audio projects and bespoke system design.",
+    "zh-CN": "试听店、全球分销、B2B 音响项目与定制系统设计。",
+    "ja": "試聴ショップ、グローバル販売、B2Bオーディオ事業、カスタムシステム設計。"
+  },
+  "현재 서비스는 데모 단계입니다. 서버 연결 전에는 전송 대신 문의 초안을 JSON 파일로 저장합니다.": {
+    "en": "This service is a demo. Until the server is connected, enquiries are saved as local JSON drafts rather than submitted.",
+    "zh-CN": "当前服务处于演示阶段。服务器连接前，咨询内容将保存为本地 JSON 草稿，不会实际发送。",
+    "ja": "現在はデモ段階です。サーバー接続前は送信せず、問い合わせ内容をJSON下書きとして保存します。"
+  },
+  "기술 / DSP / 드라이버 제휴": {
+    "en": "Technology / DSP / driver partnership",
+    "zh-CN": "技术 / DSP / 单元合作",
+    "ja": "技術・DSP・ドライバー提携"
+  },
+  "클래식 연주자 / 청음 자문": {
+    "en": "Classical musician / listening advisor",
+    "zh-CN": "古典音乐家 / 试听顾问",
+    "ja": "クラシック演奏家・試聴アドバイザー"
+  },
+  "개인정보 안내를 확인했습니다. *": {
+    "en": "I have read the privacy notice. *",
+    "zh-CN": "我已阅读隐私声明。*",
+    "ja": "プライバシーの案内を確認しました。*"
+  },
+  "클래식 연주자의 귀로 판단할 소리를 소프트웨어로 정교하게 제어하는 미래. 스마트폰 시대의 하이엔드 음향 인터페이스를 직접 체험해 보세요.": {
+    "en": "Experience a concept for software-controlled high-end audio guided by classical musicians' listening standards, designed for the smartphone era.",
+    "zh-CN": "体验面向智能手机时代的高端声学界面概念，通过软件精密控制以古典音乐家听感为标准的声音。",
+    "ja": "クラシック演奏家の耳を基準に、ソフトウェアで音を精密に制御する未来。スマートフォン時代のハイエンド音響UIを体験してください。"
+  },
+  "실제 제품 제어·스트리밍·계정 연결 없음": {
+    "en": "No real device control, streaming or account connection",
+    "zh-CN": "未连接实际设备、流媒体或账户",
+    "ja": "実機制御・配信・アカウント接続なし"
+  },
+  "기존 리모컨의 버튼 대신 모바일 중심 컨트롤을 상상했습니다. 화면의 설정은 데모 안에서만 작동하며 실제 스피커 펌웨어로 전송되지 않습니다.": {
+    "en": "We reimagine the remote as a mobile-first interface. These settings operate only within the demo and are never sent to speaker firmware.",
+    "zh-CN": "我们将传统遥控器重新设计为移动优先界面。屏幕设置仅在演示中生效，不会发送到实际音箱固件。",
+    "ja": "従来のリモコンに代わるモバイル中心の操作を構想しました。設定はデモ内だけで動作し、実際のスピーカーには送信されません。"
+  },
+  "음향 측정 데이터와 전문 클래식 연주자의 반복·블라인드 청음 평가를 조합해 실제 DSP 프로필을 검증하는 개발 목표를 제안합니다. 현재 전문 평가가 완료된 제품은 아닙니다.": {
+    "en": "The development goal is to validate DSP profiles through acoustic measurements and repeated blind evaluations by classical musicians. No product has completed this assessment.",
+    "zh-CN": "我们提出结合声学测量与古典音乐家重复盲听评估来验证 DSP 模式的开发目标。目前尚无产品完成此项专业评价。",
+    "ja": "音響測定とクラシック演奏家の反復・ブラインド試聴を組み合わせてDSP設定を検証する開発目標です。評価済みの製品はまだありません。"
+  },
+  "음악 본연의 균형과 공간감을 탐색합니다.": {
+    "en": "Explore music's natural balance and spatial character.",
+    "zh-CN": "探索音乐本来的平衡与空间感。",
+    "ja": "音楽本来のバランスと空間表現を探ります。"
+  },
+  "▶ 오리지널 가상 음향 재생": {
+    "en": "▶ Play original synthesized sound",
+    "zh-CN": "▶ 播放原创合成音效",
+    "ja": "▶ オリジナル合成音を再生"
+  },
+  "Web Audio 원본 합성 시연 · 헤드폰 권장. 실제 RE:VE 스피커 출력, 펌웨어, 공간보정 성능과 무관합니다.": {
+    "en": "Original Web Audio synthesis demo. Headphones recommended. It does not reflect RE:VE hardware output, firmware or room correction.",
+    "zh-CN": "原创 Web Audio 合成演示，建议使用耳机。与 RE:VE 实物音箱输出、固件或房间校正性能无关。",
+    "ja": "オリジナルWeb Audio合成デモ。ヘッドホン推奨。実機出力やファームウェア、ルーム補正性能とは無関係です。"
+  },
+  "작은 화면에서도 명확한 음장 제어를 제공하도록 접근성·반응성·간결한 조작 체계를 우선합니다.": {
+    "en": "We prioritize accessibility, responsiveness and simple controls for clear soundstage adjustment even on small screens.",
+    "zh-CN": "我们优先考虑无障碍、响应速度和简洁操作，让小屏幕也能清晰调节音场。",
+    "ja": "小さな画面でも音場を明確に操作できるよう、アクセシビリティと応答性、簡潔なUIを重視します。"
+  },
+  "디지털 EQ, 좌우 채널 정합, 룸 프로필 및 안전 제한값을 하나의 제어 계층에서 관리하는 구조를 검토합니다.": {
+    "en": "We are examining a single control layer for EQ, channel matching, room profiles and safety limits.",
+    "zh-CN": "我们正在评估统一管理数字 EQ、左右声道匹配、房间模式及安全限制的控制架构。",
+    "ja": "デジタルEQ、左右チャンネルの整合、ルーム設定、安全制限をひとつの制御層で管理する構造を検討しています。"
+  },
+  "피아니스트·바이올리니스트·현악 연주자의 평가와 계측 데이터를 상호 검증하는 프로세스를 계획합니다.": {
+    "en": "We plan cross-validation of measured data with evaluations by pianists, violinists and other string players.",
+    "zh-CN": "我们计划将测量数据与钢琴家、小提琴家及弦乐演奏家的评价交叉验证。",
+    "ja": "ピアニスト、ヴァイオリニストなどの評価と計測データを相互検証するプロセスを計画しています。"
+  },
+  "삼성·LG의 스마트 기기 사용 경험과 카카오의 모바일 UX에서 영감을 얻은 독자적 오디오 UI 제안입니다. 세 회사와의 제휴·인증·기술 호환을 의미하지 않습니다.": {
+    "en": "This independent audio UI concept draws inspiration from Samsung and LG smart-device UX and Kakao's mobile usability. It does not imply partnership, certification or compatibility.",
+    "zh-CN": "这是从三星、LG 智能设备体验及 Kakao 移动 UX 获得灵感的独立音响界面概念，并不表示与这些公司存在合作、认证或技术兼容。",
+    "ja": "Samsung・LGのスマート機器UXとKakaoのモバイルUXに着想を得た独自提案です。各社との提携・認証・互換性を示すものではありません。"
+  },
+  "스피커 하드웨어의 공학적 성능, 디지털 제어의 정밀함, 실제 음악가의 판단 기준이 만나는 RE:VE 플랫폼의 청사진.": {
+    "en": "A blueprint for a RE:VE platform joining speaker engineering, precise digital control and musicians' listening judgment.",
+    "zh-CN": "RE:VE 平台蓝图，将音箱工程性能、数字控制精度和音乐家的聆听判断相结合。",
+    "ja": "スピーカーの工学性能、デジタル制御の精密さ、演奏家の判断基準を結ぶRE:VEプラットフォーム構想。"
+  },
+  "공간 배치·EQ 모드와 가상 청음 신호를 탐색하는 인터랙티브 경험. 실제 제품 녹음이나 인증 측정은 아닙니다.": {
+    "en": "An interactive experience exploring room layout, EQ modes and simulated listening signals. It is not a recording or certified measurement of a real product.",
+    "zh-CN": "通过交互体验探索空间布局、EQ 模式与虚拟试听信号；并非真实产品录音或认证测量。",
+    "ja": "部屋の配置、EQモード、仮想試聴信号を試せるインタラクティブ体験です。実製品の録音や認証測定ではありません。"
+  },
+  "아래 입력값에 맞춰 룸 체적과 일반적인 배치 시작점을 계산합니다.": {
+    "en": "Calculate room volume and general placement starting points from the values below.",
+    "zh-CN": "根据下方输入值计算房间容积及一般摆位起点。",
+    "ja": "以下の入力値から部屋の容積と配置の目安を計算します。"
+  },
+  "벽면 반사, 가구, 실제 스피커 응답 등은 반영되지 않은 기하학적 참고 계산입니다.": {
+    "en": "These geometric estimates do not account for wall reflections, furniture or actual speaker response.",
+    "zh-CN": "这些几何估算不包含墙面反射、家具或实际音箱响应。",
+    "ja": "壁の反射、家具、実際のスピーカー応答を考慮しない幾何学的な参考計算です。"
+  },
+  "시각화는 시뮬레이션 EQ 곡선입니다. RE:VE 제품 측정치가 아닙니다.": {
+    "en": "The visualization is a simulated EQ curve, not a RE:VE product measurement.",
+    "zh-CN": "可视化展示的是模拟 EQ 曲线，并非 RE:VE 产品的实测数据。",
+    "ja": "この可視化は模擬EQ曲線であり、RE:VE製品の測定値ではありません。"
+  },
+  "오리지널 Web Audio 합성 멜로디를 재생하면서 저음·보컬·클래식 모드에 따른 톤 변화를 비교하세요.": {
+    "en": "Play an original Web Audio melody and compare tonal changes across bass, vocal and classical modes.",
+    "zh-CN": "播放原创 Web Audio 合成旋律，比较低音、人声和古典音乐模式下的音色变化。",
+    "ja": "オリジナルWeb Audio合成メロディーを再生し、低音・ボーカル・クラシックの各モードを比較してください。"
+  },
+  "헤드폰 사용을 권장합니다. 시연 음원은 RE:VE 실물 스피커를 녹음한 것이 아니며 실제 제품 음질을 재현하거나 보증하지 않습니다.": {
+    "en": "Headphones are recommended. This demonstration is not a recording of physical RE:VE speakers and does not reproduce or guarantee their sound quality.",
+    "zh-CN": "建议使用耳机。演示音源并非 RE:VE 实物音箱的录音，也不代表或保证实际产品音质。",
+    "ja": "ヘッドホン推奨。デモ音源は実機の録音ではなく、製品の音質を再現・保証するものではありません。"
+  },
+  "클래식 음악, 고음질 오디오, 룸 어쿠스틱 그리고 기술의 아름다움에 관한 REVE의 기록.": {
+    "en": "REVE's journal on classical music, high-fidelity audio, room acoustics and the beauty of technology.",
+    "zh-CN": "REVE 关于古典音乐、高保真音响、室内声学与技术美学的记录。",
+    "ja": "クラシック音楽、ハイファイオーディオ、ルーム音響、技術の美しさを綴るREVEのジャーナル。"
+  },
+  "거실과 서재에서 스피커 위치·반사·저역 모드를 조절하는 기초 가이드.": {
+    "en": "A beginner's guide to speaker placement, reflections and bass modes in living rooms and studies.",
+    "zh-CN": "客厅与书房中音箱摆位、反射及低频模式的入门指南。",
+    "ja": "リビングや書斎での配置、反射、低域モードの基本ガイド。"
+  },
+  "코덱과 증폭·드라이버 설계, 공간 특성으로 비교해 보는 오디오 기초.": {
+    "en": "Audio basics comparing codecs, amplification, drivers and room acoustics.",
+    "zh-CN": "从编解码器、功放、单元设计与空间特性比较音响系统的基础知识。",
+    "ja": "コーデック、増幅、ドライバー設計、空間特性から比較するオーディオの基礎。"
+  },
+  "소스·DAC·연결 방식과 코덱 제약을 이해하고 음악을 더 정확히 듣는 방법.": {
+    "en": "Understand sources, DACs, connections and codec limitations for more accurate listening.",
+    "zh-CN": "了解音源、DAC、连接方式与编解码器限制，更准确地聆听音乐。",
+    "ja": "音源、DAC、接続方式、コーデックの制約を理解し、より正確に音楽を聴く方法。"
+  },
+  "공식 제품 뉴스는 브랜드 사이트에, 심층 청음 가이드와 SEO 콘텐츠는 Google Blogger 채널에. RSS·Blogger API 동기화 스크립트를 포함한 콘텐츠 운영 구조를 준비했습니다.": {
+    "en": "We plan product news on the brand site and in-depth listening guides on Blogger, with a prepared RSS and Blogger API synchronization workflow.",
+    "zh-CN": "我们计划在品牌官网发布产品动态，并通过 Blogger 发布深度聆听指南，已准备 RSS 与 Blogger API 同步的内容运营架构。",
+    "ja": "製品ニュースはブランドサイトで、詳しい試聴ガイドはBloggerで発信する計画です。RSSとBlogger APIの連携構造を準備しています。"
+  },
+  "Blogger 계정 인증·블로그 ID·게시 권한이 연결되기 전에는 자동 게시가 시작되지 않습니다.": {
+    "en": "Automatic publication will not begin until Blogger authentication, blog ID and publishing permissions are connected.",
+    "zh-CN": "Blogger 身份认证、博客 ID 和发布权限连接前不会启动自动发布。",
+    "ja": "Bloggerの認証・ブログID・投稿権限が接続されるまで自動公開は始まりません。"
+  },
+  "Blogger 연결 준비 중입니다.": {
+    "en": "Blogger connection is being prepared.",
+    "zh-CN": "正在准备 Blogger 连接。",
+    "ja": "Blogger連携を準備中です。"
+  },
+  "REVE의 하이엔드 음향 시스템을 먼저 만나볼 수 있도록 준비하고 있습니다. 관심 모델을 선택해 주세요.": {
+    "en": "We are preparing to introduce REVE's high-end audio systems. Select the models that interest you.",
+    "zh-CN": "我们正在筹备 REVE 高端音响系统，请选择您感兴趣的型号。",
+    "ja": "REVEのハイエンド音響システムをご案内する準備をしています。関心のあるモデルを選択してください。"
+  },
+  "제품 기획 단계 · 유료 선주문 미개시": {
+    "en": "Planning stage · Paid preorders not available",
+    "zh-CN": "产品规划阶段 · 尚未开启付费预订",
+    "ja": "企画段階・有料予約受付前"
+  },
+  "관심 모델과 희망 청음 경험을 남겨 주세요. 실제 상품 출시, 재고 확보, 가격, 선결제 기능은 현재 운영하지 않습니다.": {
+    "en": "Tell us your preferred models and listening experience. Product launch, stock, pricing and prepayment are not currently available.",
+    "zh-CN": "请选择感兴趣的型号与期望的试听体验。目前尚未正式推出商品，也未提供库存、价格确认或预付款功能。",
+    "ja": "関心のあるモデルとご希望の試聴体験をお知らせください。現在、製品発売・在庫・価格・前払い機能は提供していません。"
+  },
+  "가격·재고·출시일·결제 절차는 확정되지 않았습니다. 현재 뉴스 알림 폼은 문의 서버 연결 전 데모입니다.": {
+    "en": "Prices, availability, launch dates and payment processes are unconfirmed. The updates form is a demo until connected to a server.",
+    "zh-CN": "价格、库存、上市日期及支付流程尚未确定。消息登记表单目前仅为服务器连接前的演示。",
+    "ja": "価格・在庫・発売日・決済手続きは未定です。通知フォームはサーバー接続前のデモです。"
+  },
+  "소식 수신 및 개인정보 안내 동의 *": {
+    "en": "I agree to receive updates and acknowledge the privacy notice *",
+    "zh-CN": "我同意接收更新并知悉隐私声明 *",
+    "ja": "お知らせの受信とプライバシー案内に同意します *"
+  },
+  "한국 전자 제작 기술의 정신, 아시아의 첨단 제조 역량, 클래식 연주자의 음악적 기준을 하나의 설계 철학으로.": {
+    "en": "A single design philosophy joining the spirit of Korean electronics craftsmanship, Asia's advanced manufacturing and classical musicians' listening standards.",
+    "zh-CN": "以统一的设计理念，融合韩国电子工艺精神、亚洲先进制造能力与古典音乐家的聆听标准。",
+    "ja": "韓国の電子製造技術の精神、アジアの先端製造力、クラシック演奏家の音楽的基準をひとつの設計哲学に。"
+  },
+  "THE MEANING OF RE:VE / 이름에 담긴 철학": {
+    "en": "THE MEANING OF RE:VE / Our name and philosophy",
+    "zh-CN": "RE:VE 名称的含义 / 品牌理念",
+    "ja": "RE:VEの意味 / 名前に込めた理念"
+  },
+  "좋은 음악은 마지막 음표와 함께 끝나지 않습니다. 한순간의 울림은 공간을 지나 마음에 오래 남습니다. REVE는 그 여운을 오늘의 생활 속에 가져오고자 합니다.": {
+    "en": "Great music does not end with the last note. Its resonance travels through space and remains with us. REVE aims to bring that feeling into everyday life.",
+    "zh-CN": "美妙的音乐不会随着最后一个音符而结束。声音的余韵穿过空间，长久留在心中。REVE 希望将这份感动带入日常生活。",
+    "ja": "良い音楽は最後の音符で終わりません。響きは空間を渡り、心に長く残ります。REVEはその余韻を日常へ届けたいと考えています。"
+  },
+  "브랜드 이름에 담은 상징적 해석이며, REVE가 음향학의 공식 약어라는 뜻은 아닙니다.": {
+    "en": "This is a symbolic interpretation of the brand name; REVE is not an official acoustics acronym.",
+    "zh-CN": "这是对品牌名称的象征性解读，REVE 并非声学领域的正式缩写。",
+    "ja": "ブランド名の象徴的な解釈であり、REVEは音響学上の正式な略語ではありません。"
+  },
+  "연주가 멈춘 뒤에도 공간 안에 남아 감쇠하는 소리. REVE는 그 깊이와 공기감, 그리고 음악 본연의 잔향을 지향합니다.": {
+    "en": "The sound that lingers and decays after performance ends. REVE seeks its depth, sense of air and natural reverberation.",
+    "zh-CN": "演奏结束后，声音仍在空间中逐渐衰减。REVE 追求这种深度、空气感与音乐原有的混响。",
+    "ja": "演奏後も空間に残り減衰する音。REVEはその奥行き、空気感、音楽本来の残響を目指します。"
+  },
+  "음악가가 마음속에 품은 이상적인 무대. REVE는 그 꿈을 정밀한 기술로 가까이 구현하려는 브랜드입니다.": {
+    "en": "An ideal stage imagined by a musician. REVE aims to bring that dream closer through precision engineering.",
+    "zh-CN": "音乐家心目中的理想舞台。REVE 希望通过精密技术让这一梦想更接近现实。",
+    "ja": "音楽家が心に描く理想の舞台。REVEは精密技術でその夢に近づこうとするブランドです。"
+  },
+  "“잔향의 과학으로, 꿈꾸던 소리를 현실로.”": {
+    "en": "“Turning dreamed-of sound into reality through the science of reverberation.”",
+    "zh-CN": "“以混响科学，让理想之声成为现实。”",
+    "ja": "「残響の科学で、夢見た音を現実に。」"
+  },
+  "“연주가 끝난 뒤에도 공연장에 남는 마지막 잔향까지. REVE는 그 순간을 재현하고자 합니다.”": {
+    "en": "“Even the last reverberation left in a hall after the performance. REVE aims to recreate that moment.”",
+    "zh-CN": "“即使演出已经结束，音乐厅最后一丝余韵仍在。REVE 希望再现那一刻。”",
+    "ja": "「演奏後にホールに残る最後の残響まで。REVEはその瞬間を再現したいと考えています。」"
+  },
+  "1987년 용산전자상가 개장은 청계천·세운상가에서 이어져 온 전자 제작 문화가 새로운 무대로 확산된 전환점이었습니다. REVE는 이 역사에서 회로를 직접 만지고 소리를 듣던 기술자의 태도를 발견합니다. 문정동 가든파이브 일대의 전자·제작 생태계를 현대적 상징으로 삼아, 이제 그 감각을 소프트웨어로 제어하는 사운드 아키텍처로 발전시키려 합니다.": {
+    "en": "The 1987 opening of Yongsan Electronics Market marked a new phase for the maker culture of Cheonggyecheon and Sewoon. REVE draws inspiration from the technicians who built circuits and listened closely. Using the Garden Five area as a contemporary symbol, we seek to extend that spirit into software-controlled acoustic architecture.",
+    "zh-CN": "1987年龙山电子市场开业，是清溪川和世运商街电子制造文化扩展到新舞台的重要转折点。REVE 从亲手制作电路、倾听声音的技术人员身上汲取灵感，并以文井洞 Garden Five 电子制造生态为当代象征，将其发展为软件控制的声学架构。",
+    "ja": "1987年の龍山電子商街の開業は、清渓川・世運商街の電子製作文化が広がる転機でした。REVEは回路を手で組み、音を聴いてきた技術者の姿勢に学びます。文井洞ガーデンファイブの製造文化を現代の象徴とし、ソフトウェア制御の音響アーキテクチャへ発展させる構想です。"
+  },
+  "‘1987’은 전자상가 기술 문화의 역사적 연도이며 REVE의 창립·영업 개시일이 아닙니다. 연구소·장인·이주 인력과의 실제 연결은 별도 증빙이 필요합니다.": {
+    "en": "‘1987’ is a historical reference to electronics-market culture, not REVE's founding or business start date. Any actual connections with laboratories, artisans or workers require separate evidence.",
+    "zh-CN": "“1987”是电子市场技术文化的历史年份，而非 REVE 创立或开业日期。与研究机构、工匠或从业人员的实际关联需另行证明。",
+    "ja": "「1987」は電子商街文化の歴史的な年であり、REVEの創業・営業開始日ではありません。研究所や職人との実際の関係は別途証拠が必要です。"
+  },
+  "중국·대만의 드라이버·DSP·앰프·가공 분야 첨단 제조기업과의 기술제휴를 추진하며, 한국의 음향 설계 및 품질 기준으로 통합하는 협력 생태계를 구축하고자 합니다.": {
+    "en": "We aim to pursue technical cooperation with advanced Chinese and Taiwanese companies in drivers, DSP, amplifiers and fabrication, integrated under Korean acoustic design and quality goals.",
+    "zh-CN": "我们计划与中国及台湾在驱动单元、DSP、功放和精密加工领域的先进制造企业开展技术合作，以韩国的声学设计和质量目标进行整合。",
+    "ja": "中国・台湾のドライバー、DSP、アンプ、加工分野の先端企業との技術協力を目指し、韓国の音響設計と品質基準に基づく協力体制を構想しています。"
+  },
+  "계약 체결 전의 협력 목표입니다. 특정 업체의 기술 탑재 또는 공급을 보증하지 않습니다.": {
+    "en": "These are cooperation goals before any contracts are signed; no particular supplier technology or supply agreement is guaranteed.",
+    "zh-CN": "这是签订合同前的合作目标，不保证采用任何特定厂商的技术或供货。",
+    "ja": "契約締結前の協力目標であり、特定企業の技術採用や供給を保証しません。"
+  },
+  "피아니스트가 느끼는 타건의 힘, 바이올리니스트가 듣는 현의 질감, 오케스트라 연주자가 인지하는 무대의 거리감. 전문 클래식 음악가의 감수와 블라인드 청음 평가를 개발 프로세스의 핵심으로 계획합니다.": {
+    "en": "The touch a pianist feels, the string texture a violinist hears, and the distances an orchestral musician senses. We plan to center development on classical musicians' consultation and blind listening tests.",
+    "zh-CN": "钢琴家的触键力度、小提琴家感知的琴弦质感、交响乐演奏家辨识的舞台距离。我们计划以古典音乐家的专业咨询与盲听评估作为开发核心。",
+    "ja": "ピアニストの打鍵の力、ヴァイオリニストが聴く弦の質感、オーケストラ奏者が感じる舞台の距離。専門演奏家の監修とブラインド評価を開発の中心に据える計画です。"
+  },
+  "전문 연주자 자문단은 구성 기획 중입니다. 현재 감수 완료를 주장하지 않습니다.": {
+    "en": "A musician advisory group is being planned; no completed professional review is claimed.",
+    "zh-CN": "专业音乐家顾问团仍在筹划中，目前并不宣称已完成专业审评。",
+    "ja": "専門演奏家による諮問団は企画段階であり、監修済みとは主張していません。"
+  },
+  "하이엔드 오디오는 더 이상 복잡한 리모컨과 수많은 버튼에 갇혀 있을 필요가 없습니다. REVE는 스마트폰이 일상의 중심이 된 시대에 맞춰, 가장 정교한 전자음향 제어를 가장 자연스러운 인터페이스로 제공하는 미래를 설계합니다.": {
+    "en": "High-end audio need not be limited by complex remotes and buttons. REVE envisions advanced electroacoustic control through a natural interface suited to smartphone-centered living.",
+    "zh-CN": "高端音响不必被复杂的遥控器和按钮束缚。REVE 面向以智能手机为核心的生活方式，构想通过自然直观的界面实现精密电声控制。",
+    "ja": "ハイエンドオーディオは複雑なリモコンに縛られる必要はありません。REVEはスマートフォン中心の暮らしに合わせ、精密な電気音響制御を自然なUIで提供する未来を設計します。"
+  },
+  "볼륨뿐 아니라 오케스트라의 파노라마, 실내 잔향, 저역의 에너지, 청취 위치까지. 드라이버·앰프·정밀 DSP와 연결될 소프트웨어 제어 체계를 연구하며, 연주자들이 실제 음악의 표현력을 검증하는 개발 절차를 구상합니다.": {
+    "en": "Beyond volume, we envision control of orchestral panorama, room reverberation, bass energy and listening position. We are researching software controls linked to drivers, amplification and DSP, with a future evaluation process involving musicians.",
+    "zh-CN": "从音量到交响乐的宽广声场、室内混响、低频能量及聆听位置，我们正在研究连接驱动单元、功放及精密 DSP 的软件控制体系，并规划由音乐家评估音乐表现力的开发流程。",
+    "ja": "音量だけでなく、オーケストラの広がり、室内残響、低域エネルギー、試聴位置まで。ドライバー・アンプ・DSPに連携するソフト制御と、演奏家による表現力の検証手順を構想します。"
+  },
+  "스마트 디바이스 및 음향 엔진 연동은 개발 비전입니다. 완성된 상용 기능이나 검증된 제품 성능을 뜻하지 않습니다.": {
+    "en": "Integration with smart devices and audio engines remains a development vision, not an available commercial feature or verified performance claim.",
+    "zh-CN": "与智能设备和音频引擎的连接仍属于开发愿景，不代表已完成商业功能或验证产品性能。",
+    "ja": "スマートデバイスや音響エンジンとの連携は開発構想であり、完成済みの商用機能や検証済み性能を意味しません。"
+  },
+  "Sonic OS 인터랙티브 데모 ↗": {
+    "en": "Sonic OS interactive demo ↗",
+    "zh-CN": "Sonic OS 交互演示 ↗",
+    "ja": "Sonic OSインタラクティブデモ ↗"
+  },
+  "삼성의 기기간 연결 경험, LG의 생활 밀착형 전자제품 사용성, 카카오의 직관적인 모바일 서비스 등 한국 기술 생태계가 발전시켜 온 UX에서 영감을 얻습니다. REVE만의 오디오 중심 사용자 경험을 새롭게 구성하는 것이 목표입니다.": {
+    "en": "We draw UX inspiration from the connected-device experience of Samsung, LG's everyday product usability and Kakao's intuitive mobile services. Our goal is an original audio-focused experience for REVE.",
+    "zh-CN": "我们从三星的设备互联体验、LG 的家电易用性与 Kakao 的直观移动服务等韩国技术生态获得 UX 灵感，旨在打造 REVE 独有的音频体验。",
+    "ja": "Samsungの機器連携、LGの使いやすさ、Kakaoの直感的なモバイル体験など、韓国のUX文化から着想を得て、REVE独自の音響体験を目指します。"
+  },
+  "위 브랜드들은 REVE의 협력사·투자자·기술 제공사 또는 공식 호환 인증 업체로 표시한 것이 아닙니다. 각 명칭은 해당 권리자의 상표입니다.": {
+    "en": "These brands are not identified as REVE partners, investors, technology providers or certified compatible vendors. Each name is a trademark of its respective owner.",
+    "zh-CN": "上述品牌并不代表是 REVE 的合作伙伴、投资者、技术提供商或官方兼容认证方。各名称均属于各自权利人。",
+    "ja": "これらのブランドはREVEの提携先・投資家・技術提供者・互換認証先ではありません。各名称はそれぞれの権利者の商標です。"
+  },
+  "대편성 관현악의 폭발적 다이내믹을 위한 출력 여유와 저왜곡 제어.": {
+    "en": "Power headroom and low-distortion control for orchestral dynamics.",
+    "zh-CN": "为大型管弦乐的爆发力提供功率余量与低失真控制。",
+    "ja": "大編成オーケストラのダイナミクスに対応する出力余裕と低歪み制御。"
+  },
+  "오케스트라 각 파트가 놓인 위치가 느껴지는 넓고 깊은 무대.": {
+    "en": "A wide, deep stage revealing orchestral sections in their places.",
+    "zh-CN": "宽广而深邃的声场，让各管弦乐声部的位置清晰可辨。",
+    "ja": "オーケストラ各パートの位置を感じられる広く深い音場。"
+  },
+  "녹음에 담긴 실제 공연장 잔향의 자연스러운 전달과 감쇠.": {
+    "en": "Natural reproduction and decay of concert-hall reverberation recorded in the source.",
+    "zh-CN": "自然呈现录音中音乐厅的混响与衰减。",
+    "ja": "録音に収められたホールの残響と自然な減衰の再現。"
+  },
+  "서비스 준비 단계에서의 정보 처리 및 표시 사항.": {
+    "en": "Information handling and disclosure during the prelaunch stage.",
+    "zh-CN": "服务筹备阶段的信息处理与披露事项。",
+    "ja": "サービス準備段階の情報取扱いと表示事項。"
+  },
+  "프리런칭 사이트에서 개인 식별 정보와 기업 문의 내용을 어떻게 취급하는지 명확히 안내합니다. 실제 개인정보 보호 절차와 공지 정책은 서비스 출시 전에 최종 확정되어야 합니다.": {
+    "en": "This notice explains how personal and business enquiry information is handled on the prelaunch website. Final privacy procedures and notices must be established before launch.",
+    "zh-CN": "本说明解释预上线网站如何处理个人识别信息及企业咨询内容。正式上线前仍须完成隐私保护程序及政策公告。",
+    "ja": "公開準備中のサイトにおける個人情報や企業からの問い合わせの取扱いを説明します。正式公開前にプライバシー手順と告知方針を確定する必要があります。"
+  },
+  "현재 이 사이트는 기능 검증용 프론트엔드 데모입니다. 서버가 연결되지 않은 경우 입력한 문의 정보는 브라우저에서 사용자 기기에 JSON 초안으로 다운로드되며, 당사 서버로 전송되지 않습니다.": {
+    "en": "This site is currently a frontend demo. Without a connected server, enquiry data is downloaded to your device as a JSON draft and not sent to our server.",
+    "zh-CN": "本网站目前为功能验证前端演示。若未连接服务器，您填写的咨询内容仅作为 JSON 草稿下载至设备，不会发送到我们的服务器。",
+    "ja": "現在このサイトは機能検証用のフロントエンドデモです。サーバー未接続時、入力内容はJSON下書きとして端末に保存され、当社サーバーには送信されません。"
+  },
+  "관심 제품 선택 상태는 같은 브라우저의 로컬 저장소(localStorage)에 보관됩니다. 브라우저 저장소를 삭제하면 제거할 수 있습니다.": {
+    "en": "Saved product selections are stored in the browser's localStorage and can be removed by clearing browser data.",
+    "zh-CN": "收藏的产品选择保存在当前浏览器的 localStorage 中，清除浏览器数据即可删除。",
+    "ja": "お気に入りの製品選択はブラウザのローカルストレージ（localStorage）に保存されます。ブラウザデータを消去すると削除できます。"
+  },
+  "실제 수집·전송을 시작하기 전에는 정식 사업자 정보, 개인정보처리방침, 동의 문구, 보관·삭제 정책 및 고객 연락 채널을 확정하여 게시해야 합니다.": {
+    "en": "Before collecting or transmitting personal data, official business details, privacy policy, consent language, retention/deletion rules and contact channels must be finalized and published.",
+    "zh-CN": "正式开始收集或传输个人信息前，须确定并公布企业信息、隐私政策、同意条款、留存及删除规则和客户联络渠道。",
+    "ja": "個人情報の収集・送信を始める前に、正式な事業者情報、プライバシーポリシー、同意文、保存・削除規程、連絡先を確定して公開する必要があります。"
+  },
+  "이미지는 AI 생성 컨셉 시각자료입니다. 제품 모델명과 기술 구조, 클래식 연주자 평가·중국/대만 기술 제휴는 기획 방향이며 확정된 판매 제품 성능 또는 제휴 실적을 의미하지 않습니다.": {
+    "en": "Images are AI-generated concepts. Product names, technology architecture, musician evaluations and China/Taiwan collaborations are plans, not verified product specifications or partnership achievements.",
+    "zh-CN": "图片为 AI 生成的概念视觉素材。型号、技术架构、古典音乐家评估及中国／台湾合作均为规划方向，不代表已验证的产品性能或合作成果。",
+    "ja": "画像はAI生成のコンセプト資料です。モデル名、技術構造、演奏家評価、中国・台湾との協業は計画段階であり、実証済み性能や提携実績を示すものではありません。"
+  },
+  "현재 결제·주문·선입금 기능은 운영되지 않습니다.": {
+    "en": "Payment, ordering and deposits are not currently enabled.",
+    "zh-CN": "目前未开通支付、订购或预付款功能。",
+    "ja": "現在、決済・注文・前金の機能は提供していません。"
+  },
+  "RE:VE 브랜드 및 라이선싱 업무는 미국 델라웨어주 본사와 캘리포니아 영업소를 둔 Terrabridge Capital LLC에서 관리합니다. 실제 저작권·상표권의 귀속과 등록 상태는 각 권리증서 및 계약에 따릅니다.": {
+    "en": "RE:VE brand and licensing administration is coordinated by Terrabridge Capital LLC, headquartered in Delaware with a California business office. Actual copyright and trademark ownership and registration depend on applicable records and agreements.",
+    "zh-CN": "RE:VE 品牌及授权工作由总部位于美国特拉华州、在加利福尼亚设有营业办事处的 Terrabridge Capital LLC 管理。著作权和商标权的实际归属及登记状态以权利文件和合同为准。",
+    "ja": "RE:VEのブランドとライセンス業務は、デラウェア州に本社、カリフォルニア州に営業拠点を置くTerrabridge Capital LLCが管理します。実際の著作権・商標権の帰属や登録状況は証書と契約によります。"
+  },
+  "권리관리 및 미국 관할 안내 →": {
+    "en": "Rights administration and U.S. jurisdiction →",
+    "zh-CN": "权利管理及美国司法管辖说明 →",
+    "ja": "権利管理と米国管轄のご案内 →"
+  },
+  "RE:VE 브랜드의 창작물, 명칭·디자인 및 기술 콘텐츠에 대한 글로벌 권리관리·라이선싱 안내.": {
+    "en": "Global rights administration and licensing information for RE:VE's creative works, name, design and technology content.",
+    "zh-CN": "RE:VE 创意作品、品牌名称、设计及技术内容的全球权利管理和授权说明。",
+    "ja": "RE:VEの創作物、名称、デザイン、技術コンテンツのグローバルな権利管理とライセンスの案内。"
+  },
+  "Terrabridge 공식 사이트 ↗": {
+    "en": "Terrabridge official website ↗",
+    "zh-CN": "Terrabridge 官方网站 ↗",
+    "ja": "Terrabridge公式サイト ↗"
+  },
+  "RE:VE 브랜드 스토리 ↗": {
+    "en": "RE:VE brand story ↗",
+    "zh-CN": "RE:VE 品牌故事 ↗",
+    "ja": "RE:VEブランドストーリー ↗"
+  },
+  "RE:VE 이름·시각 정체성·콘텐츠의 라이선싱 문의는 브랜드 관리 주체의 확인을 통해 진행됩니다. 모든 권리의 유효성과 권리 범위는 실제 등록 및 계약 내용에 따릅니다.": {
+    "en": "Licensing enquiries for RE:VE's name, visual identity and content are handled with confirmation from the brand administrator. The validity and scope of rights depend on actual registrations and contracts.",
+    "zh-CN": "RE:VE 名称、视觉形象和内容的授权咨询须经品牌管理方核实。各项权利的效力及范围以实际登记和合同为准。",
+    "ja": "RE:VEの名称、ビジュアル、コンテンツのライセンス問い合わせは管理主体による確認を経て扱います。権利の有効性と範囲は登録・契約に従います。"
+  },
+  "Terrabridge Capital LLC는 미국 델라웨어주 본사 및 캘리포니아 영업소 기반의 RE:VE 브랜드 관리·라이선싱 주체입니다. REVE의 시각 아이덴티티, 웹사이트 오리지널 콘텐츠, 제품 디자인 제안 및 글로벌 협업 라이선스를 관리합니다.": {
+    "en": "Terrabridge Capital LLC is the RE:VE brand and licensing administrator, headquartered in Delaware with a California office. It manages the brand's visual identity, original website content, proposed product designs and global collaboration licenses.",
+    "zh-CN": "Terrabridge Capital LLC 是 RE:VE 品牌与授权管理方，总部位于美国特拉华州，在加利福尼亚设有办事处，负责管理视觉形象、网站原创内容、产品设计提案及全球合作授权。",
+    "ja": "Terrabridge Capital LLCはデラウェア州本社とカリフォルニア州営業拠点を持つRE:VEブランド・ライセンス管理者で、ビジュアル、サイト独自コンテンツ、製品デザイン案、国際提携ライセンスを管理します。"
+  },
+  "본 페이지는 브랜드 관리 주체에 관한 안내입니다. 개별 저작권·상표권의 등록 여부와 법적 소유자는 권리증서 및 계약에 따라 확인해야 합니다.": {
+    "en": "This page identifies the brand administrator. Registration status and legal ownership of individual copyrights and trademarks must be verified from records and agreements.",
+    "zh-CN": "本页面仅说明品牌管理主体。各项著作权和商标权的登记情况及合法所有人须依据权利文件和合同核实。",
+    "ja": "本ページはブランド管理主体の案内です。個別の著作権・商標権の登録状況や法的所有者は証書と契約で確認する必要があります。"
+  },
+  "RE:VE 명칭, 로고와 브랜드 디자인의 상업적 사용은 관련 상표·부정경쟁방지법 및 계약에 따라 보호될 수 있습니다. 사전 승인 없는 공식 파트너 사칭을 금지합니다.": {
+    "en": "Commercial use of RE:VE's name, logo and branding may be protected under applicable trademark, unfair competition and contract law. Unauthorized impersonation of an official partner is prohibited.",
+    "zh-CN": "RE:VE 的名称、标志及品牌设计在适用的商标、反不正当竞争及合同法律下可能受到保护。禁止未经授权冒充官方合作伙伴。",
+    "ja": "RE:VEの名称、ロゴ、ブランドデザインの商業利用は適用法と契約により保護される場合があります。無断で公式提携先を装うことは禁止します。"
+  },
+  "웹사이트 텍스트, 독창적인 편집·디자인, 적법한 권리가 있는 이미지·영상·문서 등의 무단 복제, 배포 또는 상업적 전용을 허용하지 않습니다. AI 생성 이미지의 보호 범위는 적용 법률에 따라 다를 수 있습니다.": {
+    "en": "Unauthorized reproduction, distribution or commercial reuse of protected website text, original layouts and lawfully controlled media is not permitted. Protection of AI-generated imagery may vary under applicable law.",
+    "zh-CN": "不得擅自复制、传播或商业利用依法受保护的网站文字、原创编辑设计及具有合法权利的图像、视频和文档。AI 生成图片的保护范围可能因适用法律而异。",
+    "ja": "保護対象のサイト文章、独創的な構成やデザイン、適法な権利を持つ画像・動画・文書の無断複製・配布・商業利用は認めません。AI生成画像の保護範囲は法域によって異なる場合があります。"
+  },
+  "브랜드 이용, OEM·ODM 공동개발, 글로벌 유통·광고 사용을 위한 라이선싱은 개별 계약 및 권리 확인을 거쳐 진행됩니다.": {
+    "en": "Brand use, OEM/ODM co-development, global distribution and advertising licenses require individual agreements and verification of rights.",
+    "zh-CN": "品牌使用、OEM/ODM 联合开发及全球分销和广告授权均须通过单独合同及权利核查。",
+    "ja": "ブランド利用、OEM・ODM共同開発、国際流通・広告利用のライセンスは個別契約と権利確認を経て進めます。"
+  },
+  "미국 내 법적 구제 가능성 안내": {
+    "en": "Potential legal remedies in the United States",
+    "zh-CN": "美国法律救济的可能性说明",
+    "ja": "米国での法的救済の可能性について"
+  },
+  "RE:VE 관련 저작권, 상표권 또는 기타 지식재산권 침해가 발생하는 경우, Terrabridge Capital LLC 또는 해당 권리자는 적용 가능한 미국 법률과 기타 관할국 법률에 따라 침해 중지, 손해배상 등 적절한 법적 구제를 청구할 수 있습니다.": {
+    "en": "If RE:VE-related copyrights, trademarks or other IP rights are infringed, Terrabridge Capital LLC or the relevant rights holder may seek appropriate relief, such as an injunction or damages, subject to applicable U.S. and other laws.",
+    "zh-CN": "如果发生与 RE:VE 相关的著作权、商标权或其他知识产权侵权，Terrabridge Capital LLC 或相应权利人可依适用的美国及其他司法辖区法律寻求停止侵权、损害赔偿等救济。",
+    "ja": "RE:VEに関する著作権、商標権、その他知的財産権が侵害された場合、Terrabridge Capital LLCまたは該当権利者は、適用される米国法等に基づき差止めや損害賠償などを求める場合があります。"
+  },
+  "특정 침해행위에 미국 법률이 적용되고 미국 법원의 재판관할이 성립하는 경우, 관련 분쟁은 미국의 관할 법원에서도 다루어질 수 있습니다.": {
+    "en": "Where U.S. law applies and a U.S. court has jurisdiction over a particular infringement, that dispute may also be heard in the competent U.S. court.",
+    "zh-CN": "如特定侵权行为适用美国法律，且美国法院具有管辖权，则相关争议也可能在有管辖权的美国法院审理。",
+    "ja": "特定の侵害に米国法が適用され、米国裁判所の管轄が成立する場合には、米国の管轄裁判所でも審理される可能性があります。"
+  },
+  "미국 법인의 존재나 이 고지문만으로 모든 사건에 미국 법원의 관할권이 자동 성립하거나 미국이 유일한 관할이 되는 것은 아닙니다.": {
+    "en": "The existence of a U.S. company or this notice alone does not automatically establish U.S. court jurisdiction over every dispute or make the U.S. the exclusive forum.",
+    "zh-CN": "仅因存在美国公司或本声明，并不意味着美国法院自动对所有案件具有管辖权，或美国成为唯一管辖地。",
+    "ja": "米国法人の存在や本通知だけで、すべての紛争について米国裁判所の管轄が自動的に成立したり、米国が唯一の管轄となったりするわけではありません。"
+  },
+  "관할 및 소송 가능성은 당사자, 행위지, 침해 대상 권리, 계약상 관할 합의 등 개별 사건의 사정에 따릅니다.": {
+    "en": "Jurisdiction and potential litigation depend on the parties, location of conduct, rights at issue and any contractual choice-of-forum terms.",
+    "zh-CN": "管辖权与诉讼可能性取决于当事人、行为发生地、被侵害的权利以及合同中的法院选择条款等个案事实。",
+    "ja": "管轄や訴訟の可能性は当事者、行為地、侵害対象の権利、契約上の合意など個々の事情によって異なります。"
+  },
+  "미국 저작권 침해소송은 등록 등 법정 소송 요건이 적용될 수 있습니다. 본 안내는 관할권 또는 소송 승소를 보장하는 법률 의견이 아닙니다.": {
+    "en": "U.S. copyright infringement actions may be subject to statutory prerequisites such as registration. This notice is not legal advice guaranteeing jurisdiction or a successful claim.",
+    "zh-CN": "美国著作权侵权诉讼可能受登记等法定起诉条件限制。本声明不构成保证管辖权或胜诉结果的法律意见。",
+    "ja": "米国の著作権侵害訴訟には登録等の法定要件が適用される場合があります。本案内は管轄や勝訴を保証する法律意見ではありません。"
+  },
+  "17 U.S.C. §411 — 등록과 침해소송 ↗": {
+    "en": "17 U.S.C. §411 — Registration and infringement actions ↗",
+    "zh-CN": "17 U.S.C. §411 — 登记与侵权诉讼 ↗",
+    "ja": "17 U.S.C. §411 — 登録と侵害訴訟 ↗"
+  },
+  "U.S. Copyright Office — 인적 관할 설명 ↗": {
+    "en": "U.S. Copyright Office — Personal jurisdiction overview ↗",
+    "zh-CN": "美国版权局 — 属人管辖权说明 ↗",
+    "ja": "米国著作権局 — 対人管轄の説明 ↗"
+  },
+  "브랜드·기술·콘텐츠의 라이선싱 협업 문의는 RE:VE 파트너십 페이지를 통해 시작할 수 있습니다. 현재 문의 시스템은 데모 상태로, 실제 접수는 추후 공지합니다.": {
+    "en": "Enquiries about brand, technology or content licensing can start on the RE:VE partnerships page. The enquiry system is a demo; live submissions will be announced later.",
+    "zh-CN": "品牌、技术及内容授权合作咨询可从 RE:VE 合作伙伴页面开始。目前咨询系统为演示版本，正式受理时间将另行公布。",
+    "ja": "ブランド・技術・コンテンツのライセンス提携はRE:VEのパートナーシップページからお問い合わせください。現在はデモで、実際の受付は後日ご案内します。"
+  },
+  "← 전체 12개 모델": {
+    "en": "← All 12 models",
+    "zh-CN": "← 全部12款型号",
+    "ja": "← 全12モデル"
+  },
+  "레퍼런스 스튜디오": {
+    "en": "Reference Studio",
+    "zh-CN": "参考录音室",
+    "ja": "リファレンス・スタジオ"
+  },
+  "미세 다이내믹과 정밀한 정위감을 지향.": {
+    "en": "Designed for microdynamics and precise stereo imaging.",
+    "zh-CN": "追求微动态与精确声像定位。",
+    "ja": "微細なダイナミクスと正確な定位を追求。"
+  },
+  "예상 미국 권장판매가 · USD / 스테레오 1페어 (미확정)": {
+    "en": "Indicative U.S. MSRP · USD / stereo pair (unconfirmed)",
+    "zh-CN": "美国参考建议售价 · 美元 / 立体声一对（未确认）",
+    "ja": "米国参考希望小売価格 · 米ドル / ステレオ1組（未確定）"
+  },
+  "파트너십 · 제품 문의 ↗": {
+    "en": "Partnership & product enquiry ↗",
+    "zh-CN": "合作与产品咨询 ↗",
+    "ja": "提携・製品お問い合わせ ↗"
+  },
+  "2026 카탈로그 ↗": {
+    "en": "2026 catalogue ↗",
+    "zh-CN": "2026 产品目录 ↗",
+    "ja": "2026カタログ ↗"
+  },
+  "제품·성능·소재는 디자인 콘셉트로, 상용화된 모델 또는 확정된 판매 상품이 아닙니다. 구매·선주문을 진행하지 않습니다.": {
+    "en": "Product designs, performance and materials are conceptual and do not represent confirmed commercial goods. No purchases or preorders are available.",
+    "zh-CN": "产品设计、性能和材料均为概念，非已商业化或确定销售的商品。目前不接受购买或预订。",
+    "ja": "製品デザイン、性能、素材はコンセプトであり、商用化・販売が確定した製品ではありません。購入・予約はできません。"
+  },
+  "카탈로그에 명시된 제품 설명과 스타일 지향을 정리했습니다. 미검증 하드웨어 수치는 기재하지 않습니다.": {
+    "en": "The catalogue descriptions and design intentions are summarized here; unverified hardware figures are omitted.",
+    "zh-CN": "本页整理了产品目录中的型号说明与设计方向，未列出未经验证的硬件参数。",
+    "ja": "カタログの説明とデザイン方針を整理し、未検証のハードウェア数値は掲載していません。"
+  },
+  "컬렉션 / 콘셉트 형태": {
+    "en": "Collection / concept form",
+    "zh-CN": "产品系列 / 概念形态",
+    "ja": "コレクション・コンセプト形状"
+  },
+  "Reference / 레퍼런스 컬럼 콘셉트": {
+    "en": "Reference / column concept",
+    "zh-CN": "参考级 / 立柱音箱概念",
+    "ja": "リファレンス / コラム構想"
+  },
+  "스튜디오 청음 · 정위감 — 미세 다이내믹과 정밀한 정위감을 지향.": {
+    "en": "Studio listening · imaging — Designed for microdynamics and precise stereo imaging.",
+    "zh-CN": "录音室试听 · 定位 — 追求微动态与精确声像定位。",
+    "ja": "スタジオ試聴・定位 — 微細なダイナミクスと正確な定位を追求。"
+  },
+  "외관 마감 제안": {
+    "en": "Proposed exterior finish",
+    "zh-CN": "建议外观表面处理",
+    "ja": "外装仕上げ案"
+  },
+  "그라파이트 / 브러시드 메탈 (색상·실제 소재 검증 전)": {
+    "en": "Graphite / brushed metal (color and materials unverified)",
+    "zh-CN": "石墨色 / 拉丝金属（颜色及材料尚未验证）",
+    "ja": "グラファイト・ブラッシュドメタル（色・素材は未検証）"
+  },
+  "$89,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$89,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$89,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$89,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "출력·주파수·임피던스·드라이버": {
+    "en": "Power · frequency · impedance · drivers",
+    "zh-CN": "功率 · 频响 · 阻抗 · 驱动单元",
+    "ja": "出力・周波数・インピーダンス・ドライバー"
+  },
+  "OEM 프로토타입 제작 및 음향 측정 전 · 미확정": {
+    "en": "Before OEM prototyping and acoustic measurement · unconfirmed",
+    "zh-CN": "OEM 样机制作及声学测量前 · 未确认",
+    "ja": "OEM試作・音響測定前・未確定"
+  },
+  "제조·인증·구매 가능 여부": {
+    "en": "Manufacturing, certification & availability",
+    "zh-CN": "制造、认证与购买情况",
+    "ja": "製造・認証・購入可否"
+  },
+  "현재 설계 콘셉트 단계 · 제조/인증/판매 미확정": {
+    "en": "Design concept stage · manufacturing, certification and sales unconfirmed",
+    "zh-CN": "目前为设计概念阶段 · 制造、认证及销售均未确定",
+    "ja": "設計コンセプト段階・製造、認証、販売は未確定"
+  },
+  "RE:VE 카탈로그 2026년 11월판 기준의 디지털 시각화입니다. 이 페이지의 ‘마감 제안’과 용도는 최종 제조 사양이 아니며, OEM 검증과 실측 전까지 성능을 보장할 수 없습니다.": {
+    "en": "This is a digital visualization based on the November 2026 RE:VE catalogue. The proposed finish and use do not constitute final manufacturing specifications; performance is unverified before OEM tests and measurements.",
+    "zh-CN": "此数字可视化基于2026年11月 RE:VE 产品目录。页面所述表面处理及用途并非最终制造规格，OEM 验证与实测前不保证性能。",
+    "ja": "2026年11月版RE:VEカタログに基づくデジタル表現です。仕上げ・用途は最終製造仕様ではなく、OEM検証と実測前に性能を保証するものではありません。"
+  },
+  "모든 모델 살펴보기": {
+    "en": "Explore all models",
+    "zh-CN": "查看全部型号",
+    "ja": "全モデルを見る"
+  },
+  "공식 카탈로그 PDF": {
+    "en": "Official PDF catalogue",
+    "zh-CN": "官方 PDF 产品目录",
+    "ja": "公式PDFカタログ"
+  },
+  "오케스트라의 깊이와 악기의 결을 위한 레퍼런스 북쉘프": {
+    "en": "Reference bookshelf concept for orchestral depth and instrumental texture.",
+    "zh-CN": "为交响乐深度与乐器质感而设计的参考级书架音箱。",
+    "ja": "オーケストラの奥行きと楽器の質感を追求するリファレンス・ブックシェルフ。"
+  },
+  "현악기의 섬세한 현 마찰부터 교향곡의 폭넓은 다이내믹까지. RE:VE Reference R1은 작은 공간에서도 무대의 깊이를 추구하는 하이파이 설계 콘셉트입니다.": {
+    "en": "From the subtle bow friction of strings to the wide dynamics of a symphony, RE:VE Reference R1 explores hi-fi soundstage depth even in compact rooms.",
+    "zh-CN": "从弦乐细腻的擦弦声到交响乐宽广的动态，RE:VE Reference R1 旨在于较小空间中追求舞台深度的高保真设计概念。",
+    "ja": "弦の繊細な摩擦音から交響曲のダイナミクスまで、RE:VE Reference R1は小さな部屋でも舞台の奥行きを追求するハイファイ設計コンセプトです。"
+  },
+  "상기 이미지와 기술 방향은 개발 컨셉이며, 완제품의 사양·측정 수치·출시 여부를 보증하지 않습니다.": {
+    "en": "The images and technology directions are development concepts; finished specifications, measurements and launch are not guaranteed.",
+    "zh-CN": "以上图片及技术方向仅为开发概念，不保证成品规格、测量数据或上市。",
+    "ja": "画像と技術方針は開発コンセプトであり、完成品の仕様・測定値・発売を保証しません。"
+  },
+  "스테레오 배치·시간 정렬·지향성을 조율해 악기군의 위치와 무대의 깊이 표현을 지향합니다.": {
+    "en": "Stereo placement, time alignment and directivity are intended to convey instrument positions and stage depth.",
+    "zh-CN": "通过立体声摆位、时间校准与指向性调整，追求乐器定位与舞台深度。",
+    "ja": "ステレオ配置、時間整合、指向性を調整し、楽器群の位置と舞台の奥行きを表現します。"
+  },
+  "포르티시모에서도 대역 간 밸런스를 유지하도록 앰프 헤드룸과 드라이버 선형성을 우선 검토합니다.": {
+    "en": "Amplifier headroom and driver linearity are prioritized to maintain tonal balance even at fortissimo.",
+    "zh-CN": "优先考虑功放余量与单元线性，以保持强奏时的频段平衡。",
+    "ja": "フォルティッシモでも帯域バランスを保つためアンプの余裕とドライバーの線形性を重視します。"
+  },
+  "바이올린·피아노·첼로 음원 기반 블라인드 청음 평가와 측정 지표를 함께 확인하는 개발 프로토콜입니다.": {
+    "en": "A proposed development protocol combining blind listening tests using violin, piano and cello recordings with measurement metrics.",
+    "zh-CN": "拟定的开发流程结合小提琴、钢琴和大提琴录音的盲听评估与测量指标。",
+    "ja": "ヴァイオリン、ピアノ、チェロの音源によるブラインド評価と測定指標を組み合わせる開発手順です。"
+  },
+  "RE:VE는 외부 디자인과 내부 음향 구조를 분리하지 않습니다. 부품 장착, 공진 억제, 전력·열 설계, 공간 배치 및 DSP 동작을 한 시스템으로 검토합니다.": {
+    "en": "RE:VE treats exterior design and internal acoustics as one system, considering mounting, resonance, power, thermal design, placement and DSP together.",
+    "zh-CN": "RE:VE 将外观与内部声学结构作为整体，综合考虑部件安装、共振抑制、功率、散热、摆位与 DSP。",
+    "ja": "RE:VEは外観と内部音響を一体として捉え、部品の取り付け、共振対策、電力・熱設計、配置、DSPを統合して検討します。"
+  },
+  "제품 개발 콘셉트의 주요 목표입니다. 출력(W), 최대 음압(dB), 응답 범위(Hz), 코덱, 인증 등은 설계 검증 이후 공개합니다.": {
+    "en": "These are development goals. Power (W), maximum SPL (dB), frequency response (Hz), codecs and certifications will be disclosed only after design validation.",
+    "zh-CN": "这些是产品开发目标。功率（W）、最大声压级（dB）、频率响应（Hz）、编解码器与认证将在设计验证后公布。",
+    "ja": "これらは開発目標です。出力、最大音圧、周波数特性、コーデック、認証は設計検証後に公開します。"
+  },
+  "트위터 + 미드우퍼 조합(개발 검토)": {
+    "en": "Tweeter + midwoofer combination (under consideration)",
+    "zh-CN": "高音单元 + 中低音单元组合（评估中）",
+    "ja": "ツイーター＋ミッドウーファー（開発検討中）"
+  },
+  "DSP 크로스오버·위상 정렬 설계안": {
+    "en": "DSP crossover and phase-alignment proposal",
+    "zh-CN": "DSP 分频及相位校准方案",
+    "ja": "DSPクロスオーバー・位相整合案"
+  },
+  "고강성 메탈 하우징 콘셉트": {
+    "en": "High-rigidity metal housing concept",
+    "zh-CN": "高刚性金属箱体概念",
+    "ja": "高剛性メタル筐体コンセプト"
+  },
+  "수치·성능 미측정 / 컨셉 렌더": {
+    "en": "No measurements / concept render",
+    "zh-CN": "未进行性能测量 / 概念渲染图",
+    "ja": "数値・性能未測定／コンセプト画像"
+  },
+  "출시·청음회·기술 업데이트 소식을 받으실 수 있습니다. 유료 선주문이 아닌 관심 등록입니다.": {
+    "en": "Register interest in launch, listening sessions and technology updates. This is not a paid preorder.",
+    "zh-CN": "您可登记接收上市、试听会及技术更新消息。这不是付费预订。",
+    "ja": "発売・試聴会・技術更新のお知らせを希望できます。有料予約ではなく関心登録です。"
+  },
+  "아틀리에 북쉘프": {
+    "en": "Atelier Bookshelf",
+    "zh-CN": "工坊书架音箱",
+    "ja": "アトリエ・ブックシェルフ"
+  },
+  "실내악과 보컬의 결을 정교하게 표현하는 컴팩트 라인.": {
+    "en": "Compact design for chamber music and vocal detail.",
+    "zh-CN": "细腻呈现室内乐与人声质感的紧凑型号。",
+    "ja": "室内楽とボーカルの繊細な質感を表現するコンパクトモデル。"
+  },
+  "RE:VE H3 · 아틀리에 북쉘프": {
+    "en": "RE:VE H3 · Atelier Bookshelf",
+    "zh-CN": "RE:VE H3 · 工坊书架音箱",
+    "ja": "RE:VE H3 · アトリエ・ブックシェルフ"
+  },
+  "RE:VE H3 | 아틀리에 북쉘프 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE H3 | Atelier Bookshelf · 2026 Concept Collection",
+    "zh-CN": "RE:VE H3 | 工坊书架音箱 · 2026 概念系列",
+    "ja": "RE:VE H3 | アトリエ・ブックシェルフ · 2026コンセプトコレクション"
+  },
+  "Heritage / 북쉘프 콘셉트": {
+    "en": "Heritage / bookshelf concept",
+    "zh-CN": "传承系列 / 书架式概念",
+    "ja": "ヘリテージ / ブックシェルフ構想"
+  },
+  "실내악 · 보컬 — 실내악과 보컬의 결을 정교하게 표현하는 컴팩트 라인.": {
+    "en": "Chamber music · vocals — Compact design for chamber music and vocal detail.",
+    "zh-CN": "室内乐 · 人声 — 细腻呈现室内乐与人声质感的紧凑型号。",
+    "ja": "室内楽・ボーカル — 室内楽とボーカルの繊細な質感を表現するコンパクトモデル。"
+  },
+  "브러시드 웜 메탈 / 월넛 톤 (색상·실제 소재 검증 전)": {
+    "en": "Brushed warm metal / walnut tone (color and materials unverified)",
+    "zh-CN": "暖色拉丝金属 / 胡桃木色（颜色及材料尚未验证）",
+    "ja": "温かみのあるブラッシュドメタル・ウォルナット調（色・素材は未検証）"
+  },
+  "$7,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$7,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$7,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$7,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "헤리티지 모니터": {
+    "en": "Heritage Monitor",
+    "zh-CN": "传承监听音箱",
+    "ja": "ヘリテージ・モニター"
+  },
+  "악기의 자연스러운 배음과 밀도 있는 존재감을 지향하는 모니터.": {
+    "en": "Monitor concept for natural harmonics and instrumental presence.",
+    "zh-CN": "追求乐器自然泛音与饱满存在感的监听概念。",
+    "ja": "楽器の自然な倍音と豊かな存在感を目指すモニター。"
+  },
+  "RE:VE H6 · 헤리티지 모니터": {
+    "en": "RE:VE H6 · Heritage Monitor",
+    "zh-CN": "RE:VE H6 · 传承监听音箱",
+    "ja": "RE:VE H6 · ヘリテージ・モニター"
+  },
+  "RE:VE H6 | 헤리티지 모니터 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE H6 | Heritage Monitor · 2026 Concept Collection",
+    "zh-CN": "RE:VE H6 | 传承监听音箱 · 2026 概念系列",
+    "ja": "RE:VE H6 | ヘリテージ・モニター · 2026コンセプトコレクション"
+  },
+  "Heritage / 모니터 콘셉트": {
+    "en": "Heritage / monitor concept",
+    "zh-CN": "传承系列 / 监听概念",
+    "ja": "ヘリテージ / モニター構想"
+  },
+  "현악 · 실내악 — 악기의 자연스러운 배음과 밀도 있는 존재감을 지향하는 모니터.": {
+    "en": "Strings · chamber music — Monitor concept for natural harmonics and instrumental presence.",
+    "zh-CN": "弦乐 · 室内乐 — 追求乐器自然泛音与饱满存在感的监听概念。",
+    "ja": "弦楽器・室内楽 — 楽器の自然な倍音と豊かな存在感を目指すモニター。"
+  },
+  "브론즈 메탈 / 딥 그라파이트 (색상·실제 소재 검증 전)": {
+    "en": "Bronze metal / deep graphite (color and materials unverified)",
+    "zh-CN": "青铜金属 / 深石墨色（颜色及材料尚未验证）",
+    "ja": "ブロンズメタル・ディープグラファイト（色・素材は未検証）"
+  },
+  "$14,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$14,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$14,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$14,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "시그니처 컬럼": {
+    "en": "Signature Column",
+    "zh-CN": "经典立柱音箱",
+    "ja": "シグネチャー・コラム"
+  },
+  "공간을 해치지 않는 슬림한 조형과 음악적 균형.": {
+    "en": "A slim silhouette with musical balance that complements the room.",
+    "zh-CN": "纤细造型与音乐平衡，融入生活空间。",
+    "ja": "空間に調和するスリムな造形と音楽的バランス。"
+  },
+  "RE:VE S10 · 시그니처 컬럼": {
+    "en": "RE:VE S10 · Signature Column",
+    "zh-CN": "RE:VE S10 · 经典立柱音箱",
+    "ja": "RE:VE S10 · シグネチャー・コラム"
+  },
+  "RE:VE S10 | 시그니처 컬럼 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE S10 | Signature Column · 2026 Concept Collection",
+    "zh-CN": "RE:VE S10 | 经典立柱音箱 · 2026 概念系列",
+    "ja": "RE:VE S10 | シグネチャー・コラム · 2026コンセプトコレクション"
+  },
+  "Signature / 슬림 컬럼 콘셉트": {
+    "en": "Signature / slim column concept",
+    "zh-CN": "经典系列 / 纤细立柱概念",
+    "ja": "シグネチャー / スリムコラム構想"
+  },
+  "일상형 하이파이 — 공간을 해치지 않는 슬림한 조형과 음악적 균형.": {
+    "en": "Everyday high fidelity — A slim silhouette with musical balance that complements the room.",
+    "zh-CN": "日常高保真 — 纤细造型与音乐平衡，融入生活空间。",
+    "ja": "日常のハイファイ — 空間に調和するスリムな造形と音楽的バランス。"
+  },
+  "그라파이트 메탈 / 샴페인 트림 (색상·실제 소재 검증 전)": {
+    "en": "Graphite metal / champagne trim (color and materials unverified)",
+    "zh-CN": "石墨金属 / 香槟饰边（颜色及材料尚未验证）",
+    "ja": "グラファイトメタル・シャンパントリム（色・素材は未検証）"
+  },
+  "$24,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$24,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$24,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$24,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "시그니처 아틀리에": {
+    "en": "Signature Atelier",
+    "zh-CN": "经典工坊",
+    "ja": "シグネチャー・アトリエ"
+  },
+  "독주에서 합주까지 확장되는 깊은 음장을 지향.": {
+    "en": "A deep soundstage from solo performances to full ensembles.",
+    "zh-CN": "从独奏到合奏展现深邃声场。",
+    "ja": "独奏から合奏まで広がる深い音場を目指します。"
+  },
+  "RE:VE S20 · 시그니처 아틀리에": {
+    "en": "RE:VE S20 · Signature Atelier",
+    "zh-CN": "RE:VE S20 · 经典工坊",
+    "ja": "RE:VE S20 · シグネチャー・アトリエ"
+  },
+  "RE:VE S20 | 시그니처 아틀리에 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE S20 | Signature Atelier · 2026 Concept Collection",
+    "zh-CN": "RE:VE S20 | 经典工坊 · 2026 概念系列",
+    "ja": "RE:VE S20 | シグネチャー・アトリエ · 2026コンセプトコレクション"
+  },
+  "Signature / 컬럼 아틀리에 콘셉트": {
+    "en": "Signature / atelier column concept",
+    "zh-CN": "经典系列 / 工坊立柱概念",
+    "ja": "シグネチャー / アトリエコラム構想"
+  },
+  "독주 · 앙상블 — 독주에서 합주까지 확장되는 깊은 음장을 지향.": {
+    "en": "Solo · ensemble — A deep soundstage from solo performances to full ensembles.",
+    "zh-CN": "独奏 · 合奏 — 从独奏到合奏展现深邃声场。",
+    "ja": "独奏・アンサンブル — 独奏から合奏まで広がる深い音場を目指します。"
+  },
+  "실버 아노다이징 / 차콜 (색상·실제 소재 검증 전)": {
+    "en": "Anodized silver / charcoal (color and materials unverified)",
+    "zh-CN": "银色阳极氧化 / 炭灰（颜色及材料尚未验证）",
+    "ja": "シルバーアルマイト・チャコール（色・素材は未検証）"
+  },
+  "$39,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$39,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$39,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$39,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "시그니처 그랜드": {
+    "en": "Signature Grand",
+    "zh-CN": "经典至尊",
+    "ja": "シグネチャー・グランド"
+  },
+  "큰 공간을 위한 정교한 대편성 사운드 콘셉트.": {
+    "en": "Sophisticated orchestral sound for spacious rooms.",
+    "zh-CN": "为宽敞空间而构想的精细交响乐声音。",
+    "ja": "広い空間のための精巧な大編成サウンド。"
+  },
+  "RE:VE S30 · 시그니처 그랜드": {
+    "en": "RE:VE S30 · Signature Grand",
+    "zh-CN": "RE:VE S30 · 经典至尊",
+    "ja": "RE:VE S30 · シグネチャー・グランド"
+  },
+  "RE:VE S30 | 시그니처 그랜드 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE S30 | Signature Grand · 2026 Concept Collection",
+    "zh-CN": "RE:VE S30 | 经典至尊 · 2026 概念系列",
+    "ja": "RE:VE S30 | シグネチャー・グランド · 2026コンセプトコレクション"
+  },
+  "Signature / 그랜드 컬럼 콘셉트": {
+    "en": "Signature / grand column concept",
+    "zh-CN": "经典系列 / 大型立柱概念",
+    "ja": "シグネチャー / グランドコラム構想"
+  },
+  "대편성 음악 — 큰 공간을 위한 정교한 대편성 사운드 콘셉트.": {
+    "en": "Orchestral repertoire — Sophisticated orchestral sound for spacious rooms.",
+    "zh-CN": "大编制音乐 — 为宽敞空间而构想的精细交响乐声音。",
+    "ja": "大編成音楽 — 広い空間のための精巧な大編成サウンド。"
+  },
+  "샴페인 메탈 / 블랙 (색상·실제 소재 검증 전)": {
+    "en": "Champagne metal / black (color and materials unverified)",
+    "zh-CN": "香槟金属 / 黑色（颜色及材料尚未验证）",
+    "ja": "シャンパンメタル・ブラック（色・素材は未検証）"
+  },
+  "$59,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$59,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$59,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$59,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "RE:VE R50 · 레퍼런스 스튜디오": {
+    "en": "RE:VE R50 · Reference Studio",
+    "zh-CN": "RE:VE R50 · 参考录音室",
+    "ja": "RE:VE R50 · リファレンス・スタジオ"
+  },
+  "RE:VE R50 | 레퍼런스 스튜디오 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE R50 | Reference Studio · 2026 Concept Collection",
+    "zh-CN": "RE:VE R50 | 参考录音室 · 2026 概念系列",
+    "ja": "RE:VE R50 | リファレンス・スタジオ · 2026コンセプトコレクション"
+  },
+  "레퍼런스 콘서트": {
+    "en": "Reference Concert",
+    "zh-CN": "参考音乐厅",
+    "ja": "リファレンス・コンサート"
+  },
+  "오케스트라의 밀도와 감정선을 위한 설계 목표.": {
+    "en": "Design goals for orchestral density and expression.",
+    "zh-CN": "追求管弦乐的层次与情感表达。",
+    "ja": "オーケストラの密度と表情を追求する設計。"
+  },
+  "RE:VE R70 · 레퍼런스 콘서트": {
+    "en": "RE:VE R70 · Reference Concert",
+    "zh-CN": "RE:VE R70 · 参考音乐厅",
+    "ja": "RE:VE R70 · リファレンス・コンサート"
+  },
+  "RE:VE R70 | 레퍼런스 콘서트 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE R70 | Reference Concert · 2026 Concept Collection",
+    "zh-CN": "RE:VE R70 | 参考音乐厅 · 2026 概念系列",
+    "ja": "RE:VE R70 | リファレンス・コンサート · 2026コンセプトコレクション"
+  },
+  "Reference / 콘서트 컬럼 콘셉트": {
+    "en": "Reference / concert column concept",
+    "zh-CN": "参考级 / 音乐厅立柱概念",
+    "ja": "リファレンス / コンサートコラム構想"
+  },
+  "오케스트라 · 콘서트 — 오케스트라의 밀도와 감정선을 위한 설계 목표.": {
+    "en": "Orchestra · concert — Design goals for orchestral density and expression.",
+    "zh-CN": "管弦乐 · 音乐厅 — 追求管弦乐的层次与情感表达。",
+    "ja": "オーケストラ・コンサート — オーケストラの密度と表情を追求する設計。"
+  },
+  "웜 브론즈 / 블랙 (색상·실제 소재 검증 전)": {
+    "en": "Warm bronze / black (color and materials unverified)",
+    "zh-CN": "暖青铜 / 黑色（颜色及材料尚未验证）",
+    "ja": "ウォームブロンズ・ブラック（色・素材は未検証）"
+  },
+  "$129,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$129,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$129,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$129,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "레퍼런스 필하모닉": {
+    "en": "Reference Philharmonic",
+    "zh-CN": "参考交响厅",
+    "ja": "リファレンス・フィルハーモニック"
+  },
+  "대형 홀의 공간 재현을 추구하는 조형 스피커.": {
+    "en": "Sculptural speaker aiming to reproduce the space of a large concert hall.",
+    "zh-CN": "追求大型音乐厅空间再现的雕塑音箱。",
+    "ja": "大ホールの空間再現を目指す造形スピーカー。"
+  },
+  "RE:VE R90 · 레퍼런스 필하모닉": {
+    "en": "RE:VE R90 · Reference Philharmonic",
+    "zh-CN": "RE:VE R90 · 参考交响厅",
+    "ja": "RE:VE R90 · リファレンス・フィルハーモニック"
+  },
+  "RE:VE R90 | 레퍼런스 필하모닉 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE R90 | Reference Philharmonic · 2026 Concept Collection",
+    "zh-CN": "RE:VE R90 | 参考交响厅 · 2026 概念系列",
+    "ja": "RE:VE R90 | リファレンス・フィルハーモニック · 2026コンセプトコレクション"
+  },
+  "Reference / 필하모닉 콘셉트": {
+    "en": "Reference / philharmonic concept",
+    "zh-CN": "参考级 / 交响厅概念",
+    "ja": "リファレンス / フィルハーモニック構想"
+  },
+  "대형 홀 · 공간 재현 — 대형 홀의 공간 재현을 추구하는 조형 스피커.": {
+    "en": "Large hall · spatial reproduction — Sculptural speaker aiming to reproduce the space of a large concert hall.",
+    "zh-CN": "大型音乐厅 · 空间还原 — 追求大型音乐厅空间再现的雕塑音箱。",
+    "ja": "大ホール・空間再現 — 大ホールの空間再現を目指す造形スピーカー。"
+  },
+  "블랙 메탈 / 브론즈 트림 (색상·실제 소재 검증 전)": {
+    "en": "Black metal / bronze trim (color and materials unverified)",
+    "zh-CN": "黑色金属 / 青铜饰边（颜色及材料尚未验证）",
+    "ja": "ブラックメタル・ブロンズトリム（色・素材は未検証）"
+  },
+  "$189,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$189,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$189,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$189,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "마스터피스 원": {
+    "en": "Masterpiece One",
+    "zh-CN": "杰作一号",
+    "ja": "マスターピース・ワン"
+  },
+  "장인적 소재와 음향 설계의 결합을 지향.": {
+    "en": "Aiming to unite artisanal materials with acoustic engineering.",
+    "zh-CN": "旨在融合匠心材料与声学设计。",
+    "ja": "職人的な素材と音響設計の融合を目指します。"
+  },
+  "RE:VE M100 · 마스터피스 원": {
+    "en": "RE:VE M100 · Masterpiece One",
+    "zh-CN": "RE:VE M100 · 杰作一号",
+    "ja": "RE:VE M100 · マスターピース・ワン"
+  },
+  "RE:VE M100 | 마스터피스 원 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE M100 | Masterpiece One · 2026 Concept Collection",
+    "zh-CN": "RE:VE M100 | 杰作一号 · 2026 概念系列",
+    "ja": "RE:VE M100 | マスターピース・ワン · 2026コンセプトコレクション"
+  },
+  "Masterpiece / 마스터피스 콘셉트": {
+    "en": "Masterpiece / masterpiece concept",
+    "zh-CN": "杰作系列 / 艺术音箱概念",
+    "ja": "マスターピース / 作品構想"
+  },
+  "대편성 · 조형성 — 장인적 소재와 음향 설계의 결합을 지향.": {
+    "en": "Orchestral sound · sculptural design — Aiming to unite artisanal materials with acoustic engineering.",
+    "zh-CN": "大编制音乐 · 造型美感 — 旨在融合匠心材料与声学设计。",
+    "ja": "大編成音楽・造形性 — 職人的な素材と音響設計の融合を目指します。"
+  },
+  "샴페인 합금 / 차콜 (색상·실제 소재 검증 전)": {
+    "en": "Champagne alloy / charcoal (color and materials unverified)",
+    "zh-CN": "香槟色合金 / 炭灰（颜色及材料尚未验证）",
+    "ja": "シャンパン合金・チャコール（色・素材は未検証）"
+  },
+  "$249,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$249,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$249,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$249,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "마스터피스 그랜드": {
+    "en": "Masterpiece Grand",
+    "zh-CN": "杰作至尊",
+    "ja": "マスターピース・グランド"
+  },
+  "웅장한 스케일과 절제된 우아함의 조화.": {
+    "en": "Monumental scale paired with understated elegance.",
+    "zh-CN": "宏大尺度与内敛优雅的融合。",
+    "ja": "壮大なスケールと控えめな優雅さの調和。"
+  },
+  "RE:VE M200 · 마스터피스 그랜드": {
+    "en": "RE:VE M200 · Masterpiece Grand",
+    "zh-CN": "RE:VE M200 · 杰作至尊",
+    "ja": "RE:VE M200 · マスターピース・グランド"
+  },
+  "RE:VE M200 | 마스터피스 그랜드 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE M200 | Masterpiece Grand · 2026 Concept Collection",
+    "zh-CN": "RE:VE M200 | 杰作至尊 · 2026 概念系列",
+    "ja": "RE:VE M200 | マスターピース・グランド · 2026コンセプトコレクション"
+  },
+  "Masterpiece / 그랜드 모뉴먼트 콘셉트": {
+    "en": "Masterpiece / grand monument concept",
+    "zh-CN": "杰作系列 / 大型纪念碑概念",
+    "ja": "マスターピース / グランドモニュメント構想"
+  },
+  "대공간 · 음악적 스케일 — 웅장한 스케일과 절제된 우아함의 조화.": {
+    "en": "Large spaces · musical scale — Monumental scale paired with understated elegance.",
+    "zh-CN": "大型空间 · 音乐尺度 — 宏大尺度与内敛优雅的融合。",
+    "ja": "大空間・音楽的スケール — 壮大なスケールと控えめな優雅さの調和。"
+  },
+  "그라파이트 / 메탈 (색상·실제 소재 검증 전)": {
+    "en": "Graphite / metal (color and materials unverified)",
+    "zh-CN": "石墨色 / 金属（颜色及材料尚未验证）",
+    "ja": "グラファイト・メタル（色・素材は未検証）"
+  },
+  "$369,900 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$369,900 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$369,900 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$369,900米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "마스터피스 모뉴먼트": {
+    "en": "Masterpiece Monument",
+    "zh-CN": "杰作纪念碑",
+    "ja": "マスターピース・モニュメント"
+  },
+  "감상을 위한 건축적 기념비를 목표로 하는 설계.": {
+    "en": "A design aiming to be an architectural monument to listening.",
+    "zh-CN": "为聆听打造建筑式纪念碑的设计构想。",
+    "ja": "聴くための建築的モニュメントを目指す設計。"
+  },
+  "RE:VE M300 · 마스터피스 모뉴먼트": {
+    "en": "RE:VE M300 · Masterpiece Monument",
+    "zh-CN": "RE:VE M300 · 杰作纪念碑",
+    "ja": "RE:VE M300 · マスターピース・モニュメント"
+  },
+  "RE:VE M300 | 마스터피스 모뉴먼트 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE M300 | Masterpiece Monument · 2026 Concept Collection",
+    "zh-CN": "RE:VE M300 | 杰作纪念碑 · 2026 概念系列",
+    "ja": "RE:VE M300 | マスターピース・モニュメント · 2026コンセプトコレクション"
+  },
+  "Masterpiece / 모뉴먼트 콘셉트": {
+    "en": "Masterpiece / monument concept",
+    "zh-CN": "杰作系列 / 纪念碑概念",
+    "ja": "マスターピース / モニュメント構想"
+  },
+  "건축적 음향 오브제 — 감상을 위한 건축적 기념비를 목표로 하는 설계.": {
+    "en": "Architectural audio object — A design aiming to be an architectural monument to listening.",
+    "zh-CN": "建筑式声学艺术品 — 为聆听打造建筑式纪念碑的设计构想。",
+    "ja": "建築的な音響オブジェ — 聴くための建築的モニュメントを目指す設計。"
+  },
+  "실버 아노다이징 / 블랙 (색상·실제 소재 검증 전)": {
+    "en": "Anodized silver / black (color and materials unverified)",
+    "zh-CN": "银色阳极氧化 / 黑色（颜色及材料尚未验证）",
+    "ja": "シルバーアルマイト・ブラック（色・素材は未検証）"
+  },
+  "$525,000 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$525,000 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$525,000 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$525,000米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "아틀리에 원": {
+    "en": "Atelier One",
+    "zh-CN": "工坊一号",
+    "ja": "アトリエ・ワン"
+  },
+  "공간과 취향에 맞춰 제작을 구상한 비스포크 최상위 모델.": {
+    "en": "A bespoke flagship envisioned for each space and listening preference.",
+    "zh-CN": "为不同空间与品味构想的顶级定制型号。",
+    "ja": "空間と好みに合わせて製作を構想した特注フラッグシップ。"
+  },
+  "RE:VE ATELIER ONE · 아틀리에 원": {
+    "en": "RE:VE ATELIER ONE · Atelier One",
+    "zh-CN": "RE:VE ATELIER ONE · 工坊一号",
+    "ja": "RE:VE ATELIER ONE · アトリエ・ワン"
+  },
+  "RE:VE ATELIER ONE | 아틀리에 원 · 2026 콘셉트 컬렉션": {
+    "en": "RE:VE ATELIER ONE | Atelier One · 2026 Concept Collection",
+    "zh-CN": "RE:VE ATELIER ONE | 工坊一号 · 2026 概念系列",
+    "ja": "RE:VE ATELIER ONE | アトリエ・ワン · 2026コンセプトコレクション"
+  },
+  "Atelier / 비스포크 콘셉트": {
+    "en": "Atelier / bespoke concept",
+    "zh-CN": "工坊系列 / 定制概念",
+    "ja": "アトリエ / 特注コンセプト"
+  },
+  "맞춤 공간 · 비스포크 — 공간과 취향에 맞춰 제작을 구상한 비스포크 최상위 모델.": {
+    "en": "Custom spaces · bespoke — A bespoke flagship envisioned for each space and listening preference.",
+    "zh-CN": "定制空间 · 个性化 — 为不同空间与品味构想的顶级定制型号。",
+    "ja": "カスタム空間・ビスポーク — 空間と好みに合わせて製作を構想した特注フラッグシップ。"
+  },
+  "웜 브론즈 / 맞춤 마감 구상 (색상·실제 소재 검증 전)": {
+    "en": "Warm bronze / bespoke finish proposal (color and materials unverified)",
+    "zh-CN": "暖青铜 / 定制表面处理方案（颜色及材料尚未验证）",
+    "ja": "ウォームブロンズ・カスタム仕上げ案（色・素材は未検証）"
+  },
+  "$695,000 USD / 스테레오 1페어 (세금·운송·설치 별도)": {
+    "en": "$695,000 USD / stereo pair (tax, shipping and installation excluded)",
+    "zh-CN": "$695,000 美元 / 立体声一对（不含税、运输及安装）",
+    "ja": "$695,000米ドル / ステレオ1組（税・輸送・設置別）"
+  },
+  "RE:VE 상품 목록": {
+    "en": "RE:VE Product Listing",
+    "zh-CN": "RE:VE 产品列表",
+    "ja": "RE:VE製品一覧"
+  },
+  "RE:VE 컬렉션": {
+    "en": "RE:VE Collection",
+    "zh-CN": "RE:VE 产品系列",
+    "ja": "RE:VEコレクション"
+  },
+  "에서 확인하세요.": {
+    "en": "to see the full range.",
+    "zh-CN": "查看完整产品系列。",
+    "ja": "でご覧ください。"
+  },
+  "모델 상세   설계 목표 보기 ↗": {
+    "en": "View detailed model design goals ↗",
+    "zh-CN": "查看型号详细设计目标 ↗",
+    "ja": "モデルの詳細設計目標を見る ↗"
+  },
+  "RE:VE Sonic OS | 스마트 음향 제어 컨셉": {
+    "en": "RE:VE Sonic OS | Smart Audio Control Concept",
+    "zh-CN": "RE:VE Sonic OS | 智能音频控制概念",
+    "ja": "RE:VE Sonic OS | スマート音響制御コンセプト"
+  },
+  "RE:VE Reference R1 | 컨셉 제품 상세": {
+    "en": "RE:VE Reference R1 | Concept Product Details",
+    "zh-CN": "RE:VE Reference R1 | 概念产品详情",
+    "ja": "RE:VE Reference R1 | コンセプト製品の詳細"
+  },
+  "손실 없는 음원과 유선·무선 전송을 구분하기": {
+    "en": "Understanding lossless audio and wired/wireless transmission",
+    "zh-CN": "理解无损音频及有线与无线传输",
+    "ja": "ロスレス音源と有線・無線伝送の違い"
+  },
+  "REVE가 추구하는 사운드는 더 많은 수치가 아니라 실제 음악의 공간과 질감입니다. 이 가이드는 객관적인 음향 원칙을 쉽게 이해하도록 구성했습니다.": {
+    "en": "REVE focuses on musical space and texture rather than bigger numbers. This guide explains objective acoustic principles in accessible terms.",
+    "zh-CN": "REVE 追求的是音乐的空间感与质感，而非更夸张的数字。本指南以简明方式介绍客观声学原理。",
+    "ja": "REVEが追求するのは数字の大きさではなく、音楽の空間と質感です。このガイドでは客観的な音響の原則をわかりやすく説明します。"
+  },
+  "스피커 배치, 청취 삼각형, 초기 반사음과 저역 모드": {
+    "en": "Speaker placement, listening triangle, early reflections and bass modes",
+    "zh-CN": "音箱摆位、聆听三角形、早期反射与低频模态",
+    "ja": "スピーカー配置・試聴三角形・初期反射・低域モード"
+  },
+  "1. 스피커 간격부터 시작하세요": {
+    "en": "1. Start with speaker spacing",
+    "zh-CN": "1. 从音箱间距开始",
+    "ja": "1. まずスピーカーの間隔から"
+  },
+  "좌우 스피커와 청취 위치가 대체로 정삼각형에 가까운 구조를 이루도록 시작합니다. 예를 들어 좌우 간격이 2m라면 청취자까지의 거리도 약 2m를 출발점으로 잡고, 실제 청취에 따라 토인 각도를 조절합니다.": {
+    "en": "Start with the speakers and listening position forming an approximate equilateral triangle. If the speakers are 2 m apart, begin with a listening distance around 2 m, then adjust toe-in by ear.",
+    "zh-CN": "首先让左右音箱与聆听位置构成近似等边三角形。例如音箱间距为2米时，聆听距离可从约2米开始，并根据实际听感调整内倾角。",
+    "ja": "左右スピーカーと試聴位置がほぼ正三角形になるところから始めます。スピーカー間が2mなら試聴距離も約2mを目安にし、聴きながら内振り角度を調整します。"
+  },
+  "2. 뒷벽·측벽과의 거리": {
+    "en": "2. Distance from rear and side walls",
+    "zh-CN": "2. 与后墙、侧墙的距离",
+    "ja": "2. 背面・側面の壁との距離"
+  },
+  "벽과 너무 가까우면 저역이 부풀거나 특정 주파수에서 딥이 발생할 수 있습니다. 설치 여건이 허락한다면 뒷벽과 30~70cm 이격부터 비교 청취하세요. 이 수치는 모든 모델의 정답이 아니라 일반적인 출발점입니다.": {
+    "en": "Placing speakers too close to walls can exaggerate bass or create frequency dips. If possible, compare positions 30–70 cm from the rear wall as a starting point, not a universal rule.",
+    "zh-CN": "音箱过于靠近墙面可能导致低频膨胀或某些频率出现凹陷。如空间允许，可从距离后墙30–70厘米的摆位开始比较；此范围只是一般起点而非统一标准。",
+    "ja": "壁に近すぎると低域が膨らんだり特定の周波数で落ち込みが生じたりします。可能なら背面の壁から30～70cmを出発点に比較試聴してください。全機種に通用する正解ではありません。"
+  },
+  "3. 클래식 녹음으로 평가하기": {
+    "en": "3. Evaluate with classical recordings",
+    "zh-CN": "3. 使用古典音乐录音评估",
+    "ja": "3. クラシック録音で評価する"
+  },
+  "실내악이나 소편성 앙상블을 통해 각 연주자의 위치가 또렷한지, 대편성에서는 악기군별 깊이가 유지되는지 평가해 보세요. 잔향이 길거나 지나치게 과장되면 반사면 처리가 필요한 신호일 수 있습니다.": {
+    "en": "Use chamber recordings to assess instrument localization and orchestral recordings to judge depth between sections. Overly long reverberation may indicate a need to address reflective surfaces.",
+    "zh-CN": "使用室内乐录音评估乐器定位，用大型管弦乐录音评估各声部的前后深度。过长或夸张的混响可能提示需要处理反射面。",
+    "ja": "室内楽で演奏者の位置を、大編成で楽器群の奥行きを確認します。残響が長すぎる場合は反射面への対策が必要かもしれません。"
+  },
+  "4. 방의 저역 공명 이해하기": {
+    "en": "4. Understand room bass resonances",
+    "zh-CN": "4. 了解房间低频共振",
+    "ja": "4. 部屋の低域共振を理解する"
+  },
+  "실내의 기본 축방향 공명은 대략 음속을 방 길이의 두 배로 나눈 값에서 시작합니다. 가로 4.8m 공간의 첫 번째 폭 모드는 약 36Hz입니다. 실제 응답은 벽체·가구·개구부에 따라 달라지므로 측정 마이크와 적절한 소프트웨어 사용을 권장합니다.": {
+    "en": "The fundamental axial room mode is approximately the speed of sound divided by twice the room length. A 4.8 m width corresponds to about 36 Hz. Real response varies with walls and furnishings; a measurement microphone and suitable software are recommended.",
+    "zh-CN": "房间的基本轴向共振频率约为声速除以房间长度的两倍。宽4.8米的房间第一宽度模态约36 Hz。实际响应受墙体、家具和开口影响，建议使用测量麦克风与合适软件。",
+    "ja": "部屋の基本的な軸方向モードは音速を部屋の長さの2倍で割った値が目安です。幅4.8mなら約36Hzです。実際の応答は壁や家具によって変わるため、測定マイクとソフトの使用を推奨します。"
+  },
+  "방 크기와 배치, EQ 모드를 직접 조작해 보세요. 시뮬레이션은 실제 제품의 성능 측정이 아닙니다.": {
+    "en": "Try adjusting room size, speaker positions and EQ modes. The simulation is not a measurement of a real product.",
+    "zh-CN": "尝试调节房间尺寸、音箱摆位及 EQ 模式。此模拟并非真实产品性能测量。",
+    "ja": "部屋の大きさ、配置、EQモードを操作してみてください。シミュレーションは実製品の性能測定ではありません。"
+  },
+  "전송 코덱과 실제 오디오 시스템 전체를 구분하는 방법": {
+    "en": "Understanding transmission codecs versus the entire audio system",
+    "zh-CN": "区分传输编解码器与整个音频系统",
+    "ja": "伝送コーデックとオーディオシステム全体の違い"
+  },
+  "1. 하이파이는 연결 방식 하나로 정의되지 않습니다": {
+    "en": "1. Hi-fi is not defined by connectivity alone",
+    "zh-CN": "1. 高保真不由连接方式单独定义",
+    "ja": "1. ハイファイは接続方式だけで決まらない"
+  },
+  "하이파이(Hi-Fi)는 높은 재생 충실도를 지향하는 개념입니다. Bluetooth는 음원을 무선으로 전달하는 기술입니다. 따라서 블루투스 스피커도 우수한 드라이버와 앰프, DSP를 갖추면 뛰어난 청취 경험을 제공할 수 있습니다.": {
+    "en": "Hi-fi aims for faithful playback, while Bluetooth is a wireless transport technology. A Bluetooth speaker with excellent drivers, amplification and DSP can still deliver an outstanding experience.",
+    "zh-CN": "高保真旨在忠实还原声音，Bluetooth 则是一种无线传输技术。因此，具备优质单元、功放与 DSP 的蓝牙音箱同样可以提供出色的听感。",
+    "ja": "ハイファイは忠実な再生を目指す概念で、Bluetoothは無線伝送技術です。優れたドライバー、アンプ、DSPを備えたBluetoothスピーカーも良い音を実現できます。"
+  },
+  "2. 코덱은 실제 협상된 설정이 중요합니다": {
+    "en": "2. Actual negotiated codec settings matter",
+    "zh-CN": "2. 重要的是实际协商的编解码设置",
+    "ja": "2. 実際に接続されたコーデック設定が重要"
+  },
+  "SBC, AAC, aptX 계열, LDAC는 압축 방법·지원 장치·전송 조건이 다릅니다. 송신기와 수신기 양쪽의 지원 수준, 전송 비트레이트와 주변 무선 환경이 실제 품질에 영향을 줍니다.": {
+    "en": "SBC, AAC, aptX-family and LDAC codecs differ in compression, device support and transmission conditions. Both devices' capabilities, bitrate and wireless environment affect real quality.",
+    "zh-CN": "SBC、AAC、aptX 系列与 LDAC 的压缩方式、设备支持和传输条件各不相同。发送端与接收端的能力、码率及无线环境都会影响实际音质。",
+    "ja": "SBC、AAC、aptX系、LDACは圧縮方式や対応機器、伝送条件が異なります。送受信機の対応、ビットレート、無線環境が実際の品質に影響します。"
+  },
+  "3. 공간 재현과 저역 제어": {
+    "en": "3. Spatial imaging and bass control",
+    "zh-CN": "3. 空间还原与低频控制",
+    "ja": "3. 空間再現と低域制御"
+  },
+  "스테레오 시스템의 좌우 스피커 배치는 음악의 넓이와 위치 정보를 재현하는 데 유리합니다. 한 대의 콤팩트 무선 스피커는 공간 제약을 줄이는 반면, 내부 배열 및 신호처리 방식에 따라 음장 폭이 제한될 수 있습니다.": {
+    "en": "Separate stereo speakers help reproduce width and localization. A single compact wireless speaker saves space but soundstage width depends on its internal arrangement and signal processing.",
+    "zh-CN": "分离式立体声音箱更利于还原声场宽度与定位。单只紧凑无线音箱节省空间，但其声场宽度可能受内部单元布局及信号处理限制。",
+    "ja": "左右に分かれたステレオスピーカーは広がりや定位の再現に有利です。一体型の小型無線スピーカーは省スペースですが、構造と信号処理により音場の幅が制限される場合があります。"
+  },
+  "4. 추천 청음 방법": {
+    "en": "4. Recommended listening comparison",
+    "zh-CN": "4. 推荐的试听比较方法",
+    "ja": "4. おすすめの比較試聴方法"
+  },
+  "같은 음원과 비슷한 음량에서 비교하세요. 큰 음량이 더 좋게 느껴지는 편향을 줄이고, 바이올린 솔로의 배음과 오케스트라 투티의 분리도를 동시에 들어보세요.": {
+    "en": "Compare the same recordings at similar levels to reduce loudness bias. Listen for violin harmonics and clarity in full-orchestra passages.",
+    "zh-CN": "使用相同音源和相近音量比较，减少较大音量带来的偏好偏差，并同时留意小提琴独奏泛音与全乐队合奏的层次分离。",
+    "ja": "同じ音源を近い音量で比較し、大音量を好ましく感じる偏りを抑えます。ヴァイオリン独奏の倍音やオーケストラ全奏の分離感を聴いてみてください。"
+  },
+  "1. 무손실 파일의 의미": {
+    "en": "1. What a lossless file means",
+    "zh-CN": "1. 无损文件的含义",
+    "ja": "1. ロスレスファイルの意味"
+  },
+  "FLAC과 ALAC 등은 원본 PCM 오디오 데이터를 정보 손실 없이 압축할 수 있습니다. 하지만 무손실 파일을 재생한다는 사실만으로 전체 재생 경로가 무손실이라고 단정할 수는 없습니다.": {
+    "en": "FLAC and ALAC can compress PCM audio without loss of data, but playing a lossless file does not guarantee an entirely lossless playback chain.",
+    "zh-CN": "FLAC 和 ALAC 可无损压缩原始 PCM 音频数据，但播放无损文件并不意味着整个播放链路必然无损。",
+    "ja": "FLACやALACはPCM音声を情報の損失なく圧縮できます。ただしロスレスファイルの再生が経路全体のロスレスを保証するわけではありません。"
+  },
+  "2. DAC와 앰프의 역할": {
+    "en": "2. The roles of the DAC and amplifier",
+    "zh-CN": "2. DAC 与功放的作用",
+    "ja": "2. DACとアンプの役割"
+  },
+  "DAC는 디지털 음원을 아날로그 신호로 바꾸며, 앰프는 스피커를 구동할 수 있도록 신호 전력을 높입니다. DAC 성능과 앰프, 드라이버, 인클로저가 전체 음질에 함께 기여합니다.": {
+    "en": "The DAC converts digital audio into analog signals, while the amplifier provides power to drive speakers. The DAC, amp, drivers and enclosure all contribute to final sound quality.",
+    "zh-CN": "DAC 将数字音频转为模拟信号，功放则提供驱动音箱所需的功率。DAC、功放、驱动单元及箱体共同影响整体音质。",
+    "ja": "DACはデジタル音声をアナログ信号に変換し、アンプはスピーカーを駆動する電力を与えます。DAC、アンプ、ドライバー、筐体が総合的な音質に関わります。"
+  },
+  "3. LDAC·aptX 계열의 조건": {
+    "en": "3. Conditions for LDAC and aptX codecs",
+    "zh-CN": "3. LDAC 与 aptX 编解码器的条件",
+    "ja": "3. LDAC・aptX系コーデックの条件"
+  },
+  "LDAC와 aptX HD 등은 일반적인 Bluetooth 오디오 압축 코덱으로, 특정 조건에서 높은 음질의 무선 오디오를 지원합니다. 이들을 항상 무손실 전송이라고 표현하는 것은 부정확합니다. aptX Lossless 역시 호환 기기와 실제 연결 조건에 따라 동작합니다.": {
+    "en": "LDAC and aptX HD are Bluetooth audio codecs that can deliver high quality under suitable conditions. They should not always be described as lossless; even aptX Lossless depends on compatible devices and actual link conditions.",
+    "zh-CN": "LDAC 和 aptX HD 属于蓝牙音频压缩编解码器，在特定条件下可提供高音质，但不能一概称为无损传输。aptX Lossless 也取决于兼容设备及实际连接条件。",
+    "ja": "LDACやaptX HDは条件によって高音質に対応するBluetooth音声コーデックですが、常にロスレスとは言えません。aptX Losslessも対応機器と実際の接続条件に依存します。"
+  },
+  "4. 듣기 전 점검할 사항": {
+    "en": "4. Checks before listening",
+    "zh-CN": "4. 聆听前的检查事项",
+    "ja": "4. 聴く前に確認すること"
+  },
+  "음원 형식, 사용 중인 연결 코덱, 시스템 볼륨, 출력 장치 설정을 확인합니다. 설정을 변경한 뒤에는 비슷한 음량에서 장르별로 비교 청취하는 것이 좋습니다.": {
+    "en": "Check source format, active codec, system volume and output settings. After changes, compare music genres at similar listening levels.",
+    "zh-CN": "请确认音源格式、当前连接编解码器、系统音量及输出设备设置。更改设置后，建议以相近音量比较不同音乐类型。",
+    "ja": "音源形式、使用中のコーデック、音量、出力設定を確認します。設定変更後は同程度の音量でジャンル別に比較するとよいでしょう。"
+  },
+  "RE:VE 레브 | 공연장을 다시 상상하다": {
+    "en": "RE:VE | RE:VE",
+    "zh-CN": "RE:VE | 高端音响",
+    "ja": "RE:VE | ハイエンドオーディオ"
+  },
+  "제품 컬렉션 | RE:VE 레브": {
+    "en": "RE:VE | Collection",
+    "zh-CN": "RE:VE | 产品系列",
+    "ja": "RE:VE | 製品コレクション"
+  },
+  "어쿠스틱 아키텍처 | RE:VE 레브": {
+    "en": "RE:VE | Technology",
+    "zh-CN": "RE:VE | 声学技术",
+    "ja": "RE:VE | 音響技術"
+  },
+  "사운드 랩 · 룸 튜닝 | RE:VE 레브": {
+    "en": "RE:VE | Sound Lab",
+    "zh-CN": "RE:VE | 声音实验室",
+    "ja": "RE:VE | サウンドラボ"
+  },
+  "REVE의 이야기 | RE:VE 레브": {
+    "en": "RE:VE | Brand Story",
+    "zh-CN": "RE:VE | 品牌故事",
+    "ja": "RE:VE | ブランドストーリー"
+  },
+  "RE:VE 저널 | RE:VE 레브": {
+    "en": "RE:VE | Journal",
+    "zh-CN": "RE:VE | 音频专栏",
+    "ja": "RE:VE | ジャーナル"
+  },
+  "글로벌 기술제휴·딜러 파트너십 | RE:VE 레브": {
+    "en": "RE:VE | Partnerships",
+    "zh-CN": "RE:VE | 合作伙伴",
+    "ja": "RE:VE | パートナーシップ"
+  },
+  "개인정보·권리관리 안내 | RE:VE 레브": {
+    "en": "RE:VE | Privacy & Legal",
+    "zh-CN": "RE:VE | 隐私与法律",
+    "ja": "RE:VE | プライバシーと法的情報"
+  },
+  "브랜드 권리관리·라이선싱 | RE:VE 레브": {
+    "en": "RE:VE | Rights & Licensing",
+    "zh-CN": "RE:VE | 权利与授权",
+    "ja": "RE:VE | 権利・ライセンス"
+  },
+  "신제품 출시 소식 · 관심 등록 | RE:VE 레브": {
+    "en": "RE:VE | Product Updates",
+    "zh-CN": "RE:VE | 产品消息",
+    "ja": "RE:VE | 製品ニュース"
+  }
+}
